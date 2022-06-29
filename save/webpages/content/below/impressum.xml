@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Impressum">
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h1>Impressum</h1>
+        <p>
+          Schwerpunktprogramm 1859 "Erfahrung und Erwartung. Historische Grundlagen ökonomischen Handelns
+        </p>
+
+        <h2>Sprecher und Gesamtverantwortliche</h2>
+        <p>
+          Prof. Dr. Alexander Nützenadel, Humboldt-Universität Berlin<br />
+          Prof. Dr. Jochen Streb, Universität Mannheim
+        </p>
+
+        <h2>Sitz der Geschäftsführung</h2>
+        <p>
+          Humboldt-Universität zu Berlin<br />
+          Philosophische Fakultät I<br />
+          Institut für Geschichtswissenschaften<br />
+          Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
+          Prof. Dr. Alexander Nützenadel<br />
+          Friedrichstrasse 191-193<br />
+          10117 Berlin<br />
+          <br />
+          Tel.: 0049-(0)30-2093-70616<br />
+          Fax: 0049-(0)30-2093-70644<br />
+          Email: <span class="madress">nuetzenadel [at] geschichte.hu-berlin.de</span>
+        </p>
+
+        <h2>Koordination und Redaktion</h2>
+        <p>
+          Laetitia Lenel<br />
+          Philosophische Fakultät<br />
+          Institut für Geschichtswissenschaften<br />
+          Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
+          Friedrichstrasse 191-193<br />
+          10117 Berlin<br />
+          <br />
+          Tel.: 0049-(0)30 2093-70615<br />
+          E-mail: <span class="madress">laetitialenel [at] hu-berlin.de</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <meta>
+  </meta>
+</MyCoReWebPage>
