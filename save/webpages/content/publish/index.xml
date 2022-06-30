@@ -11,14 +11,14 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <p>
-                    Zur Veröffentlichung Ihres Beitrags auf INSTITUTION ist zunächst die Erfassung seiner bibliographischen
+                    Zur Veröffentlichung Ihres Beitrags auf Emporion ist zunächst die Erfassung seiner bibliographischen
                     Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu – so im konkreten
                     Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende Erfassungsmaske. Bitte
                     beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils gewählten
                     Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden
                     Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift
                     versehenen <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrag</a> an:
-                    <span class="madress">INSTITUTION [at] beispiel.de</span>
+                    <span class="madress">Emporion [at] beispiel.de</span>
                 </p>
             </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="row form-group">
                 <div class="col-sm-3 col-md-2"></div>
                 <div class="col-sm-5 col-md-4">
-                    <button type="submit" class="btn btn-default">Melden</button>
+                    <button type="submit" class="btn btn-primary">Melden</button>
                 </div>
             </div>
 
