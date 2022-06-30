@@ -2,37 +2,53 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
 
-  <section title="Willkommen bei MIR!" xml:lang="de">
-        <div class="jumbotwo" >
-            <div class="row">
-
-                <div class="col-12">
-                    <h2>Mods Institutional Repository (MIR)</h2>
-                </div>
-
-                <div class="col-md-4">
-                    <h3><span class="fas fa-check"></span> fertig</h3>
-                    <p>MIR ist eine MyCoRe-Software, die mit nur wenigen Anpassungen
-                    - so wie sie ist - als Repositorium eingesetzt werden kann.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/documentation/getting_started/gs_mir_install/" role="button">weitere Informationen »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3><span class="fas fa-bolt"></span> mächtig</h3>
-                    <p>MIR verwendet das mächtige und bewährte MODS-Datenmodell. Den
-                    Kern der Webanwendung bildet MyCoRe mit einer Vielzahl von Funktionen.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/features/" role="button">weitere Informationen »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3><span class="fas fa-heart"></span> lebendig</h3>
-                    <p>MIR basiert auf dem Software-Kern MyCoRe, der kontinuierlich
-                    weiter entwickelt wird. Eine lebendige Community setzt MIR in
-                    ihren Anwendungen ein.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/community/contact/" role="button">weitere Informationen »</a></p>
-                </div>
-            </div>
+  <section title="Willkommen bei Emporion!" xml:lang="de">
+       <div class="row">
+        <div class="col-12">
+          <h1>Emporion</h1>
+          <h2>Forschungsdaten-Hub für die Sozial- und Wirtschaftsgeschichte</h2>
+          <p>
+            Der offene Zugang zu Forschungsdaten, wie ihn zahlreiche Fördereinrichtungen und die Data Availability 
+            Policies renommierter Verlage und Zeitschriften zur Auflage machen, gewinnt immer mehr an Bedeutung – auch für 
+            die Sozial- und Wirtschaftsgeschichte. Um den eigenen Mitgliedern wie der gesamten Disziplin eine Plattform 
+            für die Open Access-Publikation von Forschungsdaten bereitzustellen, haben das DFG-Schwerpunktprogramm 1859 
+            „<a href="https://www.experience-expectation.de/">Experience and Expectations. Historical Foundations of 
+            Economic Behavior</a>“ und die <a href="https://www.gswg.eu/">Gesellschaft für Sozial- und Wirtschaftsgeschichte</a>
+            in Verbindung mit der <a href="https://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – Preußischer
+            Kulturbesitz</a> Emporion gegründet. Als Forschungsdaten-Hub für die Sozial- und Wirtschaftsgeschichte ermöglicht
+            Emporion in Übereinstimmung mit den <a href="https://www.go-fair.org/fair-principles/">FAIR Guiding Principles for 
+            Scientific Data Management and Stewardship</a> die kostenfreie Veröffentlichung, bibliothekarische Indexierung und 
+            Langzeitarchivierung von Zeitreihen, historischen Statistik- und Paneldaten, georeferenzierten Vektordaten und 
+            Textmining-Analysen, aber auch von diese beschreibenden Data Papers. Emporion steht darüber hinaus für Beiträge
+            aus den Feldern der Unternehmens-, Umwelt- und Technikgeschichte offen.
+          </p>
         </div>
+      </div>
   </section>
+
+  <section title="Welcome to Emporion!" xml:lang="en">
+    <div class="row">
+      <div class="col-12">
+        <h1>Emporion</h1>
+        <h2>Research Data Hub for Social and Economic History</h2>
+        <p>
+          Open access to research data, as required by numerous funding agencies and the Data Availability Policies of renowned 
+          publishers and journals, is becoming increasingly important – also for social and economic history. To provide a 
+          platform for the open access publication of research data, both for its own members and the entire discipline, the 
+          DFG Priority Program 1859 “<a href="https://www.experience-expectation.de/">Experience and Expectations. Historical 
+          Foundations of Economic Behavior</a>” and the <a href="https://www.gswg.eu/">Gesellschaft für Sozial- und 
+          Wirtschaftsgeschichte</a>, in conjunction with the <a href="https://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – 
+          Preußischer Kulturbesitz</a>, launched Emporion. As a research data hub for social and economic history, Emporion offers
+          a platform for the publication, indexing, and long-term storage of time series, historical statistical and panel data, 
+          georeferenced vector data, and text mining analysis results, as well as data papers describing them, in accordance 
+          with the <a href="https://www.go-fair.org/fair-principles/">FAIR Guiding Principles for Scientific Data Management 
+          and Stewardship</a>. Emporion is also open to contributions
+          from the fields of corporate, environmental and technological history.
+        </p>
+      </div>
+    </div>
+   </section>
   <meta>
-    <log date="2015-05-22" time="11:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
   </meta>
+
 </MyCoReWebPage>
