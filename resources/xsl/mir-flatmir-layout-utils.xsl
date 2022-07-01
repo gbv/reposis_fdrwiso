@@ -46,6 +46,9 @@
 
           <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <xsl:call-template name="project.generate_single_menu_entry">
+                <xsl:with-param name="menuID" select="'brand'"/>
+              </xsl:call-template>
               <xsl:for-each select="$loaded_navigation_xml/menu">
                 <xsl:choose>
                   <!-- Ignore some menus, they are shown elsewhere in the layout -->
@@ -102,6 +105,32 @@
         </div>
       </div>
     </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="project.generate_single_menu_entry">
+    <xsl:param name="menuID" />
+    <li class="nav-item">
+      <xsl:variable name="activeClass">
+        <xsl:choose>
+          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
+          <xsl:text>active</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>not-active</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link {$activeClass}" >
+        <xsl:choose>
+          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </a>
+    </li>
   </xsl:template>
 
   <xsl:template name="mir.footer">
