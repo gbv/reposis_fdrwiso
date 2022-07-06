@@ -7,6 +7,45 @@
 // no (xl) media query necessary (desktop first)
 
 
+.flatmir-footer {
+  position: relative;
+  padding-top: 0px;
+  margin-top: 0px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ebe8e5; // #95a6b1;
+  .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: transparent;
+    }
+  }
+  a {
+    color: #181818;
+  }
+}
+
+.internal_links {
+  &.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.logo-section {
+  margin-bottom: 1rem;
+}
+
+.gswg_logo, .spp_logo, .sbb_logo, .dfg_logo, .openaire_logo, .r3data_logo {
+  padding: 1rem 1rem 0rem 1rem;
+  max-height: 42px;
+}
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower

@@ -19,6 +19,7 @@
           </ul>
         </nav>
       </div>
+  
       <div id="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
@@ -37,57 +38,48 @@
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#mir-main-nav-collapse-box"
-            aria-controls="mir-main-nav-collapse-box"
+            data-target="#mir-main-nav__entries"
+            aria-controls="mir-main-nav__entries"
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
+          <div id="mir-main-nav__entries" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:call-template name="project.generate_single_menu_entry">
                 <xsl:with-param name="menuID" select="'brand'"/>
               </xsl:call-template>
-              <xsl:for-each select="$loaded_navigation_xml/menu">
-                <xsl:choose>
-                  <!-- Ignore some menus, they are shown elsewhere in the layout -->
-                  <xsl:when test="@id='main'"/>
-                  <xsl:when test="@id='brand'"/>
-                  <xsl:when test="@id='below'"/>
-                  <xsl:when test="@id='user'"/>
-                  <xsl:otherwise>
-                    <xsl:apply-templates select="."/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:for-each>
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
+              <xsl:if test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('submitter')">
+                <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
+              </xsl:if>
               <xsl:call-template name="mir.basketMenu" />
             </ul>
+          </div>
 
+          <div class="searchBox">
+            <xsl:variable name="core">
+              <xsl:text>/find</xsl:text>
+            </xsl:variable>
             <form
-              action="{$WebApplicationBaseURL}servlets/solr/find"
+              action="{$WebApplicationBaseURL}servlets/solr{$core}"
               class="searchfield_box form-inline my-2 my-lg-0"
               role="search">
               <input
                 name="condQuery"
                 placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                class="form-control mr-sm-2 search-query"
+                class="form-control search-query"
                 id="searchInput"
                 type="text"
                 aria-label="Search" />
-              <xsl:choose>
-                <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
+              <xsl:if test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                <input name="owner" type="hidden" value="createdby:*" />
+              </xsl:if>
               <button type="submit" class="btn btn-primary my-2 my-sm-0">
                 <i class="fas fa-search"></i>
               </button>
             </form>
-
           </div>
 
         </nav>
@@ -96,15 +88,6 @@
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
-    <!-- show only on startpage -->
-    <xsl:if test="//div/@class='jumbotwo'">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Mit MIR wird alles gut!</h1>
-          <h2>your repository - just out of the box</h2>
-        </div>
-      </div>
-    </xsl:if>
   </xsl:template>
 
   <xsl:template name="project.generate_single_menu_entry">
@@ -134,60 +117,38 @@
   </xsl:template>
 
   <xsl:template name="mir.footer">
-    <section class="mcr-footer-section mcr-footer-section--menu">
-    <div class="container">
+    <div class="container container-no-padding">
       <div class="row">
-        <div class="col-4">
-          <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
+        <div class="col-12">
+          <ul class="internal_links nav navbar-nav">
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
         </div>
-        <div class="col-4">
-          <ul class="social_links">
-            <li><a href="#"><button type="button" class="social_icons social_icon_fb"></button>Facebook</a></li>
-            <li><a href="#"><button type="button" class="social_icons social_icon_tw"></button>Twitter</a></li>
-            <li><a href="#"><button type="button" class="social_icons social_icon_gg"></button>Google+</a></li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <a href="http://www.mycore.de">
-            <img src="{$WebApplicationBaseURL}/images/logos/emporion.png" title="Emporion Logo" alt="Emporion Logo" />
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center logo-section">
+          <a class="gswg logo" href="https://www.gswg.eu" target="_blank" alt="Logo GSWG" title="Logo GSWG">
+            <img class="gswg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-gswg-grau.png" />
+          </a>
+          <a class="spp logo" href="https://www.experience-expectation.de" target="_blank" alt="Logo SPP" title="Logo SPP">
+            <img class="spp_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-spp-grau.png" />
+          </a>
+          <a class="sbb logo" href="https://staatsbibliothek-berlin.de/" target="_blank" alt="Logo Staatsbibliothek" title="Logo Staatsbibliothek">
+            <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-sbb-grau.png" />
+          </a>
+          <a class="dfg logo" href="https://www.dfg.de" target="_blank" alt="Logo DFG" title="Logo DFG">
+            <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-dfg-grau.png" />
+          </a>
+          <a class="openaire logo" href="https://www.openaire.eu" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
+            <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire-grau.png" />
+          </a>
+          <!-- Erst einmal nur in der Testinstanz verwenden !!!-->
+          <a class="r3data logo" href="https://www.re3data.org" target="_blank" alt="Logo r3Data" title="Logo r3Data">
+            <img class="r3data_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data-grau.png" />
           </a>
         </div>
       </div>
     </div>
-    </section>
-    <section class="mcr-footer-section mcr-footer-section--coop-partners">
-      <div class="container">
-        <div class="row"><!-- cooperation partners -->
-          <div class="col-md-2 text-center">
-            <a href="">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/gswg.png" alt="Logo GSWG" title="Logo GSWG" style="margin-top: 10px;" />
-            </a>
-          </div>
-          <div class="col-md-2 text-center">
-            <a href="">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/stabi.png" alt="Logo Staatsbibliothek" title="Logo Staatsbibliothek" style="margin-top: 10px;" />
-            </a>
-          </div>
-          <div class="col-md-2 text-center">
-            <a href="">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/dfg.png" alt="Logo DFG" title="Logo DFG" style="margin-top: 10px;" />
-            </a>
-          </div>
-          <div class="col-md-2 text-center">
-            <a href="">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/openaire.png" alt="Logo OpenAIRE" title="Logo OpenAIRE" style="margin-top: 10px;" />
-            </a>
-          </div>
-          <div class="col-md-2 text-center">
-            <a href="">
-              <img class="media-object img-responsive pp_footer-img" src="{$WebApplicationBaseURL}images/logos/r3data.png" alt="Logo r3Data" title="Logo r3Data" style="margin-top: 10px;" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
   </xsl:template>
 
 
@@ -198,6 +159,17 @@
         <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
     </div>
+  </xsl:template>
+
+  <xsl:template name="getLayoutSearchSolrCore">
+    <xsl:choose>
+      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')">
+        <xsl:text>/find</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>/findPublic</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
 </xsl:stylesheet>
