@@ -10,6 +10,11 @@
       <label xml:lang="de" text="Text" />
       <label xml:lang="en" text="Text" description="Resources that are basically textual in nature. " />
     </category>
+    <category ID="data">
+      <label xml:lang="it" text="Dati" />
+      <label xml:lang="de" text="Daten" />
+      <label xml:lang="en" text="Data" description="Resources that are basically textual in nature. " />
+    </category>
     <category ID="cartographic">
       <label xml:lang="de" text="Kartenmaterial" />
       <label xml:lang="it" text="Materiale cartaceo" />
