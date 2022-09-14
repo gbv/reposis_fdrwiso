@@ -8,12 +8,12 @@
     <category ID="text">
       <label xml:lang="it" text="Testo" />
       <label xml:lang="de" text="Text" />
-      <label xml:lang="en" text="Text" description="Resources that are basically textual in nature. " />
+      <label xml:lang="en" text="Text" description="Resources that are basically textual in nature." />
     </category>
     <category ID="data">
       <label xml:lang="it" text="Dati" />
       <label xml:lang="de" text="Daten" />
-      <label xml:lang="en" text="Data" description="Resources that are basically textual in nature. " />
+      <label xml:lang="en" text="Data" description="Resources that are basically not textual in nature." />
     </category>
     <category ID="cartographic">
       <label xml:lang="de" text="Kartenmaterial" />
@@ -62,8 +62,8 @@
     </category>
     <category ID="mixed_material">
       <label xml:lang="it" text="Materiale misto" />
-      <label xml:lang="en" text="mixed material" description="Indicates that there are significant materials in two or more forms that are usually related by virtue of their having been accumulated by or about a person or body. Mixed material includes archival fonds ..." />
-      <label xml:lang="de" text="Gemischtes Material" />
+      <label xml:lang="en" text="Multimodal content" description="Indicates that there are significant materials in two or more forms that are usually related by virtue of their having been accumulated by or about a person or body. Mixed material includes archival fonds ..." />
+      <label xml:lang="de" text="Multimodale Inhalte" />
     </category>
   </categories>
 </mycoreclass>
