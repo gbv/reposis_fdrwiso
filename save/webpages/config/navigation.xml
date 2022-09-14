@@ -87,13 +87,13 @@
     <menu id="publish" dir="/content/publish">
         <label xml:lang="de">Dokumente einreichen</label>
         <label xml:lang="en">Submit Document</label>
-        <item href="/servlets/MCRActionMappingServlet/mods/create" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Erfassung für Experten</label>
+            <label xml:lang="en">Submit as expert</label>
+        </item>
+        <item href="/content/publish/index.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Publizieren</label>
             <label xml:lang="en">Publish</label>
-        </item>
-        <item href="/content/publish/importPPN.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Publizieren (PPN Import)</label>
-            <label xml:lang="en">Publish (PPN Import)</label>
         </item>
     </menu>
     <menu id="user">
