@@ -4,10 +4,10 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
-
+    <xed:include ref="methodology"                        after="genre" />
+    <xed:include ref="projects"                           after="sdnb.repeat" />
+    <xed:include ref="software_used"                      after="type.of.resource" />
   </xed:modify>
-
-
 
 
   <!-- ========== validation ========== -->
@@ -174,6 +174,32 @@
 
   <xed:template id="software_used">
     <mir:textfield xpath="mods:note[@type='software_used']" label="editor.form.software_used" help-text="{i18n:editor.form.help.software_used}" />
+  </xed:template>
+
+  <xed:template id="comment.complex">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="mir.comment" />
+      </legend>
+      <xed:repeat xpath="mods:note[@type!='software_used']" min="1" max="5">
+        <div class="mir-fieldset-content">
+          <div class="form-group row">
+            <label class="col-md-3 col-form-label text-right">
+              <xed:output i18n="mir.comment.type" />
+            </label>
+            <div class="col-md-6">
+              <xed:bind xpath="@type">
+                <select class="form-control" style="font-weight:bold;">
+                  <xed:include uri="xslStyle:items2options,convertClassificationOptions:classification:editor:-1:children:noteTypes" />
+                </select>
+              </xed:bind>
+            </div>
+            <mir:help-pmud help-text="{i18n:mir.help.comment.type}" pmud="true" />
+          </div>
+          <mir:textarea xpath="." label="mir.comment" help-text="{i18n:mir.help.comment}" rows="3" />
+        </div>
+      </xed:repeat>
+    </fieldset>
   </xed:template>
 
 </xed:template>
