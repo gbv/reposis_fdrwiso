@@ -19,12 +19,11 @@
           </ul>
         </nav>
       </div>
-  
+
       <div id="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
-          <span id="logo_modul">Emporion</span><br />
-          <span id="logo_slogan">Forschungsdaten-Hub für die Sozial- und Wirtschaftsgeschichte</span>
+          <img src="{$WebApplicationBaseURL}images/logos/hu_emporion-logo.svg" alt="" />
         </a>
       </div>
     </div>
