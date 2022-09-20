@@ -86,6 +86,11 @@
     </menu>
     <menu id="publish" dir="/content/publish">
         <label xml:lang="de">Dokumente einreichen</label>
+        <label xml:lang="en">Submit documents</label>
+        <item href="/authorization/register.xed?action=register" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Registrieren</label>
+            <label xml:lang="en">Register</label>
+        </item>
         <label xml:lang="en">Submit Document</label>
         <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Erfassung für Experten</label>
