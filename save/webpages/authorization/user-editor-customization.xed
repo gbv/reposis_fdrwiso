@@ -2,11 +2,7 @@
 <xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mcruser="http://www.mycore.de/components/mcruser">
 
     <xed:modify ref="editor4admins">
-        <xed:include ref="orcid" after="roles" />
+        <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/register-includes.xed" ref="orcid" after="roles" />
     </xed:modify>
-
-    <xed:template id="orcid">
-        <mcruser:template name="textInput" xpath="attributes/attribute[@name='id_orcid']/@value" id="orcid" i18n="user.profile.id.orcid" required="true" />
-    </xed:template>
 
 </xed:template>

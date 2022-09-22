@@ -2,7 +2,7 @@
 <xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mcruser="http://www.mycore.de/components/mcruser">
 
   <xed:template id="orcid">
-    <mcruser:template name="textInput" xpath="attributes/attribute[@name='id_orcid']/@value" id="orcid" i18n="user.profile.id.orcid" required="true" />
+    <mcruser:template name="textInput" xpath="attributes/attribute[@name='id_orcid']/@value" id="id_orcid" i18n="user.profile.id.orcid" required="true" />
   </xed:template>
 
 </xed:template>
