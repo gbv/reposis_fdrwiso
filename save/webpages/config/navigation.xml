@@ -66,9 +66,9 @@
         <item href="/content/browse/genres.xml" type="intern" replaceMenu="false" constrainPopUp="false">
           <label xml:lang="de">Dateitypen</label>
           <label xml:lang="en">Filetypes</label>
-      </item>
-        <item href="/content/browse/sdnb.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">JEL Classification</label>
+        </item>
+        <item href="/content/browse/jel.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">JEL Klassifikation</label>
             <label xml:lang="en">JEL Classification</label>
         </item>
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
