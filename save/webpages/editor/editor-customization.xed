@@ -5,7 +5,8 @@
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
     <xed:include ref="methodology"                        after="genre" />
-    <xed:include ref="projects"                           after="sdnb.repeat" />
+    <xed:include ref="jel.repeat"                         after="sdnb.repeat" />
+    <xed:include ref="projects"                           after="jel.repeat" />
     <xed:include ref="software_used"                      after="type.of.resource" />
   </xed:modify>
 
@@ -27,6 +28,7 @@
     <xed:include ref="identifier.managed" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="sdnb.repeat" />
+    <xed:include ref="jel.repeat" />
     <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
     <xed:include ref="abstract.simple" />
@@ -48,6 +50,8 @@
     <xed:include ref="identifier.managed" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="sdnb.repeat" />
+    <xed:include ref="jel.repeat" />
+    <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
     <xed:include ref="abstract.simple" />
     <xed:include ref="rights" />
@@ -170,6 +174,41 @@
         <mir:help-pmud help-text="{i18n:editor.form.help.methodology}" pmud="false" />
       </div>
     </xed:bind>
+  </xed:template>
+
+  <xed:template id="jel.repeat">
+    <xed:repeat xpath="mods:classification[@authorityURI='http://www.mycore.org/classifications/jel'][@displayLabel='jel']" min="1" max="20" method="build">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.jel" />
+        </label>
+        <div class="col-md-6">
+          <xed:bind xpath="@valueURIxEditor">
+            <div class="controls">
+              <xed:include ref="jel.list" />
+            </div>
+          </xed:bind>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.form.help.jel}" pmud="true" />
+      </div>
+    </xed:repeat>
+  </xed:template>
+
+  <xed:template id="jel.list">
+    <select class="form-control form-control-inline classification-select">
+      <xed:choose>
+        <xed:when test="string-length(.) &gt; 0">
+          <option value="{.}" selected="">
+            <xed:output value="." />
+          </option>
+        </xed:when>
+        <xed:otherwise>
+          <option value="" selected="">
+            <xed:output i18n="mir.select.optional" />
+          </option>
+        </xed:otherwise>
+      </xed:choose>
+    </select>
   </xed:template>
 
   <xed:template id="software_used">
