@@ -50,9 +50,7 @@
                 <xsl:with-param name="menuID" select="'brand'"/>
               </xsl:call-template>
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-              <xsl:if test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('submitter')">
                 <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
-              </xsl:if>
               <xsl:call-template name="mir.basketMenu" />
             </ul>
           </div>
