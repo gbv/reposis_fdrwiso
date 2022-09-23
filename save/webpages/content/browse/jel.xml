@@ -5,7 +5,7 @@
 
     <section i18n="browse.jel.title" xml:lang="all">
         <div class="row">
-            <div class="col-md-8" lang="de">
+            <div class="col-md-10" lang="de">
                 <h3>
                     <i18n key="browse.jel.title"/>
                 </h3>
