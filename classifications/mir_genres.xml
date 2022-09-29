@@ -8,7 +8,7 @@
       <label xml:lang="en" text="Data Papers" />
       <label xml:lang="de" text="Datenpapiere" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:DataPaper" />
-      <label xml:lang="x-hosts" text="standalone journal" />
+      <label xml:lang="x-hosts" text="standalone journal series" />
     </category>
     <category ID="journal">
       <label xml:lang="x-hosts" text="standalone" />
@@ -20,7 +20,13 @@
       <label xml:lang="de" text="Datensätze" />
       <label xml:lang="en" text="Data records" />
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData" />
-      <label xml:lang="x-hosts" text="data_paper" />
+      <label xml:lang="x-hosts" text="standalone data_paper" />
+    </category>
+    <category ID="series">
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType:Periodical" />
+      <label xml:lang="en" text="Series" />
+      <label xml:lang="de" text="Schriftenreihe" />
     </category>
   </categories>
 </mycoreclass>
