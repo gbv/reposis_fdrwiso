@@ -72,8 +72,8 @@
             <label xml:lang="en">JEL Classification</label>
         </item>
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
-          <label xml:lang="de">Ort</label>
-          <label xml:lang="en">Location</label>
+          <label xml:lang="de">Geographische Räume</label>
+          <label xml:lang="en">Geographical rooms</label>
         </item>
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
           <label xml:lang="de">Zeit</label>
