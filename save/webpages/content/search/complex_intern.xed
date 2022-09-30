@@ -85,24 +85,29 @@
                     xpath="condition[@field='category.top'][1]/@value" id="inputInst1"
                     i18n="editor.search.mir.institute" tooltip="editor.search.mir.institute.tooltip"
                     uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
+                  <!-- Projects -->
+                  <mir:template name="selectInput"
+                    xpath="condition[@field='category.top'][2]/@value" id="inputProjects1"
+                    i18n="editor.form.label.projects" tooltip="editor.form.help.projects"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:projects" />
                   <!-- JEL Klassifikation -->
                   <mir:template name="selectInput"
-                    xpath="condition[@field='category.top'][2]/@value" id="inputJel1"
+                    xpath="condition[@field='category.top'][3]/@value" id="inputJel1"
                     i18n="editor.search.mir.jel" tooltip="editor.search.mir.jel.tooltip"
                     uri="xslStyle:items2options:classification:editorComplete:-1:children:jel" />
                   <!-- DNB Sachgruppe -->
                   <mir:template name="selectInput"
-                    xpath="condition[@field='category.top'][3]/@value" id="inputSDNB1"
+                    xpath="condition[@field='category.top'][4]/@value" id="inputSDNB1"
                     i18n="editor.search.mir.sdnb" tooltip="editor.search.mir.sdnb.tooltip"
                     uri="xslStyle:items2options:classification:editorComplete:-1:children:SDNB" />
                   <!-- Genre -->
                   <mir:template name="selectInput"
-                    xpath="condition[@field='category.top'][4]/@value" id="inputGenre1"
+                    xpath="condition[@field='category.top'][5]/@value" id="inputGenre1"
                     i18n="editor.search.mir.genre" tooltip="editor.search.genre.tooltip"
                     uri="xslStyle:items2options?allSelectable=true:classification:editorComplete:-1:children:mir_genres" />
                   <!-- Licenses -->
                   <mir:template name="selectInput"
-                    xpath="condition[@field='category.top'][5]/@value" id="inputLicense1"
+                    xpath="condition[@field='category.top'][6]/@value" id="inputLicense1"
                     i18n="editor.search.mir.license" tooltip="editor.search.license.tooltip"
                     uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_licenses" />
                   <!-- Status -->
