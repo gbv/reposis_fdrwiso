@@ -11,6 +11,10 @@
     width: 380px;
   }
 }
+#page {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

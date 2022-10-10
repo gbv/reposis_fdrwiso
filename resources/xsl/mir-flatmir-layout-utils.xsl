@@ -29,9 +29,9 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
 
           <button
             class="navbar-toggler"
@@ -73,7 +73,7 @@
               <xsl:if test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
                 <input name="owner" type="hidden" value="createdby:*" />
               </xsl:if>
-              <button type="submit" class="btn btn-primary my-2 my-sm-0">
+              <button type="submit" class="btn btn-secondary my-2 my-sm-0">
                 <i class="fas fa-search"></i>
               </button>
             </form>
@@ -114,38 +114,62 @@
   </xsl:template>
 
   <xsl:template name="mir.footer">
-    <div class="container container-no-padding">
-      <div class="row">
-        <div class="col-12">
-          <ul class="internal_links nav navbar-nav">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center logo-section">
-          <a class="gswg logo" href="https://www.gswg.eu" target="_blank" alt="Logo GSWG" title="Logo GSWG">
-            <img class="gswg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-gswg-grau.png" />
-          </a>
-          <a class="spp logo" href="https://www.experience-expectation.de" target="_blank" alt="Logo SPP" title="Logo SPP">
-            <img class="spp_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-spp-grau.png" />
-          </a>
-          <a class="sbb logo" href="https://staatsbibliothek-berlin.de/" target="_blank" alt="Logo Staatsbibliothek" title="Logo Staatsbibliothek">
-            <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-sbb-grau.png" />
-          </a>
-          <a class="dfg logo" href="https://www.dfg.de" target="_blank" alt="Logo DFG" title="Logo DFG">
-            <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-dfg-grau.png" />
-          </a>
-          <a class="openaire logo" href="https://www.openaire.eu" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
-            <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire-grau.png" />
-          </a>
-          <!-- Erst einmal nur in der Testinstanz verwenden !!!-->
-          <a class="r3data logo" href="https://www.re3data.org" target="_blank" alt="Logo r3Data" title="Logo r3Data">
-            <img class="r3data_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data-grau.png" />
-          </a>
+
+    <div class="flatmir-footer__feature">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="logo-section">
+              <a class="openaire logo" href="https://www.openaire.eu" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
+                <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire.webp" />
+              </a>
+              <a class="r3data logo" href="https://www.re3data.org" target="_blank" alt="Logo r3Data" title="Logo r3Data">
+                <img class="r3data_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data.png" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="flatmir-footer__menu">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="internal_links nav">
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flatmir-footer__partner">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="logo-section">
+              <a class="gswg logo" href="https://www.gswg.eu" target="_blank" alt="Logo GSWG" title="Logo GSWG">
+                <img class="gswg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-gswg.jpg" />
+              </a>
+              <a class="spp logo" href="https://www.experience-expectation.de" target="_blank" alt="Logo SPP" title="Logo SPP">
+                <img class="spp_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-spp.png" />
+              </a>
+              <a class="sbb logo" href="https://staatsbibliothek-berlin.de/" target="_blank" alt="Logo Staatsbibliothek" title="Logo Staatsbibliothek">
+                <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-sbb.png" />
+              </a>
+              <a class="dfg logo" href="https://www.dfg.de" target="_blank" alt="Logo DFG" title="Logo DFG">
+                <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-dfg.png" />
+              </a>
+              <a class="VZG logo" href="https://www.gbv.de" target="_blank" alt="Logo VZG" title="Logo VZG">
+                <img class="vzg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-vzg.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </xsl:template>
 
 
@@ -153,7 +177,7 @@
     <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
     <div id="powered_by">
       <a href="http://www.mycore.de">
-        <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+        <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
     </div>
   </xsl:template>

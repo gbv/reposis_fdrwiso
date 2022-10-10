@@ -26,13 +26,36 @@ $red1:   rgb(226,178,41);
 $green4: rgb(81,93,49);
 $green3: rgb(111,127,57);
 $green2: rgb(148,157,58);
-$green1: rgb(170,181,56);
+$green1: rgb(170, 181, 56);
 
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
 
-$primary: $blue3;
+$primary: $green1;
+$secondary: $blue3;
+$warning: $red3;
+$danger: $red4;
+$info: $blue2;
+$success: $green1;
 
-$resd: rgb(26, 105, 149);
+$link-color: $green3;
+$link-hover-color: $green4;
+$link-decoration: underline;
+$navbar-nav-link-padding-x: 1rem;
+
+$font-family-sans-serif: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base: 1.2rem;
+
+$navbar-dark-hover-color: white;
+$navbar-dark-active-color: white;
+
+//$dropdown-spacer: 1.2rem;
+$dropdown-item-padding-x: 1rem;
+$dropdown-color: white;
+$dropdown-bg: rgba($blue3, 0.95);
+$dropdown-border-color: $blue3;
+$dropdown-link-color: white;
+$dropdown-link-hover-color: white;
+$dropdown-link-hover-bg: $primary;
