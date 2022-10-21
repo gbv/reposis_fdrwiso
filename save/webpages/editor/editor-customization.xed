@@ -20,6 +20,11 @@
   <xed:template id="genres.data_paper">
     <xed:include ref="title.original" />
     <xed:include ref="author.repeated" />
+    <xed:include ref="research.data.investigation_period" />
+    <xed:include ref="methodology" />
+    <xed:include ref="software_used" />
+    <xed:include ref="physical.description.note" />
+    <xed:include ref="type.of.resource" />
     <xed:if test="$host='standalone'">
       <xed:include ref="year.issued" />
       <xed:include ref="extent" />
@@ -31,14 +36,23 @@
     <xed:include ref="jel.repeat" />
     <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
+    <xed:include ref="geographic" />
+    <xed:include ref="cartographics" />
     <xed:include ref="abstract.simple" />
     <xed:include ref="rights" />
+    <xed:include ref="embargo.datetimepicker" />
+    <xed:include ref="copyrightMD" />
+    <xed:include ref="access" />
     <xed:include ref="institutes" />
-    <xed:include ref="comment" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="comment" />
+      <xed:include ref="link.complex" />
+      <xed:include ref="openAIRE" />
+    </xed:if>
   </xed:template>
 
   <xed:template id="genres.research_data">
-    <xed:include ref="title" />
+    <xed:include ref="title.original" />
     <xed:include ref="research.data.person.repeated" />
     <!--<xed:include ref="research.data.date.repeated" />-->
     <xed:include ref="research.data.investigation_period" />
@@ -53,14 +67,13 @@
     <xed:include ref="jel.repeat" />
     <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
+    <xed:include ref="geographic" />
+    <xed:include ref="cartographics" />
     <xed:include ref="abstract.simple" />
     <xed:include ref="rights" />
     <xed:include ref="embargo.datetimepicker" />
     <xed:include ref="copyrightMD" />
     <xed:include ref="access" />
-    <xed:include ref="geographic" />
-    <xed:include ref="cartographics" />
-    <!--<xed:include ref="related.item.link" />-->
     <xed:include ref="institutes" />
     <xed:include ref="comment" />
     <xed:include ref="openAIRE" />
