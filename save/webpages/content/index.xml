@@ -6,8 +6,9 @@
     <div class="jumbotwo" id="project-index-search">
        <div class="row">
          <div class="col-12">
-           <h1>Emporion</h1>
-           <h2 class="text-secondary">Forschungsdaten-Hub<br /> für die Sozial- und Wirtschaftsgeschichte</h2>
+           <h1 class="d-none">Emporion</h1>
+           <h2 class="d-none text-secondary">Forschungsdaten-Hub<br /> für die Sozial- und Wirtschaftsgeschichte</h2>
+           <img src="../images/logos/hu_emporion-logo-colored.svg" alt="" />
 
            <form
             action="../servlets/solr/find"

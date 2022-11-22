@@ -10,7 +10,11 @@
   .searchBox {
     display: none;
   }
+  #project_logo_box {
+    display: none;
+  }
 }
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

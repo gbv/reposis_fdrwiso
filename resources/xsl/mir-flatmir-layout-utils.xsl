@@ -23,7 +23,7 @@
       <div id="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
-          <img src="{$WebApplicationBaseURL}images/logos/hu_emporion-logo.svg" alt="" />
+          <img src="{$WebApplicationBaseURL}images/logos/hu_emporion-logo-colored.svg" alt="" />
         </a>
       </div>
     </div>
@@ -150,19 +150,19 @@
           <div class="col">
             <div class="logo-section">
               <a class="gswg logo" href="https://www.gswg.eu" target="_blank" alt="Logo GSWG" title="Logo GSWG">
-                <img class="gswg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-gswg.jpg" />
+                <img class="gswg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-gswg-full.jpg" />
               </a>
               <a class="spp logo" href="https://www.experience-expectation.de" target="_blank" alt="Logo SPP" title="Logo SPP">
-                <img class="spp_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-spp.png" />
+                <img class="spp_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-spp-full.png" />
               </a>
               <a class="sbb logo" href="https://staatsbibliothek-berlin.de/" target="_blank" alt="Logo Staatsbibliothek" title="Logo Staatsbibliothek">
-                <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-sbb.png" />
+                <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-sbb-full-cut.svg" />
               </a>
               <a class="dfg logo" href="https://www.dfg.de" target="_blank" alt="Logo DFG" title="Logo DFG">
-                <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-dfg.png" />
+                <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-dfg-full-cut.gif" />
               </a>
               <a class="VZG logo" href="https://www.gbv.de" target="_blank" alt="Logo VZG" title="Logo VZG">
-                <img class="vzg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-vzg.png" />
+                <img class="vzg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-vzg-full.png" />
               </a>
             </div>
           </div>
