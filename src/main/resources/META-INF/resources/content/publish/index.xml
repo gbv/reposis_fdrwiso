@@ -43,13 +43,40 @@
                 </div>
             </div>
 
+            <!-- Import via Identifier -->
+            <div id="more_options_toggle" class="row mt-4">
+              <h3>
+                <span id="more_options_trigger">
+                  <span id="more_options_label" class="pl-0">Publikation aus anderen Datenquellen importieren</span>
+                  <span id="more_options_label_hide" class="pt-0 d-none">Publikation aus anderen Datenquellen importieren</span>
+                  <span id="more_options_button" class="fas fa-chevron-up"></span>
+                </span>
+              </h3>
+            </div>
+
+            <!-- more options -->
+            <div id="more_options_box">
+              <div class="row form-group">
+                <div class="col-sm-3 col-lg-2 control-label mb-1">
+                  <select name="type" class="form-control">
+                    <option value="doi">DOI</option>
+                    <option value="scopus">Scopus-ID</option>
+                    <option value="isbn">ISBN</option>
+                    <option value="issn">ISSN</option>
+                  </select>
+                </div>
+                <div class="col-md-5 col-lg-4 mb-1">
+                  <input class="form-control" type="text" name="modsId" />
+                </div>
+              </div>
+            </div>
+
             <!-- submit -->
             <div class="row form-group">
                 <div class="col-sm-5 col-md-4">
                     <button type="submit" class="btn btn-primary">Weiter</button>
                 </div>
             </div>
-
-        </form>
+          </form>
     </section>
 </MyCoReWebPage>
