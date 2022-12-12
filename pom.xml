@@ -24,12 +24,11 @@
     <parent>
         <groupId>de.gbv.reposis</groupId>
         <artifactId>reposis_mir_parent</artifactId>
-        <version>2021.06-SNAPSHOT</version>
+        <version>2022.06-SNAPSHOT</version>
     </parent>
 
-    <groupId>de.gbv.reposis</groupId>
     <artifactId>reposis_fdrwiso</artifactId>
-    <version>2021.06</version>
+    <version>2022.06</version>
     <properties>
         <MCR.AppName>reposis_fdrwiso</MCR.AppName>
     </properties>
