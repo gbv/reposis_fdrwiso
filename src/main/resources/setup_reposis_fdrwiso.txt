@@ -1,1 +1,13 @@
+update classification from uri resource:classifications/diniPublType2022.xml
+update classification from uri resource:classifications/jel.xml
+update classification from uri resource:classifications/marcrelator.xml
+update classification from uri resource:classifications/mcr-roles.xml
+update classification from uri resource:classifications/methodology.xml
+update classification from uri resource:classifications/mir_access.xml
+update classification from uri resource:classifications/mir_genres.xml
+update classification from uri resource:classifications/mir_institutes.xml
+update classification from uri resource:classifications/mir_licenses.xml
+update classification from uri resource:classifications/noteTypes.xml
+update classification from uri resource:classifications/projects.xml
 update classification from uri resource:classifications/rfc5646.xml
+update classification from uri resource:classifications/typeOfResource.xml
