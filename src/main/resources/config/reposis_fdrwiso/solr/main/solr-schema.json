@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "add-field-type": {
+      "name": "date_range_fdrwiso",
+      "class": "solr.DateRangeField"
+    }
+  },
+  {
+    "add-field": {
+      "name": "fdrwiso.mods.period_of_reference",
+      "type": "date_range_fdrwiso",
+      "multiValued": false
+    }
+  }
+]
