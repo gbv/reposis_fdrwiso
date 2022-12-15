@@ -147,8 +147,16 @@
   </xed:template>
 
   <xed:template id="research.data.investigation_period">
-    <mir:dateRange xpath="mods:subject[@authorityURI='https://mycore.de/subject_types'][@valueURIxEditor='period_of_reference']/mods:temporal[@encoding='w3cdtf']" label="mir.date.period_of_reference" help-text="{i18n:mir.help.date.created.range}"
+    <mir:dateRange xpath="mods:extension[@type='temporal_period_of_reference']/mir:subject[@type='period_of_reference']/mods:temporal[@encoding='w3cdtf']" label="mir.date.period_of_reference" help-text="{i18n:mir.help.date.created.range}"
     class="datetimepicker" placeholder="{i18n:mir.placeholder.date}" onlyRange="true" />
+  </xed:template>
+
+  <xed:modify ref="cleanup-rules">
+    <xed:include  ref="fdrwiso.cleanup-rules"/>
+  </xed:modify>
+
+  <xed:template id="fdrwiso.cleanup-rules">
+    <xed:cleanup-rule xpath="//mods:extension[@type='temporal_period_of_reference']" relevant-if="count(*[local-name()='subject']/mods:temporal[string-length(text())&gt;0]) &gt; 0" />
   </xed:template>
 
   <xed:template id="projects">

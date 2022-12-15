@@ -4,6 +4,7 @@
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         xmlns:mods="http://www.loc.gov/mods/v3"
         xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
+        xmlns:mir="http://www.mycore.de/mir"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         exclude-result-prefixes="mods mcrxsl xlink"
 >
@@ -15,17 +16,23 @@
     </xsl:template>
 
     <xsl:template match="mods:mods" mode="fdrwiso">
-        <xsl:apply-templates select="mods:subject[@valueURI='https://mycore.de/subject_types#period_of_reference']" mode="fdrwiso" />
-
+        <xsl:apply-templates select="mods:extension[@type='temporal_period_of_reference']/mir:subject[@type='period_of_reference']" mode="fdrwiso" />
+        <xsl:apply-templates select="mods:subject/mods:cartographics/mods:coordinates" mode="fdrwiso" />
     </xsl:template>
 
-    <xsl:template match="mods:subject[@valueURI='https://mycore.de/subject_types#period_of_reference']" mode="fdrwiso">
+    <xsl:template match="mir:subject[@type='period_of_reference']" mode="fdrwiso">
         <field name="fdrwiso.mods.period_of_reference">
             <xsl:text>[</xsl:text>
             <xsl:value-of select="mods:temporal[@encoding='w3cdtf' and @point='start']/text()" />
             <xsl:text> TO </xsl:text>
             <xsl:value-of select="mods:temporal[@encoding='w3cdtf' and @point='end']/text()" />
             <xsl:text>]</xsl:text>
+        </field>
+    </xsl:template>
+
+    <xsl:template match="mods:subject/mods:cartographics/mods:coordinates" mode="fdrwiso">
+        <field name="fdrwiso.mods.coordinates">
+            <xsl:value-of select="text()" />
         </field>
     </xsl:template>
 
