@@ -231,6 +231,29 @@
                         </xsl:if>
                     </div>
                 </div>
+                <!-- FDRWISO-EXTENSION time bar facet extension - START -->
+                <xsl:variable name="timebarField" select="'fdrwiso.mods.period_of_reference'"/>
+                <div class="card facet-por">
+                    <div class="card-header" data-toggle="collapse-next">
+                        <h3 class="card-title">
+                            <xsl:value-of select="i18n:translate('mir.search_facet.date.period_of_reference')"/>
+                        </h3>
+                    </div>
+                    <div class="card-body collapse show">
+                        <script src="{$WebApplicationBaseURL}js/timebar.js" type="text/javascript"></script>
+                        <div data-timebar="true"
+                             data-timebar-height="100"
+                             data-timebar-log="false"
+                             data-search-field="{$timebarField}"
+                             data-timebar-start="0001-01-01T00:00:00Z"
+                             data-timebar-end="NOW"
+                             data-timebar-gap="+1YEAR"
+                             data-timebar-mincount="1"
+                        >
+                        </div>
+                    </div>
+                </div>
+                <!-- FDRWISO-EXTENSION time bar facet extension - END -->
                 <xsl:if test="/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='worldReadableComplete']/int">
                     <div class="card oa">
                         <div class="card-header" data-toggle="collapse-next">
