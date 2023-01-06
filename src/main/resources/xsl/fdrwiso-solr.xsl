@@ -17,7 +17,6 @@
 
     <xsl:template match="mods:mods" mode="fdrwiso">
         <xsl:apply-templates select="mods:extension[@type='temporal_period_of_reference']/mir:subject[@type='period_of_reference']" mode="fdrwiso" />
-        <xsl:apply-templates select="mods:subject/mods:cartographics/mods:coordinates" mode="fdrwiso" />
     </xsl:template>
 
     <xsl:template match="mir:subject[@type='period_of_reference']" mode="fdrwiso">
@@ -29,12 +28,5 @@
             <xsl:text>]</xsl:text>
         </field>
     </xsl:template>
-
-    <xsl:template match="mods:subject/mods:cartographics/mods:coordinates" mode="fdrwiso">
-        <field name="fdrwiso.mods.coordinates">
-            <xsl:value-of select="text()" />
-        </field>
-    </xsl:template>
-
 
 </xsl:stylesheet>
