@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MyCoReWebPage>
+    <section title="Publizieren" xml:lang="de"/>
+    <section xml:lang="all">
+        <script src='../../webjars/vue/3.2.45/dist/vue.global.prod.js'></script>
+        <script src='../../vue/geo-search/geo-search.umd.min.js'></script>
+        <div id="geo-search-app">
+            <geo-search :center-x="1122987.8332954023" :center-y="6647529.598678493" :zoom="6" ></geo-search>
+        </div>
+        <script>
+            new Vue({
+                components: {
+                    geoSearch: geoSearch
+                }
+            }).$mount('#geo-search-app');
+        </script>
+    </section>
+
+</MyCoReWebPage>
