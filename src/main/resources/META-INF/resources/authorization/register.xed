@@ -60,6 +60,8 @@
             >
               <xed:output i18n="selfRegistration.error.userExists" />
             </xed:validate>
+            <xed:cleanup-rule xpath="//attribute" relevant-if="string-length(@value) > 0 and string-length(@name) > 0" />
+            <xed:cleanup-rule xpath="//attributes" relevant-if="count(//attribute) > 0" />
           </div>
           <div class="card-footer clearfix">
             <div class="float-right">
