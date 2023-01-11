@@ -18,7 +18,7 @@
               <div class="input-group input-group-lg mx-auto w-75">
                 <input
                   name="condQuery"
-                  placeholder="Suche in allen Dokumenten"
+                  placeholder="Suche in allen Inhalten"
                   class="form-control search-query"
                   id="project-searchInput"
                   type="text"/>
@@ -31,19 +31,14 @@
             </form>
 
             <p>
-              Der offene Zugang zu Forschungsdaten, wie ihn zahlreiche Fördereinrichtungen und die Data Availability
-              Policies renommierter Verlage und Zeitschriften zur Auflage machen, gewinnt immer mehr an Bedeutung – auch für
-              die Sozial- und Wirtschaftsgeschichte. Um den eigenen Mitgliedern wie der gesamten Disziplin eine Plattform
-              für die Open Access-Publikation von Forschungsdaten bereitzustellen, haben das DFG-Schwerpunktprogramm 1859
-              „<a href="https://www.experience-expectation.de/">Experience and Expectations. Historical Foundations of
-              Economic Behavior</a>“ und die <a href="https://www.gswg.eu/">Gesellschaft für Sozial- und Wirtschaftsgeschichte</a>
+              Der offene Zugang zu Forschungsdaten gewinnt immer mehr an Bedeutung. Um eine Plattform für die Open Access-Publikation 
+              von Forschungsdaten und Datenpapieren aus der Sozial- und Wirtschaftsgeschichte zu schaffen, haben das 
+              DFG-Schwerpunktprogramm 1859 <a href="https://www.experience-expectation.de/">Experience and Expectations. Historical Foundations of
+              Economic Behavior</a> und die <a href="https://www.gswg.eu/">Gesellschaft für Sozial- und Wirtschaftsgeschichte</a>
               in Verbindung mit der <a href="https://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – Preußischer
-              Kulturbesitz</a> Emporion gegründet. Als Forschungsdaten-Hub für die Sozial- und Wirtschaftsgeschichte ermöglicht
-              Emporion in Übereinstimmung mit den <a href="https://www.go-fair.org/fair-principles/">FAIR Guiding Principles for
-              Scientific Data Management and Stewardship</a> die kostenfreie Veröffentlichung, bibliothekarische Indexierung und
-              Langzeitarchivierung von Zeitreihen, historischen Statistik- und Paneldaten, georeferenzierten Vektordaten und
-              Textmining-Analysen, aber auch von diese beschreibenden Data Papers. Emporion steht darüber hinaus für Beiträge
-              aus den Feldern der Unternehmens-, Umwelt- und Technikgeschichte offen.
+              Kulturbesitz</a> Emporion gegründet.  Als Forschungsdaten-Hub für die Sozial- und Wirtschaftsgeschichte ermöglicht Emporion die
+              kostenfreie und standardkonforme Veröffentlichung von Zeitreihen, historischen Statistik- und Paneldaten, georeferenzierten Vektordaten,
+              Textmining-Analysen und Datenpapieren. Emporion steht auch für Beiträge aus den Feldern der Unternehmens-, Umwelt- und Technikgeschichte offen.
             </p>
           </div>
         </div>
@@ -57,7 +52,7 @@
           dataType: "jsonp",
           success: function (data) {
           $('#project-searchInput.deactivated').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + '
-          Dokumenten');
+          Inhalten');
           },
           });
           });
@@ -74,7 +69,7 @@
             <div class="input-group input-group-lg w-100">
               <input
                       name="condQuery"
-                      placeholder="Search in all documents"
+                      placeholder="Search in all content elements"
                       class="form-control search-query"
                       id="project-searchInput"
                       type="text"/>
@@ -111,7 +106,7 @@
         dataType: "jsonp",
         success: function (data) {
         $('#project-searchInput.deactivated').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') +
-        ' documents');
+        ' content elements');
         },
         });
         });
