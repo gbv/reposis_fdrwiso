@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Emporion - Barrierefreiheit"><div>
       <div class="row">
-        <div class="col-md-7 col-sm-12">
-          <h2>Erklärung zur Barrierefreiheit <small class="text-muted">(Stand der Erklärung: 01.09.2022)</small></h2>
+        <div class="col-md-12">
+          <h1>Erklärung zur Barrierefreiheit <small class="text-muted">(Stand der Erklärung: 01.09.2022)</small></h1>
         </div>
       </div>
       
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-12">
           <p>Emporion bemüht sich, sein Open Access-Repositorium Emporion barrierefrei zu gestalten. Die im Folgenden gemachte Erklärung zur digitalen Barrierefreiheit wird in den aktuell gültigen Fassungen von Barrierefreie-Informationstechnik-Verordnung (BITV 2.0) und Behindertengleichstellungsgesetz (BGG) verlangt. Aus beiden Normen ergeben sich auch die Anforderungen zur technischen Umsetzung digitaler Barrierefreiheit.</p>
           
           <p>Diese Erklärung zur Barrierefreiheit gilt für <a href="https://emporion.gswg.info">https://emporion.gswg.info</a>.</p>
@@ -15,7 +15,7 @@
       </div>
       
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-12">
           <h3>Wann wurde die Erklärung zur digitalen Barrierefreiheit erstellt?</h3>
           
           <p>Diese Erklärung wurde am 01. September 2022 erstellt.</p>
@@ -23,7 +23,7 @@
       </div>
       
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-12">
           <h3>Wie barrierefrei ist dieses Angebot?</h3>
           
           <p>Dieses Angebot ist weitgehend barrierefrei. Es werden die Mehrzahl der Anforderungen der BITV 2.0 erfüllt.</p>
@@ -31,7 +31,7 @@
       </div>
       
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-12">
           <h3>Welche Bereiche sind nicht barrierefrei?</h3>
           
           <dl>
@@ -71,7 +71,7 @@
       </div>
       
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-12">
           <h3>Wen können Sie bei Anmerkungen oder Rückfragen zur digitalen Barrierefreiheit kontaktieren?</h3>
           
           <p>Sind Ihnen Mängel beim barrierefreien Zugang zu Inhalten von <a href="https://emporion.gswg.info/">https://emporion.gswg.info/</a> aufgefallen? Dann teilen Sie uns diese bitte mit – vielen Dank. Unsere Kontaktdaten lauten:</p>
@@ -87,7 +87,7 @@
       </div>
       
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-12">
           <h3>Kontakt zur Schlichtungsstelle</h3>
           
           <p>Sollten Sie der Ansicht sein, durch eine nicht ausreichend barrierefreie Gestaltung von <a href="https://emporion.gswg.info/">Emporion</a> benachteiligt zu werden, können Sie sich an die Schlichtungsstelle nach § 16 des Gesetzes zur Gleichstellung von Menschen mit Behinderungen (BGG) wenden.</p>

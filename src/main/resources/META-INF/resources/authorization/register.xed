@@ -19,7 +19,7 @@
   </section>
 
   <section xml:lang="en" i18n="project.registration.title">
-    <h3>Registration</h3>
+    <h1>Registration</h1>
     <p>
       Before publishing your contribution on Emperion, a one-time registration is required. For this purpose, 
       please complete the following form by entering a user ID (maximum 16 characters, please only use lower 
@@ -43,9 +43,9 @@
 
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">
+            <h2 class="card-title">
               <xed:output i18n="project.registration.title" />
-            </h3>
+            </h2>
           </div>
           <div class="card-body">
             <xed:include uri="webapp:editor/editor-includes.xed" ref="failed-validation-messages" />

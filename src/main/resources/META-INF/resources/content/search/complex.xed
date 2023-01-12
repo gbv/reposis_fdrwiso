@@ -15,9 +15,9 @@
         <xed:bind xpath="@mask" default="content/search/complex.xed" />
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">
+            <h1 class="card-title">
               <xed:output i18n="component.mods.editor.search.complex.label" />
-            </h3>
+            </h1>
           </div>
           <div class="card-body">
             <div class="col-md-10">
