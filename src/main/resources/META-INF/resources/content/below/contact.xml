@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Kontakt">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Kontakt</h1>
-                <p>
-                    <strong>HU - Berlin</strong>
-                    <br/>
-                    Laetitia Lenel
-                    <br/>
-                    E-Mail:
-                    <span class="madress">laetitialenel [at] hu-berlin.de</span>
-                </p>
-                <p>
-                    <strong>HU - Berlin</strong>
-                    <br/>
-                    Tobias Scheib
-                    <br/>
-                    E-Mail:
-                    <span class="madress">tobias.scheib [at] hu-berlin.de</span>
-                </p>
-            </div>
-        </div>
+<MyCoReWebPage><section xml:lang="de" title="Kontakt"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Kontakt</h1>
 
-    </section>
-</MyCoReWebPage>
+<p>Humboldt-Universität zu Berlin<br />
+Philosophische Fakultät I<br />
+Institut für Geschichtswissenschaften<br />
+Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
+<span style="color: rgb(33, 37, 41); font-family: &quot;IBM Plex Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Friedrichstrasse 191-193</span><br />
+<span style="color: rgb(33, 37, 41); font-family: &quot;IBM Plex Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">10117 Berlin</span><br />
+<br style="box-sizing: border-box; color: rgb(33, 37, 41); font-family: &quot;IBM Plex Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 19.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" />
+Laetitia Lenel<br />
+<span class="madress">laetitia.lenel [at] hu-berlin.de</span><br />
+<span style="color: rgb(33, 37, 41); font-family: &quot;IBM Plex Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">+49 (0)30 2093-70615</span></p>
+</div>
+</div>
+</section><meta><log lastEditor="cmathieu" date="2023-01-06" time="12:14" /></meta></MyCoReWebPage>
