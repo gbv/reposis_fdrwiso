@@ -3,12 +3,12 @@
 
 <MyCoReWebPage>
 
-  <section i18n="browse.mods.affiliation.corporate" xml:lang="all">
+  <section i18n="browse.genre" xml:lang="all">
 
     <div class="row">
       <div class="col-md-8" lang="de">
-        <h1><i18n key="browse.mods.affiliation.corporate" /></h1>
-        <classificationbrowser classification="mir_institutes"
+        <h1><i18n key="browse.genre" /></h1>
+        <classificationbrowser classification="mir_genres"
                                    objecttype="mods"
                                   restriction="+category.top:&quot;state:published&quot;"
                                         field="category.top"
@@ -21,6 +21,7 @@
         />
       </div>
     </div>
+
   </section>
 
 </MyCoReWebPage>

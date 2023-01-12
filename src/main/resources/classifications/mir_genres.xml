@@ -2,12 +2,12 @@
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_genres">
   <label xml:lang="de" text="Genre" description="Liste der Publikationstypen" />
   <label xml:lang="en" text="genre" description="A list of publication types" />
-  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
+  <label xml:lang="x-uri" text="https://emporion.gswg.info//rsc/classifications/export/mir_genres" />
   <categories>
     <category ID="data_paper">
-      <label xml:lang="de" text="Datenpapiere" />
-      <label xml:lang="en" text="Data Papers" />
-      <label xml:lang="x-hosts" text="standalone journal series" />
+      <label xml:lang="de" text="Datenpapier" />
+      <label xml:lang="en" text="Data Paper" />
+      <label xml:lang="x-hosts" text="working_paper journal series" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:DataPaper diniPublType2022:DataPaper" />
     </category>
     <category ID="journal">
@@ -16,17 +16,23 @@
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical diniPublType2022:Periodical" />
     </category>
+    <category ID="working_paper">
+      <label xml:lang="de" text="Working Paper" />
+      <label xml:lang="en" text="Working Paper" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:workingPaper" />
+    </category>
     <category ID="research_data">
-      <label xml:lang="de" text="Datensätze" />
-      <label xml:lang="en" text="Data records" />
-      <label xml:lang="x-hosts" text="standalone data_paper" />
+      <label xml:lang="de" text="Datensatz" />
+      <label xml:lang="en" text="Data record" />
+      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData diniPublType2022:ResearchData" />
     </category>
-    <category ID="series">
-      <label xml:lang="de" text="Schriftenreihe" />
-      <label xml:lang="en" text="Series" />
+    <category ID="collection">
+      <label xml:lang="de" text="Sammelwerk" />
+      <label xml:lang="en" text="Collection" />
       <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="x-mapping" text="marcgt:series diniPublType:Periodical diniPublType2022:Periodical" />
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:EditedCollection" />
     </category>
   </categories>
 </mycoreclass>
