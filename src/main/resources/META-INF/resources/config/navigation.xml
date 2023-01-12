@@ -55,9 +55,9 @@
             <label xml:lang="de">expert</label>
             <label xml:lang="en">expert</label>
         </item>
-        <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Einrichtungen</label>
-            <label xml:lang="en">Institutions</label>
+        <item href="/content/browse/affiliations.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Affiliationen</label>
+            <label xml:lang="en">Affiliations</label>
         </item>
         <item href="/content/browse/genres.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Dokumenttypen</label>
@@ -71,14 +71,16 @@
             <label xml:lang="de">JEL Klassifikation</label>
             <label xml:lang="en">JEL Classification</label>
         </item>
+        <!--
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
           <label xml:lang="de">Geographische Räume</label>
           <label xml:lang="en">Geographical rooms</label>
-        </item>
+
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
           <label xml:lang="de">Zeit</label>
           <label xml:lang="en">Timeline</label>
         </item>
+        -->
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Personen</label>
             <label xml:lang="en">Persons</label>

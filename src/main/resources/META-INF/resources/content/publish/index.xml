@@ -11,14 +11,13 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <p>
-                    Zur Veröffentlichung Ihres Beitrags auf Emporion ist zunächst die Erfassung seiner bibliographischen
-                    Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu – so im konkreten
-                    Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende Erfassungsmaske. Bitte
-                    beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils gewählten
-                    Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden
-                    Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift
-                    versehenen <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrag</a> an:
-                    <span class="madress">info [at] data.gswg.eu</span>
+                  Zur Veröffentlichung Ihrer Forschungsdaten oder Ihres Datenpapiers auf Emporion ist zunächst die Erfassung
+                  bibliographischer Metadaten erforderlich. Dazu wählen Sie unten bitte den Typus Ihrer Publikation aus.
+                  Im nächsten Schritt gelangen Sie zur entsprechenden Erfassungsmaske. Für jede Veröffentlichung übersenden 
+                  Sie bitte ergänzend einen ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen 
+                  <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrag</a> 
+                  an: (neue Funktionsadresse wird noch eingerichtet).
+                  <!--<span class="madress">info [at] data.gswg.eu</span>-->
                 </p>
             </div>
         </div>
@@ -45,13 +44,13 @@
 
             <!-- Import via Identifier -->
             <div id="more_options_toggle" class="row mt-4">
-              <h3>
+              <h2>
                 <span id="more_options_trigger">
-                  <span id="more_options_label" class="pl-0">Publikation aus anderen Datenquellen importieren</span>
-                  <span id="more_options_label_hide" class="pt-0 d-none">Publikation aus anderen Datenquellen importieren</span>
+                  <span id="more_options_label" class="pl-0">Bibliographische Metadaten aus anderen Datenquellen importieren.</span>
+                  <span id="more_options_label_hide" class="pt-0 d-none">Bibliographische Metadaten aus anderen Datenquellen importieren.</span>
                   <span id="more_options_button" class="fas fa-chevron-up"></span>
                 </span>
-              </h3>
+              </h2>
             </div>
 
             <!-- more options -->
