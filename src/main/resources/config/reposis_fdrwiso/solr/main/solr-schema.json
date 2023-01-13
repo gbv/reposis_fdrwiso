@@ -11,18 +11,5 @@
       "type": "date_range_fdrwiso",
       "multiValued": false
     }
-  },
-  {
-    "add-field-type": {
-      "name": "location_fdrwiso",
-      "class": "solr.LatLonPointSpatialField"
-    }
-  },
-  {
-    "add-field": {
-      "name": "fdrwiso.mods.coordinates",
-      "type": "location_fdrwiso",
-      "multiValued": false
-    }
   }
 ]
