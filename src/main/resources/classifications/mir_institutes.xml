@@ -2,7 +2,7 @@
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
   <label xml:lang="en" text="Research institute" description="List of research institution (ROR)"/>
   <label xml:lang="de" text="Forschungseinrichtung" description="Liste der Forschungseinrichtung (ROR)"/>
-  <label xml:lang="x-uri" text="https://emporion.gswg.info/classifications/mir_institutes"/>
+  <label xml:lang="x-uri" text="https://emporion.gswg.info/api/v2/classifications/mir_institutes"/>
   <categories>
     <category ID="024nr0776">
       <label xml:lang="en" text="Catholic University of Applied Sciences of North Rhine – Westphalia"/>

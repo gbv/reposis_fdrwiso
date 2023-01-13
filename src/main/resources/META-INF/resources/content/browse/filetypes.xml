@@ -5,10 +5,10 @@
 
     <section i18n="browse.filetype.title" xml:lang="all">
         <div class="row">
-            <div class="col-md-10" lang="de">
-                <h3>
+            <div class="col-md-12" lang="de">
+                <h1>
                     <i18n key="browse.filetype.title"/>
-                </h3>
+                </h1>
                 <classificationbrowser classification="typeOfResource"
                                        objecttype="mods"
                                        restriction="+category.top:&quot;state:published&quot;"

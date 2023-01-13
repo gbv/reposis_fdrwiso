@@ -1,103 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Emporion - Datenschutz">
-    <div class="row">
-      <div class="col-md-10" lang="de">
-        <h2>Datenschutz (Privacy Policy)</h2>
+<MyCoReWebPage><section xml:lang="de" title="Emporion - Datenschutz"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Datenschutz (Privacy Policy)</h1>
 
-        <p>Als Trägerin des von der Deutschen Forschungsgemeinschaft geförderten Fachinformationsdiensts für internationale und interdisziplinäre Rechtsforschung ist es der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz ein vordringliches Anliegen, verantwortungsvoll mit Ihren persönlichen Daten umzugehen und bei allen Datenverarbeitungsprozessen die Prinzipien insbesondere von Integrität, Vertraulichkeit, Zweckbindung und Datensparsamkeit zu beachten. Im Folgenden möchten wir Ihnen daher die wichtigsten datenschutzrechtlich relevanten Aspekte der Nutzung der Virtuellen Fachbibliothek &lt;intR&gt;² – des Webauftritts des Fachinformationsdiensts für internationale und interdisziplinäre Rechtsforschung – sowie der dort verfügbaren Serviceangebote erläutern.</p>
+<p>Den Trägereinrichtungen von Emporion ist es ein wichtiges Anliegen, verantwortungsvoll mit Ihren persönlichen Daten umzugehen und bei allen Datenverarbeitungsprozessen die Prinzipien insbesondere von Integrität, Vertraulichkeit, Zweckbindung und Datensparsamkeit zu beachten. Im Folgenden möchten wir Ihnen daher die wichtigsten datenschutzrechtlich relevanten Aspekte der Nutzung von Emporion erläutern:</p>
 
-        <h2>Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin sowie der Nutzung von Emporion</h2>
-        <p>1. <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#name" target="_blank">Name und Anschrift des Verantwortlichen </a></p>
-        <p>2. <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#datenverarbeitung" target="_blank">Allgemeines zur Datenverarbeitung</a></p>
-        <p>3. <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#logfiles" target="_blank">Bereitstellung der Website und Erstellung von Logfiles</a></p>
-        <p>4. <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#cookies" target="_blank">Verwendung von Cookies</a></p>
-        <p>5. <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#online" target="_blank">Onlinepräsenzen in sozialen Medien</a></p>
-        <p>6. <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/#rechte" target="_blank">Rechte der betroffenen Person</a></p>
+<p>Allgemeine Informationen zum Datenschutz an der Humboldt-Universität zu Berlin finden Sie <a href="https://www.hu-berlin.de/de/hu/impressum/datenschutzerklaerung">hier</a>.</p>
 
-        <h2>Spezifische Datenschutzaspekte der Nutzung von Emporion</h2>
-        <p>
-          Zwar ist für Ansicht und Download der auf Emporion publizierten Inhalte keine Registrierung erforderlich, dennoch werden auch dabei personenbezogene Daten in der Absicht gespeichert, statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem Zweck nutzt Emporion das von der Verbundzentrale des Gemeinsamen Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen,
-          <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>
-          ) betriebene Instrument
-          <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/oas-service/">Open Access Statistik</a>
-          , dessen datenschutzrechtliche Unbedenklichkeit im Rahmen zweier
-          <a href="https://dini.de/projekte/oa-statistik/rechtliche-aspekte/">Gutachten</a>
-          der Zentralen Datenschutzstelle der baden-württembergischen Universitäten bestätigt wurde.
-        </p>
+<p>Zwar ist für Ansicht und Download der auf Emporion publizierten Inhalte keine Registrierung erforderlich, dennoch werden auch dabei personenbezogene Daten in der Absicht gespeichert, statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem Zweck nutzt Emporion die von der Verbundzentrale des Gemeinsamen Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) entwickelte quelloffene Software <a href="https://github.com/gbv/ePuSta-Server">electronic Publications Statistics</a> (ePuSta).</p>
 
-        <p>Für die Nutzung von Emporion als Publikationsplattform für die Open Access-Veröffentlichung ausschließlich von rechtswissenschaftlichen Texten, Forschungsdaten, Videoaufzeichnungen und Tondokumenten ist eine persönliche Registrierung verpflichtend, die gemäß Art. 4 Nr. 11 der EU-Datenschutzgrundverordnung von der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz als Einwilligung in die Verarbeitung der angegebenen personenbezogen Daten betrachtet wird. Für die Registrierung bei Emporion sind Angaben zu Vor- und Nachname der Autorin bzw. des Autors oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z.B. Sekretariat), sowie die Nennung einer – idealerweise dienstlichen – E-Mail-Adresse obligatorisch. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten haben neben den Verantwortlichen auf Seiten des Auftragsdatenverarbeiters auch ein mit Administratorrechten ausgestatteter Mitarbeiter des Fachinformationsdiensts für internationale und interdisziplinäre Rechtsforschung Zugriff. Die im Zuge der Erstregistrierung versandten E-Mails sind dagegen von allen Angehörigen des aktuell vierköpfigen Teams des FID-Recht einsehbar. Da aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier unterbleiben.</p>
+<p>Für die Nutzung von Emporion als Publikationsplattform für die Open Access-Veröffentlichung wirtschafts- und sozialhistorischer Forschungsdaten und Datenpapiere ist eine persönliche Registrierung verpflichtend, die gemäß Art. 4 Nr. 11 der EU-Datenschutzgrundverordnung als Einwilligung in die Verarbeitung der angegebenen personenbezogen Daten betrachtet wird. Für die Registrierung bei Emporion sind Angaben zu Vor- und Nachname der:s jeweiligen Autor:in oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z.B. Sekretariat), sowie die Nennung einer – idealerweise dienstlichen – E-Mail-Adresse obligatorisch. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten haben neben den Verantwortlichen auf Seiten des Auftragsdatenverarbeiters auch ein mit Administratorrechten ausgestattete Angehörige von Humboldt-Universität zu Berlin und Staatsbibliothek zu Berlin Zugriff – für sie sind auch die im Zuge der Erstregistrierung versendeten E-Mails einsehbar. Da aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier unterbleiben.</p>
 
-        <p>Daneben werden zum Zwecke der Open Access-Publikation von rechtswissenschaftlichen Beiträgen diese formal wie inhaltlich beschreibende Metadaten abgefragt und gegebenenfalls mit der von der Deutschen Nationalbibliothek betriebenen allgemein zugänglichen Gemeinsamen Normdatei verknüpft. Sämtliche in diesem Zusammenhang zu machenden Angaben sind freiwillig und stehen mit der sich aus der Nutzung von Emporion ergebenden Absicht, eigene Forschungsergebnisse der Öffentlichkeit bekannt zu machen, in Übereinstimmung. Die Erhebung sonstiger personenbezogener Daten im Rahmen des Anmeldevorgangs (IP-Adresse, Datum und Uhrzeit der Registrierung) dient dazu, Missbrauch der Dienste zu verhindern.</p>
+<p>Zum Zwecke ihrer wissenschaftsadäquaten Open Access-Zugänglichmachung werden die auf Emporion publizierten Forschungsdaten und Datenpapiere mit formalen wie inhaltlichen Metadaten beschrieben und gegebenenfalls mit der von der Deutschen Nationalbibliothek betriebenen Gemeinsamen Normdatei verknüpft. Sämtliche in diesem Zusammenhang zu machenden Angaben sind freiwillig und stehen mit der sich aus der Nutzung von Emporion ergebenden Absicht, eigene Forschungsergebnisse der Öffentlichkeit bekannt zu machen, in Übereinstimmung. Die Erhebung sonstiger personenbezogener Daten im Rahmen des Anmeldevorgangs (IP-Adresse, Datum und Uhrzeit der Registrierung) dient dazu, Missbrauch der Dienste zu verhindern.</p>
 
-        <p>Rechtsgrundlage für die Verarbeitung der Anmeldedaten ist Art. 6 Abs. 1 lit. e DSGVO i.V.m. § 3 BDSG. Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website an den Rechner des Nutzers zu ermöglichen. Hierfür muss die IP-Adresse des Nutzers für die Dauer der Sitzung gespeichert bleiben. Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Zudem dienen uns die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt. In diesen Zwecken liegt auch das berechtigte Interesse des Fachinformationsdiensts für internationale und interdisziplinäre Rechtsforschung an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f DSGVO.</p>
+<p>Rechtsgrundlage für die Verarbeitung der Anmeldedaten ist Art. 6 Abs. 1 lit. e DSGVO i.V.m. § 3 BDSG. Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website an den Rechner der:s Nutzer:in zu ermöglichen. Hierfür muss die IP-Adresse der:s Nutzer:in für die Dauer der Sitzung gespeichert bleiben. Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt. In diesen Zwecken liegt auch das berechtigte Interesse der Betreibereinrichtungen von Emporion an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f DSGVO.</p>
 
-        <p>
-          Alle erhobenen personenbezogenen Daten werden auf Serverinfrastrukturen der Verbundzentrale des Gemeinsamen Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen,
-          <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>
-          ) gespeichert. Die gesamte Datenübertragung erfolgt abhörsicher verschlüsselt über den Internet-Kommunikationsstandard
-          <em>Hypertext Transfer Protocol Secure</em>
-          (HTTPS). Eine darüber hinausgehende Weitergabe personenbezogener Daten erfolgt nicht. Sämtliche personenbezogenen Daten werden auf unbestimmte Zeit, höchstens jedoch bis zum Widerruf der Einwilligung zu deren Nutzung – in der Regel in Form der Löschung des betreffenden Nutzungskontos – gespeichert. Die dauerhafte Löschung des eigenen Nutzungskontos bei Emporion kann jederzeit durch formlose Nachricht an die
-          <a href="https://intr2dok.vifa-recht.de/content/social/contact.xml">hier</a>
-          aufgeführten Kontaktadressen oder durch Mitteilung an den für die Datenerhebung Verantwortlichen beauftragt werden. Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der während des Registrierungsvorgangs erhobenen personenbezogenen Daten ermöglicht. Die sonstigen im Rahmen des Anmeldevorgangs erhobenen personenbezogenen Daten (IP-Adresse, Datum und Uhrzeit der Registrierung) werden in der Regel nach einer Frist von sieben Tagen nach der Anmeldung gelöscht.
-        </p>
+<p>Alle erhobenen personenbezogenen Daten werden auf Serverinfrastrukturen der Verbundzentrale des Gemeinsamen Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) gespeichert. Die gesamte Datenübertragung erfolgt abhörsicher verschlüsselt über den Internet-Kommunikationsstandard <em>Hypertext Transfer Protocol Secure</em> (HTTPS). Eine darüber hinausgehende Weitergabe personenbezogener Daten erfolgt nicht. Sämtliche personenbezogenen Daten werden auf unbestimmte Zeit, höchstens jedoch bis zum Widerruf der Einwilligung zu deren Nutzung – in der Regel in Form der Löschung des betreffenden Nutzungskontos – gespeichert. Die dauerhafte Löschung des eigenen Nutzungskontos bei Emporion kann jederzeit durch formlose Nachricht an die <a href="https://emporion.gswg.info/content/below/contact.xml">hier</a> aufgeführten Kontaktadressen beauftragt werden. Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der während des Registrierungsvorgangs erhobenen personenbezogenen Daten ermöglicht. Die sonstigen im Rahmen des Anmeldevorgangs erhobenen personenbezogenen Daten (IP-Adresse, Datum und Uhrzeit der Registrierung) werden in der Regel nach einer Frist von sieben Tagen nach der Anmeldung gelöscht.</p>
 
-        <p>Für die Datenhebung im Rahmen der Nutzung von Emporion als Publikationsplattform ist verantwortlich im Sinne der Datenschutz-Grundverordnung und sonstiger datenschutzrechtlicher Bestimmungen:</p>
+<p>Für die Datenhebung im Rahmen der Nutzung von Emporion als Publikationsplattform ist verantwortlich im Sinne der Datenschutz-Grundverordnung und sonstiger datenschutzrechtlicher Bestimmungen:</p>
 
-        <p>
-          Stiftung Preußischer Kulturbesitz, gesetzlich vertreten durch ihren Präsidenten
-          <br />
-          Prof. Dr. Hermann Parzinger
-          <br />
-          Von-der-Heydt-Str. 16-18
-          <br />
-          D-10785 Berlin
-          <br />
-          +49 (0)30 / 266 411 401
-          <br />
-          <a href="mailto:info@hv.spk-berlin.de">info@hv.spk-berlin.de</a>
-        </p>
+<p>Verantwortliche im Sinne der Datenschutz-Grundverordnung ist die:</p>
 
-        <p>Als behördliche Datenschutzbeauftragte der Staatsbibliothek zu Berlin steht Ihnen bei Rückfragen zur Verfügung:</p>
+<p>Humboldt-Universität zu Berlin<br />
+Die Präsidentin<br />
+Frau Prof. Dr. Julia von Blumenthal<br />
+Unter den Linden 6<br />
+10099 Berlin<br />
++49 (0)30 / 2093-2100<br />
+<a href="mailto:praesidentin@hu-berlin.de?subject=Datenschutzerkl%C3%A4rung">praesidentin@hu-berlin.de</a></p>
 
-        <p>
-          Gabriele Langen
-          <br />
-          Stiftung Preußischer Kulturbesitz – Hauptverwaltung
-          <br />
-          Von-der-Heydt-Str. 16-18
-          <br />
-          D-10785 Berlin
-          <br />
-          +49 (0)30 / 266 411 414
-          <br />
-          <a href="mailto:Datenschutzbeauftragte@hv.spk-berlin.de">Datenschutzbeauftragte@hv.spk-berlin.de</a>
-        </p>
+<p>Als behördliche Datenschutzbeauftragte der Humboldt-Universität zu Berlin steht Ihnen bei Rückfragen zur Verfügung:</p>
 
-        <p>Als behördlicher Datenschutzbeauftragter des Gemeinsamen Bibliotheksverbunds steht Ihnen bei Rückfragen zur Verfügung:</p>
+<p>Gesine Hoffmann-Holland<br />
+Unter den Linden 6<br />
+10099 Berlin<br />
++49 (0)30 / 2093-2591<br />
+<a href="mailto:datenschutz@uv.hu-berlin.de?subject=Datenschutzerkl%C3%A4rung">datenschutz@uv.hu-berlin.de</a><br />
+<a href="https://www.hu-berlin.de/de/datenschutz">www.hu-berlin.de/de/datenschutz</a></p>
 
-        <p>
-          Marc-Josef Tegethoff
-          <br />
-          Verbundzentrale des Gemeinsamen Bibliotheksverbunds
-          <br />
-          Platz der Göttinger Sieben 1
-          <br />
-          D-37073 Göttingen
-          <br />
-          +49 (0)551 / 395 207
-          <br />
-          <a href="mailto:datenschutz@gbv.de">datenschutz@gbv.de</a>
-        </p>
+<p>Als behördlicher Datenschutzbeauftragter des Gemeinsamen Bibliotheksverbunds steht Ihnen bei Rückfragen zur Verfügung:</p>
 
-        <p>Sie haben Anspruch auf Auskunft über die Sie betreffenden personenbezogenen Daten sowie auf Berichtigung oder Löschung oder auf Einschränkung der Verarbeitung oder – im Falle der Datenverarbeitung aufgrund Ihrer Einwilligung – ein Widerspruchsrecht gegen die Verarbeitung sowie gegebenenfalls ein Recht auf Datenübertragbarkeit.</p>
+<p>Marc-Josef Tegethoff<br />
+Verbundzentrale des Gemeinsamen Bibliotheksverbunds<br />
+Platz der Göttinger Sieben 1<br />
+D-37073 Göttingen<br />
++49 (0)551 / 395 207<br />
+<a href="mailto:datenschutz@gbv.de">datenschutz@gbv.de</a></p>
 
-        <p>
-          Außerdem haben Sie das Recht zur Beschwerde bei unserer Datenschutz-Aufsichtsbehörde, der  Bundesbeauftragten für den Datenschutz und die Informationsfreiheit, Husarenstr. 30, 53117 Bonn, E-Mail:
-          <a href="mailto:poststelle@bfdi.bund.de" title="E-Mail an: poststelle@bfdi.bund.de">poststelle@bfdi.bund.de</a>
-        </p>
-      </div>
-    </div>
-  </section>
-  <meta></meta>
-</MyCoReWebPage>
+<p>Sie haben Anspruch auf Auskunft über die Sie betreffenden personenbezogenen Daten sowie auf Berichtigung oder Löschung oder auf Einschränkung der Verarbeitung oder – im Falle der Datenverarbeitung aufgrund Ihrer Einwilligung – ein Widerspruchsrecht gegen die Verarbeitung sowie gegebenenfalls ein Recht auf Datenübertragbarkeit.</p>
+
+<p>Außerdem haben Sie das Recht zur Beschwerde bei unserer Datenschutz-Aufsichtsbehörde:</p>
+
+<p>Berliner Beauftragte für Datenschutz und Informationsfreiheit<br />
+Alt-Moabit 59-61<br />
+10555 Berlin<br />
++49 (0)30 / 13889-0<br />
+<a href="http://mailbox@datenschutz-berlin.de">mailbox@datenschutz-berlin.de</a></p>
+
+</div>
+</div>
+</section><meta><log lastEditor="cmathieu" date="2023-01-06" time="18:22" /></meta></MyCoReWebPage>

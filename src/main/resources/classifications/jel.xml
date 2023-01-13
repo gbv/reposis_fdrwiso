@@ -6,7 +6,7 @@
    <label xml:lang="x-auth" text="jel"/>
    <label xml:lang="de" text="JEL-Klassifikation"/>
    <label xml:lang="en" text="JEL classification"/>
-   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/jel"/>
+   <label xml:lang="x-uri" text="https://emporion.gswg.info/api/v2/classifications/jel"/>
    <categories>
       <category ID="A">
          <label xml:lang="en" text="A - General Economics and Teaching"/>

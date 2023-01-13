@@ -160,7 +160,7 @@
   </xed:template>
 
   <xed:template id="projects">
-    <xed:bind xpath="mods:classification[@authorityURI='https://emporion.gswg.info/classifications/projects'][@displayLabel='projects']/@valueURIxEditor">
+    <xed:bind xpath="mods:classification[@authorityURI='https://emporion.gswg.info/api/v2/classifications/projects'][@displayLabel='projects']/@valueURIxEditor">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="editor.form.label.projects" />
@@ -179,7 +179,7 @@
   </xed:template>
 
   <xed:template id="methodology">
-    <xed:bind xpath="mods:classification[@authorityURI='https://emporion.gswg.info/classifications/methodology'][@displayLabel='methodology']/@valueURIxEditor">
+    <xed:bind xpath="mods:classification[@authorityURI='https://emporion.gswg.info/api/v2/classifications/methodology'][@displayLabel='methodology']/@valueURIxEditor">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="editor.form.label.methodology" />
@@ -198,7 +198,7 @@
   </xed:template>
 
   <xed:template id="jel.repeat">
-    <xed:repeat xpath="mods:classification[@authorityURI='http://www.mycore.org/classifications/jel'][@displayLabel='jel']" min="1" max="20" method="build">
+    <xed:repeat xpath="mods:classification[@authorityURI='https://emporion.gswg.info/api/v2/classifications/jel'][@displayLabel='jel']" min="1" max="20" method="build">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="project.form.label.jel" />
