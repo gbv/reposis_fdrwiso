@@ -6,6 +6,15 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 2rem;
+}
+
+.card-title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 #project_logo_box {
   img {
     width: 380px;

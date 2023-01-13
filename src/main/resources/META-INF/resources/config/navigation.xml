@@ -55,10 +55,6 @@
             <label xml:lang="de">expert</label>
             <label xml:lang="en">expert</label>
         </item>
-        <item href="/vue/geo-search/" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Geografischer Sucheinstieg</label>
-            <label xml:lang="en">Geographic search entry</label>
-        </item>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Einrichtungen</label>
             <label xml:lang="en">Institutions</label>
@@ -75,13 +71,9 @@
             <label xml:lang="de">JEL Klassifikation</label>
             <label xml:lang="en">JEL Classification</label>
         </item>
-        <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
-          <label xml:lang="de">Geographische Räume</label>
-          <label xml:lang="en">Geographical rooms</label>
-        </item>
-        <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
-          <label xml:lang="de">Zeit</label>
-          <label xml:lang="en">Timeline</label>
+        <item href="/vue/geo-search/" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Geographische Räume</label>
+            <label xml:lang="en">Geographical rooms</label>
         </item>
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Personen</label>

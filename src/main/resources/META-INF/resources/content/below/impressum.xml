@@ -1,51 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Impressum">
-    <div class="row">
-      <div class="col-md-12" lang="de">
-        <h1>Impressum</h1>
-        <p>
-          Schwerpunktprogramm 1859 "Erfahrung und Erwartung. Historische Grundlagen ökonomischen Handelns
-        </p>
+<MyCoReWebPage><section xml:lang="de" title="Impressum"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Impressum</h1>
 
-        <h2>Sprecher und Gesamtverantwortliche</h2>
-        <p>
-          Prof. Dr. Alexander Nützenadel, Humboldt-Universität Berlin<br />
-          Prof. Dr. Jochen Streb, Universität Mannheim
-        </p>
+<p>DFG-Schwerpunktprogramm 1859 <a href="https://www.experience-expectation.de/">Erfahrung und Erwartung. Historische Grundlagen ökonomischen Handelns</a></p>
 
-        <h2>Sitz der Geschäftsführung</h2>
-        <p>
-          Humboldt-Universität zu Berlin<br />
-          Philosophische Fakultät I<br />
-          Institut für Geschichtswissenschaften<br />
-          Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
-          Prof. Dr. Alexander Nützenadel<br />
-          Friedrichstrasse 191-193<br />
-          10117 Berlin<br />
-          <br />
-          Tel.: 0049-(0)30-2093-70616<br />
-          Fax: 0049-(0)30-2093-70644<br />
-          Email: <span class="madress">nuetzenadel [at] geschichte.hu-berlin.de</span>
-        </p>
+<h2>Sprecher</h2>
 
-        <h2>Koordination und Redaktion</h2>
-        <p>
-          Laetitia Lenel<br />
-          Philosophische Fakultät<br />
-          Institut für Geschichtswissenschaften<br />
-          Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
-          Friedrichstrasse 191-193<br />
-          10117 Berlin<br />
-          <br />
-          Tel.: 0049-(0)30 2093-70615<br />
-          E-mail: <span class="madress">laetitialenel [at] hu-berlin.de</span>
-        </p>
-      </div>
-    </div>
-  </section>
+<p>Univ.-Prof. Dr. Alexander Nützenadel, Humboldt-Universität zu Berlin<br />
+Univ.-Prof. Dr. Jochen Streb, Universität Mannheim</p>
 
-  <meta>
-  </meta>
-</MyCoReWebPage>
+<h2>Sitz der Geschäftsführung</h2>
+
+<p>Univ.-Prof. Dr. Alexander Nützenadel<br />
+Humboldt-Universität zu Berlin<br />
+Philosophische Fakultät I<br />
+Institut für Geschichtswissenschaften<br />
+Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
+Friedrichstrasse 191-193<br />
+10117 Berlin<br />
+<br />
++49 (0)30 2093 70616<br />
+<span class="madress">nuetzenadel [at] hu-berlin.de</span></p>
+
+<h2>Koordination und Redaktion</h2>
+
+<p>Laetitia Lenel<br />
+Philosophische Fakultät<br />
+Institut für Geschichtswissenschaften<br />
+Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
+Friedrichstrasse 191-193<br />
+10117 Berlin<br />
+<br />
++49 (0)30 2093 70615<br />
+<span class="madress">laetitia.lenel [at] hu-berlin.de</span></p>
+</div>
+</div>
+</section><meta><log lastEditor="cmathieu" date="2023-01-06" time="12:14" /></meta></MyCoReWebPage>
