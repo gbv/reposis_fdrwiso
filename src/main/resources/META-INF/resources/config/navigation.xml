@@ -55,10 +55,6 @@
             <label xml:lang="de">expert</label>
             <label xml:lang="en">expert</label>
         </item>
-        <item href="/vue/geo-search/" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Geografischer Sucheinstieg</label>
-            <label xml:lang="en">Geographic search entry</label>
-        </item>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Einrichtungen</label>
             <label xml:lang="en">Institutions</label>
