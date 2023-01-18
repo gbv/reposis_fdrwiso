@@ -77,6 +77,11 @@
     <xed:include ref="institutes" />
     <xed:include ref="comment" />
     <xed:include ref="openAIRE" />
+   </xed:template>
+
+  <xed:template id="genres.working_paper">
+    <xed:include ref="title" />
+    <xed:include ref="genres.journal.common" />
   </xed:template>
   
   <xed:template id="hosts.data_paper">
@@ -95,6 +100,15 @@
         <xed:include ref="rights" />
         <xed:include ref="institutes" />
         <xed:include ref="comment" />
+      </xed:bind>
+  </xed:template>
+
+  <xed:template id="hosts.working_paper">
+      <xed:bind xpath="mods:relatedItem[@type='series']">
+        <xed:bind xpath="@xlink:href" initially="{$MIR.projectid.default}_mods_00000000"> <input id="relItem-series" type="hidden" /> </xed:bind>
+        <xed:include ref="title.series.relItemsearch" />
+        <xed:include ref="identifier.issn.series.relItemsearch" />
+        <xed:include ref="series.volume" />
       </xed:bind>
   </xed:template>
 
