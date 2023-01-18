@@ -5,6 +5,7 @@
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
     <xed:include ref="methodology"                        after="genre" />
+    <xed:include ref="research.data.investigation_period" before="date.range.extended.datetimepicker" />
     <xed:include ref="jel.repeat"                         after="sdnb.repeat" />
     <xed:include ref="projects"                           after="jel.repeat" />
     <xed:include ref="software_used"                      after="type.of.resource" />
