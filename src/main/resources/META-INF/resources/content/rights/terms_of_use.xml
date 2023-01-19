@@ -5,13 +5,13 @@
 
 <h2>Registrierung</h2>
 
-<p>Vor der erstmaligen Nutzung von Emporion ist eine Registrierung obligatorisch. Zu diesem Zweck vervollständigen Sie bitte dieses <a href="../../authorization/register.xed?action=register">Anmeldeformular</a>. Zur eindeutigen Zuordnung und besseren Vernetzung bitten wir Sie, Ihre <a href="https://orcid.org/">ORCID iD</a> anzugeben. Unmittelbar im Anschluss wird Ihnen ein Link an die angegebene E-Mail-Adresse zugesendet, dessen Aktivierung den Registrierungsvorgang abschließt. Mit Ihren Zugangsdaten können Sie sich nun jederzeit bei Emporion <a href="../../servlets/MCRLoginServlet?action=login">anmelden</a>.</p>
+<p>Vor der erstmaligen Nutzung von Emporion ist eine Registrierung obligatorisch. Zu diesem Zweck vervollständigen Sie bitte dieses <a href="../../authorization/register.xed?action=register">Anmeldeformular</a>. Zur Namensdisambiguierung und eindeutigen Zuordnung Ihres Beitrags bitten wir Sie, Ihre <a href="https://orcid.org/">ORCID</a> anzugeben. Unmittelbar im Anschluss wird Ihnen ein Link an die angegebene E-Mail-Adresse zugesendet, dessen Aktivierung den Registrierungsvorgang abschließt. Mit Ihren Zugangsdaten können Sie sich nun jederzeit bei Emporion <a href="../../servlets/MCRLoginServlet?action=login">anmelden</a>.</p>
 
 <h2>Dokumenten-Upload</h2>
 
 <p>Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit den verbindlichen Publikationsleitlinien beliebig viele Datensätze und Datenpapiere auf Emporion zu <a href="../publish/index.xml">veröffentlichen</a>. Den Publikationsvorgang starten Sie bitte durch Ihre <a href="../../servlets/MCRLoginServlet?action=login">Anmeldung</a>. Nach Erfassung und Speicherung der bibliographischen Metadaten Ihres Beitrags laden Sie bitte die zugehörige(n) Datei(en) über die Menüfelder „Aktionen“ und „Hinzufügen eines Datenobjekts“ in Emporion. Bitte beachten Sie, dass die zur Veröffentlichung vorgesehenen Beiträge erst nach formaler Prüfung auf Emporion freigeschaltet werden.</p>
 
-<p>Sie tragen die Verantwortung dafür, dass keine Urheberrechte oder andere Rechte Dritter verletzt werden – etwa im Kontext von Gemeinschaftspublikationen. Mit dem Upload Ihrer Datensätze bzw. Ihrer Datenpapiere sowie auf Grundlage eines schriftlichen <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrags</a> wird Emporion ein einfaches Nutzungsrecht zur öffentlichen Zugänglichmachung der betreffenden Inhalte im Internet übertragen sowie ergänzend das Recht, insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen. Aufgrund der nur eingeschränkten, zweckgebundenen Rechteübertragung können Sie beliebig anderweitig über die von Ihnen geschaffenen Inhalte verfügen. Den ausgefüllten und mit Ihrer Unterschrift versehenen Publikationsvertrag senden Sie bitte per E-Mail an die genannten <a href="https://emporion.gswg.info/content/below/contact.xml">Kontakt</a><a href="http://emporion.gswg.info/content/below/contact.xml">personen</a>.</p>
+<p>Sie tragen die Verantwortung dafür, dass keine Urheberrechte oder andere Rechte Dritter verletzt werden – etwa im Kontext von Gemeinschaftspublikationen. Mit dem Upload Ihrer Datensätze bzw. Ihrer Datenpapiere sowie auf Grundlage eines schriftlichen <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrags</a> wird Emporion ein einfaches Nutzungsrecht zur öffentlichen Zugänglichmachung der betreffenden Inhalte im Internet übertragen sowie ergänzend das Recht, insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen. Aufgrund der nur eingeschränkten, zweckgebundenen Rechteübertragung können Sie beliebig anderweitig über die von Ihnen geschaffenen Inhalte verfügen. Den ausgefüllten und mit Ihrer Unterschrift versehenen Publikationsvertrag senden Sie bitte per E-Mail an: <a href="mailto:emporion@gswg.info">emporion@gswg.info</a>.</p>
 
 <h2>Inhaltserschließung</h2>
 
@@ -21,11 +21,10 @@
 
 <p>Sollten Sie weitere Rückfragen haben oder technische Schwierigkeiten während des Registrierungsvorgangs auftreten, stehen wir Ihnen jederzeit gerne zur Verfügung. Unsere Kontaktdaten finden Sie <a href="contact.xml">hier</a>.</p>
 
-<p>Wir behalten uns vor, die Registrierung bei Emporion wie auch die Veröffentlichung einzelner Beiträge in begründeten Ausnahmefällen zu verweigern. Das Löschen und die nachträgliche Veränderung der auf Emporion veröffentlichten Daten und Dokumente ist nicht vorgesehen. Inhaltliche Modifikationen an bereits auf Emporion veröffentlichten Beiträgen sind ausschließlich durch Upload einer aktualisierten Version möglich. Sollte – etwa aus strafrechtlichen oder urheberrechtlichen Gründen – die öffentliche Zugänglichkeit eines bereits publizierten Datensatzes oder Datenpapiers nicht erlaubt sein, wird der Zugriff gesperrt.</p>
+<p>Wir behalten uns vor, die Registrierung bei Emporion wie auch die Veröffentlichung einzelner Beiträge in begründeten Ausnahmefällen zu verweigern. Das Löschen und die nachträgliche Veränderung der auf Emporion veröffentlichten Daten und Dokumente ist nicht vorgesehen. Inhaltliche Modifikationen an bereits auf Emporion veröffentlichten Beiträgen sind ausschließlich durch Upload einer aktualisierten Version möglich. Sollte – etwa aus strafrechtlichen oder urheberrechtlichen Gründen – die öffentliche Zugänglichkeit eines bereits publizierten Datensatzes oder Datenpapiers nicht erlaubt sein, wird der Zugriff darauf gesperrt.</p>
 </div>
 </div>
-</section><section xml:lang="en" title="Terms of use">
-  <div>
+</section><section xml:lang="en" title="Terms of use"><div>
     <h1>Instructions / How To</h1>
     <p>Registration</p>
     <p>
@@ -69,4 +68,4 @@
       criminal or copyright reasons – the public accessibility of an already published dataset or data paper is not allowed, access to it will be blocked, which will be announced under its persistent web 
       addresses.
     </p>
-  </div></section><meta><log lastEditor="cmathieu" date="2023-01-06" time="12:09" /></meta></MyCoReWebPage>
+  </div></section><meta><log lastEditor="cmathieu" date="2023-01-16" time="10:46" /></meta></MyCoReWebPage>

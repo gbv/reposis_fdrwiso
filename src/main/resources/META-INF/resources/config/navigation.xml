@@ -8,8 +8,8 @@
         <label xml:lang="de">MIR-Menü</label>
         <label xml:lang="en">MIR menu</label>
         <item href="/content/rights/terms_of_use.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-          <label xml:lang="de">Benutzungshinweise</label>
-          <label xml:lang="en">Instructions / How To</label>
+            <label xml:lang="de">Benutzungshinweise</label>
+            <label xml:lang="en">Instructions / How To</label>
         </item>
     </menu>
     <menu id="below" dir="/content/below">
@@ -36,58 +36,53 @@
         <label xml:lang="de">Suchen &amp; Blättern</label>
         <label xml:lang="en">Search &amp; Browse</label>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">einfach</label>
+            <label xml:lang="de">einfache Suche</label>
             <label xml:lang="en">simple</label>
         </item>
         <item href="/content/search/simple_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">einfach</label>
+            <label xml:lang="de">einfache Suche</label>
             <label xml:lang="en">simple</label>
         </item>
         <item href="/content/search/complex.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">komplex</label>
+            <label xml:lang="de">komplexe Suche</label>
             <label xml:lang="en">complex</label>
         </item>
         <item href="/content/search/complex_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">komplex</label>
+            <label xml:lang="de">komplexe Suche</label>
             <label xml:lang="en">complex</label>
         </item>
-        <item href="/search/search-expert.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">expert</label>
-            <label xml:lang="en">expert</label>
+        <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Person</label>
+            <label xml:lang="en">Persons</label>
         </item>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Einrichtungen</label>
+            <label xml:lang="de">institutioneller Kontext</label>
             <label xml:lang="en">Institutions</label>
         </item>
         <item href="/content/browse/genres.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Dokumenttypen</label>
+            <label xml:lang="de">Dokumenttyp</label>
             <label xml:lang="en">Genres</label>
         </item>
         <item href="/content/browse/filetypes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Dateitypen</label>
+            <label xml:lang="de">Datentyp</label>
             <label xml:lang="en">Filetypes</label>
         </item>
         <item href="/content/browse/jel.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">JEL Klassifikation</label>
+            <label xml:lang="de">JEL-Klassifikation</label>
             <label xml:lang="en">JEL Classification</label>
         </item>
         <item href="/vue/geo-search/" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Geographische Räume</label>
+            <label xml:lang="de">geographischer Raum</label>
             <label xml:lang="en">Geographical rooms</label>
-        </item>
-        <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Personen</label>
-            <label xml:lang="en">Persons</label>
         </item>
     </menu>
     <menu id="publish" dir="/content/publish">
         <label xml:lang="de">Dokumente einreichen</label>
-        <label xml:lang="en">Submit documents</label>
+        <label xml:lang="en">Submit Document</label>
         <item href="/authorization/register.xed?action=register" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Registrieren</label>
             <label xml:lang="en">Register</label>
         </item>
-        <label xml:lang="en">Submit Document</label>
         <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Erfassung für Experten</label>
             <label xml:lang="en">Submit as expert</label>

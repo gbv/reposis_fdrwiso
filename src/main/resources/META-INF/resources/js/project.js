@@ -126,3 +126,10 @@ function addDefault(elm, res) {
 function getOptionWithValClassification(elm, val) {
   return $(elm).find("option[value='" + val + "']");
 }
+
+$( document ).ajaxComplete(function() {
+  // remove series and journal as option from publish/index.xml
+  $("select#genre option[value='working_paper']").remove();
+  $("select#genre option[value='journal']").remove();
+  $("select#genre option[value='collection']").remove();
+});
