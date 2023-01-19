@@ -382,7 +382,7 @@
                <label xml:lang="en" text="C65 - Miscellaneous Mathematical Tools"/>
             </category>
             <category ID="C67">
-               <label xml:lang="en" text="C67 - Input&amp;ndash;Output Models"/>
+               <label xml:lang="en" text="C67 - Input - Output Models"/>
             </category>
             <category ID="C68">
                <label xml:lang="en" text="C68 - Computable General Equilibrium Models"/>
@@ -603,7 +603,7 @@
                <label xml:lang="en" text="D53 - Financial Markets"/>
             </category>
             <category ID="D57">
-               <label xml:lang="en" text="D57 - Input&amp;ndash;Output Tables and Analysis"/>
+               <label xml:lang="en" text="D57 - Input - Output Tables and Analysis"/>
             </category>
             <category ID="D58">
                <label xml:lang="en"
@@ -620,7 +620,7 @@
             </category>
             <category ID="D61">
                <label xml:lang="en"
-                      text="D61 - Allocative Efficiency • Cost&amp;ndash;Benefit Analysis"/>
+                      text="D61 - Allocative Efficiency • Cost - Benefit Analysis"/>
             </category>
             <category ID="D62">
                <label xml:lang="en" text="D62 - Externalities"/>
@@ -997,8 +997,8 @@
             </category>
             <category ID="F38">
                <label xml:lang="en"
-                      text="F38 - International Financial Policy: Financial Transactions Tax; Capital Controls"/>
-            </category>
+                      text="F38 - International Financial Policy: Financial Transactions Tax - Capital Controls"/>
+            </category> 
             <category ID="F39">
                <label xml:lang="en" text="F39 - Other"/>
             </category>
@@ -1664,7 +1664,7 @@
          </category>
          <category ID="J5">
             <label xml:lang="en"
-                   text="J5 - Labor&amp;ndash;Management Relations, Trade Unions, and Collective Bargaining"/>
+                   text="J5 - Labor - Management Relations, Trade Unions, and Collective Bargaining"/>
             <category ID="J50">
                <label xml:lang="en" text="J50 - General"/>
             </category>
@@ -1678,7 +1678,7 @@
             </category>
             <category ID="J53">
                <label xml:lang="en"
-                      text="J53 - Labor&amp;ndash;Management Relations • Industrial Jurisprudence"/>
+                      text="J53 - Labor - Management Relations • Industrial Jurisprudence"/>
             </category>
             <category ID="J54">
                <label xml:lang="en"
@@ -2043,7 +2043,7 @@
             </category>
             <category ID="L67">
                <label xml:lang="en"
-                      text="L67 - Other Consumer Nondurables: Clothing, Textiles, Shoes, and Leather Goods; Household Goods; Sports Equipment"/>
+                      text="L67 - Other Consumer Nondurables: Clothing, Textiles, Shoes, and Leather Goods - Household Goods - Sports Equipment"/>
             </category>
             <category ID="L68">
                <label xml:lang="en"
@@ -2170,8 +2170,8 @@
             </category>
             <category ID="M12">
                <label xml:lang="en"
-                      text="M12 - Personnel Management • Executives; Executive Compensation"/>
-            </category>
+                      text="M12 - Personnel Management • Executives - Executive Compensation"/>
+            </category >
             <category ID="M13">
                <label xml:lang="en" text="M13 - New Firms • Startups"/>
             </category>
@@ -2272,7 +2272,7 @@
             </category>
             <category ID="N01">
                <label xml:lang="en"
-                      text="N01 - Development of the Discipline: Historiographical; Sources and Methods"/>
+                      text="N01 - Development of the Discipline: Historiographical - Sources and Methods"/>
             </category>
          </category>
          <category ID="N1">
@@ -2285,13 +2285,13 @@
                <label xml:lang="en" text="N11 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N12">
-               <label xml:lang="en" text="N12 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N12 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N13">
                <label xml:lang="en" text="N13 - Europe: Pre-1913"/>
             </category>
             <category ID="N14">
-               <label xml:lang="en" text="N14 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N14 - Europe: 1913 - "/>
             </category>
             <category ID="N15">
                <label xml:lang="en" text="N15 - Asia including Middle East"/>
@@ -2312,13 +2312,13 @@
                <label xml:lang="en" text="N21 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N22">
-               <label xml:lang="en" text="N22 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N22 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N23">
                <label xml:lang="en" text="N23 - Europe: Pre-1913"/>
             </category>
             <category ID="N24">
-               <label xml:lang="en" text="N24 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N24 - Europe: 1913 - "/>
             </category>
             <category ID="N25">
                <label xml:lang="en" text="N25 - Asia including Middle East"/>
@@ -2368,13 +2368,13 @@
                <label xml:lang="en" text="N41 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N42">
-               <label xml:lang="en" text="N42 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N42 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N43">
                <label xml:lang="en" text="N43 - Europe: Pre-1913"/>
             </category>
             <category ID="N44">
-               <label xml:lang="en" text="N44 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N44 - Europe: 1913 - "/>
             </category>
             <category ID="N45">
                <label xml:lang="en" text="N45 - Asia including Middle East"/>
@@ -2396,13 +2396,13 @@
                <label xml:lang="en" text="N51 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N52">
-               <label xml:lang="en" text="N52 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N52 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N53">
                <label xml:lang="en" text="N53 - Europe: Pre-1913"/>
             </category>
             <category ID="N54">
-               <label xml:lang="en" text="N54 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N54 - Europe: 1913 - "/>
             </category>
             <category ID="N55">
                <label xml:lang="en" text="N55 - Asia including Middle East"/>
@@ -2423,13 +2423,13 @@
                <label xml:lang="en" text="N61 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N62">
-               <label xml:lang="en" text="N62 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N62 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N63">
                <label xml:lang="en" text="N63 - Europe: Pre-1913"/>
             </category>
             <category ID="N64">
-               <label xml:lang="en" text="N64 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N64 - Europe: 1913 - "/>
             </category>
             <category ID="N65">
                <label xml:lang="en" text="N65 - Asia including Middle East"/>
@@ -2451,13 +2451,13 @@
                <label xml:lang="en" text="N71 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N72">
-               <label xml:lang="en" text="N72 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N72 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N73">
                <label xml:lang="en" text="N73 - Europe: Pre-1913"/>
             </category>
             <category ID="N74">
-               <label xml:lang="en" text="N74 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N74 - Europe: 1913 - "/>
             </category>
             <category ID="N75">
                <label xml:lang="en" text="N75 - Asia including Middle East"/>
@@ -2478,13 +2478,13 @@
                <label xml:lang="en" text="N81 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N82">
-               <label xml:lang="en" text="N82 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N82 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N83">
                <label xml:lang="en" text="N83 - Europe: Pre-1913"/>
             </category>
             <category ID="N84">
-               <label xml:lang="en" text="N84 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N84 - Europe: 1913 - "/>
             </category>
             <category ID="N85">
                <label xml:lang="en" text="N85 - Asia including Middle East"/>
@@ -2505,13 +2505,13 @@
                <label xml:lang="en" text="N91 - U.S. • Canada: Pre-1913"/>
             </category>
             <category ID="N92">
-               <label xml:lang="en" text="N92 - U.S. • Canada: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N92 - U.S. • Canada: 1913 - "/>
             </category>
             <category ID="N93">
                <label xml:lang="en" text="N93 - Europe: Pre-1913"/>
             </category>
             <category ID="N94">
-               <label xml:lang="en" text="N94 - Europe: 1913&amp;ndash;"/>
+               <label xml:lang="en" text="N94 - Europe: 1913 - "/>
             </category>
             <category ID="N95">
                <label xml:lang="en" text="N95 - Asia including Middle East"/>
@@ -3055,7 +3055,7 @@
             </category>
             <category ID="R15">
                <label xml:lang="en"
-                      text="R15 - Econometric and Input&amp;ndash;Output Models • Other Models"/>
+                      text="R15 - Econometric and Input - Output Models • Other Models"/>
             </category>
             <category ID="R19">
                <label xml:lang="en" text="R19 - Other"/>
