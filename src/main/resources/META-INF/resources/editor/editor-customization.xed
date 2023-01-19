@@ -38,7 +38,7 @@
     <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
     <xed:include ref="geographic" />
-    <xed:include ref="cartographics" />
+    <xed:include ref="cartographics.repeat" />
     <xed:include ref="abstract.simple" />
     <xed:include ref="rights" />
     <xed:include ref="embargo.datetimepicker" />
@@ -69,7 +69,7 @@
     <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
     <xed:include ref="geographic" />
-    <xed:include ref="cartographics" />
+    <xed:include ref="cartographics.repeat" />
     <xed:include ref="abstract.simple" />
     <xed:include ref="rights" />
     <xed:include ref="embargo.datetimepicker" />
