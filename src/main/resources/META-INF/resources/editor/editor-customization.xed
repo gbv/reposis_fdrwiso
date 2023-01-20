@@ -6,15 +6,17 @@
   <xed:modify ref="admin.fields">
     <xed:include ref="methodology"                        after="genre" />
     <xed:include ref="research.data.investigation_period" before="date.range.extended.datetimepicker" />
-    <xed:include ref="jel.repeat"                         after="sdnb.repeat" />
+    <xed:include ref="sdnb.repeat.not_required"           after="sdnb.repeat" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:include ref="jel.repeat"                         after="sdnb.repeat.not_required" />
     <xed:include ref="projects"                           after="jel.repeat" />
+    <xed:include ref="institutes.repeat"                  after="institutes"/>
+    <xed:remove ref="institutes" />
     <xed:include ref="software_used"                      after="type.of.resource" />
   </xed:modify>
 
 
   <!-- ========== validation ========== -->
-
-
 
   <!-- ========== project specific templates ========== -->
 
@@ -33,7 +35,7 @@
     <xed:include ref="language" />
     <xed:include ref="identifier.managed" />
     <xed:include ref="doi.handle.urn.repeated" />
-    <xed:include ref="sdnb.repeat" />
+    <xed:include ref="sdnb.repeat.not_required" />
     <xed:include ref="jel.repeat" />
     <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
@@ -44,12 +46,9 @@
     <xed:include ref="embargo.datetimepicker" />
     <xed:include ref="copyrightMD" />
     <xed:include ref="access" />
-    <xed:include ref="institutes" />
-    <xed:if test="$host='standalone'">
-      <xed:include ref="comment" />
-      <xed:include ref="link.complex" />
-      <xed:include ref="openAIRE" />
-    </xed:if>
+    <xed:include ref="institutes.repeat" />
+    <xed:include ref="comment" />
+    <xed:include ref="openAIRE" />
   </xed:template>
 
   <xed:template id="genres.research_data">
@@ -64,7 +63,7 @@
     <xed:include ref="language" />
     <xed:include ref="identifier.managed" />
     <xed:include ref="doi.handle.urn.repeated" />
-    <xed:include ref="sdnb.repeat" />
+    <xed:include ref="sdnb.repeat.not_required" />
     <xed:include ref="jel.repeat" />
     <xed:include ref="projects" />
     <xed:include ref="subject.simple" />
@@ -75,7 +74,7 @@
     <xed:include ref="embargo.datetimepicker" />
     <xed:include ref="copyrightMD" />
     <xed:include ref="access" />
-    <xed:include ref="institutes" />
+    <xed:include ref="institutes.repeat" />
     <xed:include ref="comment" />
     <xed:include ref="openAIRE" />
    </xed:template>
@@ -95,11 +94,11 @@
         <xed:include ref="language" />
         <xed:include ref="identifier.managed" />
         <xed:include ref="doi.handle.urn.repeated" />
-        <xed:include ref="sdnb.repeat" />
+        <xed:include ref="sdnb.repeat.not_required" />
         <xed:include ref="subject.simple" />
         <xed:include ref="abstract.simple" />
         <xed:include ref="rights" />
-        <xed:include ref="institutes" />
+        <xed:include ref="institutes.repeat" />
         <xed:include ref="comment" />
       </xed:bind>
   </xed:template>
@@ -214,7 +213,7 @@
 
   <xed:template id="jel.repeat">
     <xed:repeat xpath="mods:classification[@authorityURI='https://emporion.gswg.info/api/v2/classifications/jel'][@displayLabel='jel']" min="1" max="20" method="build">
-      <div class="form-group row {$xed-validation-marker}">
+      <div class="form-group row required {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="project.form.label.jel" />
         </label>
@@ -228,6 +227,8 @@
         <mir:help-pmud help-text="{i18n:project.form.help.jel}" pmud="true" />
       </div>
     </xed:repeat>
+    <xed:validate xpath="//mods:mods/mods:classification[@authorityURI='https://emporion.gswg.info/api/v2/classifications/jel'][@displayLabel='jel']/@valueURIxEditor"
+        required="true" i18n="form.validation.jel" display="global" />
   </xed:template>
 
   <xed:template id="jel.list">
@@ -240,11 +241,30 @@
         </xed:when>
         <xed:otherwise>
           <option value="" selected="">
-            <xed:output i18n="mir.select.optional" />
+            <xed:output i18n="mir.select" />
           </option>
         </xed:otherwise>
       </xed:choose>
     </select>
+  </xed:template>
+
+  <xed:template id="sdnb.repeat.not_required">
+    <xed:repeat xpath="mods:classification[@authority='sdnb'][@displayLabel='sdnb']" min="1" max="10" method="build">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="editor.search.mir.sdnb" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline mir-form__js-select--large">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:SDNB" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.sdnb}" pmud="true" />
+      </div>
+    </xed:repeat>
   </xed:template>
 
   <xed:template id="software_used">
