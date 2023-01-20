@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="methodology">
   <label xml:lang="x-uri" text="https://emporion.gswg.info/api/v2/classifications/methodology"/>
-  <label xml:lang="de" text="Methodologie" />
-  <label xml:lang="en" text="Methodology" />
+  <label xml:lang="de" text="Methode" />
+  <label xml:lang="en" text="Method" />
   <categories>
     <category ID="qualitative">
       <label xml:lang="de" text="Qualitative Studie"/>
