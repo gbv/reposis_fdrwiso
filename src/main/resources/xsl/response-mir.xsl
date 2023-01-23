@@ -233,7 +233,7 @@
                 </div>
                 <!-- FDRWISO-EXTENSION time bar facet extension - START -->
                 <xsl:variable name="timebarField" select="'fdrwiso.mods.period_of_reference'"/>
-                <div class="card facet-por">
+                <div class="card facet-por" style="display: none">
                     <div class="card-header" data-toggle="collapse-next">
                         <h3 class="card-title">
                             <xsl:value-of select="i18n:translate('mir.search_facet.date.period_of_reference')"/>
@@ -249,6 +249,7 @@
                              data-timebar-end="NOW"
                              data-timebar-gap="+1YEAR"
                              data-timebar-mincount="1"
+                             data-timebar-show-on-ready=".facet-por"
                         >
                         </div>
                     </div>
