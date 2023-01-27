@@ -18,7 +18,7 @@
               <div class="input-group input-group-lg mx-auto w-75">
                 <input
                   name="condQuery"
-                  placeholder="Suche in allen Inhalten"
+                  placeholder="Suchen in allen Inhalten"
                   class="form-control search-query"
                   id="project-searchInput"
                   type="text"/>
@@ -43,19 +43,6 @@
           </div>
         </div>
       </div>
-      <script src="../js/jquery.number.js"></script>
-      <script>
-          $(document).ready(function () {
-              $.ajax({
-                  type: "GET",
-                  url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-                  dataType: "jsonp",
-                  success: function (data) {
-                      $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound, 0, ',', '.') + ' Inhalten');
-                  }
-              });
-          });
-      </script>
   </section>
 
   <section title="Welcome to Emporion!" xml:lang="en">
@@ -96,21 +83,7 @@
         </div>
       </div>
     </div>
-    <script src="../js/jquery.number.js"></script>
-    <script>
-        $( document ).ready(function() {
-        $.ajax({
-        type: "GET",
-        url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-        dataType: "jsonp",
-        success: function (data) {
-        $('#project-searchInput.deactivated').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') +
-        ' content elements');
-        },
-        });
-        });
-    </script>
-   </section>
+  </section>
   <meta>
   </meta>
 
