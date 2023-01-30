@@ -56,8 +56,8 @@
             <label xml:lang="en">Persons</label>
         </item>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">institutioneller Kontext</label>
-            <label xml:lang="en">Institutions</label>
+            <label xml:lang="de">Institutioneller Kontext</label>
+            <label xml:lang="en">Institutional Context</label>
         </item>
         <item href="/content/browse/genres.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Dokumenttyp</label>
