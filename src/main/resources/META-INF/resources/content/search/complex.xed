@@ -131,6 +131,29 @@
                     </div>
                   </xed:bind>
                 </div>
+                <!-- behandelter Zeitraum -->
+                <div class="form-group row">
+                  <label for="inputDate1" class="col-md-3 col-form-label text-md-right">
+                    <xed:output i18n="component.mods.metaData.dictionary.period" />
+                  </label>
+                  <div class="col-md-9">
+                    <div class="input-group">
+                      <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&gt;='][@type='start']">
+                        <xed:bind xpath="@value">
+                          <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
+                        </xed:bind>
+                      </xed:bind>
+                      <div class="input-group-append"><span class="fas fa-minus input-group-text" aria-hidden="true"></span></div>
+                      <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&lt;='][@type='end']">
+                        <div class="input-group-append">
+                          <xed:bind xpath="@value">
+                            <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
+                          </xed:bind>
+                        </div>
+                      </xed:bind>
+                    </div>
+                  </div>
+                </div>
               <!-- Volltext -->
                 <div class="form-group row">
                   <label for="inputFulltext1" class="col-md-3 col-form-label text-md-right">
