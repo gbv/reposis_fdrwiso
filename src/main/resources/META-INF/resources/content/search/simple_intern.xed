@@ -39,7 +39,6 @@
                 </label>
                 <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&gt;='][@type='start']">
                   <div class="col-md-4">
-                    <xed:bind xpath="@operator" default="&gt;=" />
                     <xed:bind xpath="@value">
                       <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
                     </xed:bind>
