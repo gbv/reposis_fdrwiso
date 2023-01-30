@@ -37,18 +37,16 @@
               <label for="inputDate1" class="col-md-3 col-form-label text-md-right">
                 <xed:output i18n="component.mods.metaData.dictionary.period" />
                 </label>
-                <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@type='start']">
+                <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&gt;='][@type='start']">
                   <div class="col-md-4">
-                    <xed:bind xpath="@operator" default="&gt;=" />
                     <xed:bind xpath="@value">
                       <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
                     </xed:bind>
                   </div>
                 </xed:bind>
               <div class="col-md-1"><span class="fas fa-minus input-group-text" aria-hidden="true"></span></div>
-              <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@type='end']">
+              <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&lt;='][@type='end']">
                 <div class="col-md-4">
-                  <xed:bind xpath="@operator" default="&lt;=" />
                   <xed:bind xpath="@value">
                     <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
                   </xed:bind>
