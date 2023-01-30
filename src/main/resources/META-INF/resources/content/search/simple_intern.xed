@@ -33,26 +33,28 @@
               <mir:template name="selectInput" xpath="condition[@field='category'][1]/@value" id="inputInst1" i18n="editor.search.mir.institute"
                   tooltip="editor.search.mir.institute.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
             <!-- behandelter Zeitraum -->
-            <div class="form-group row">
-              <label for="inputDate1" class="col-md-3 col-form-label text-md-right">
-                <xed:output i18n="component.mods.metaData.dictionary.period" />
+              <div class="form-group row">
+                <label for="inputDate1" class="col-md-3 col-form-label text-md-right">
+                  <xed:output i18n="component.mods.metaData.dictionary.period" />
                 </label>
-                <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&gt;='][@type='start']">
-                  <div class="col-md-4">
-                    <xed:bind xpath="@value">
-                      <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
+                <div class="col-md-9">
+                  <div class="input-group">
+                    <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&gt;='][@type='start']">
+                      <xed:bind xpath="@value">
+                        <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
+                      </xed:bind>
+                    </xed:bind>
+                    <div class="input-group-append"><span class="fas fa-minus input-group-text" aria-hidden="true"></span></div>
+                    <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&lt;='][@type='end']">
+                      <div class="input-group-append">
+                        <xed:bind xpath="@value">
+                          <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
+                        </xed:bind>
+                      </div>
                     </xed:bind>
                   </div>
-                </xed:bind>
-              <div class="col-md-1"><span class="fas fa-minus input-group-text" aria-hidden="true"></span></div>
-              <xed:bind xpath="condition[@field='fdrwiso.mods.period_of_reference'][@operator='&lt;='][@type='end']">
-                <div class="col-md-4">
-                  <xed:bind xpath="@value">
-                    <input type="text" class="form-control" id="inputDate1" placeholder="YYYY-MM-DD" />
-                  </xed:bind>
                 </div>
-              </xed:bind>
-            </div>
+              </div>
         <!-- /xed:bind> TODO: realize search dependent on current user and state
         <xed:bind xpath="boolean[@operator='or']" default="{$CurrentUser}" -->
           <!-- xed:bind xpath="condition[@field='createdby']/@value" default="{$CurrentUser}" / -->
