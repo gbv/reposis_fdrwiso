@@ -120,11 +120,13 @@
         <div class="row">
           <div class="col">
             <div class="logo-section">
-              <a class="openaire logo" href="https://www.openaire.eu" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
+              <!-- a class="openaire logo" href="https://www.openaire.eu" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
                 <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire.webp" />
-              </a>
-              <a class="r3data logo" href="https://www.re3data.org" target="_blank" alt="Logo r3Data" title="Logo r3Data">
-                <img class="r3data_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data.png" />
+              </a -->
+              <a title="Link zur re3data-Seite" class="r3data logo" target="_blank" alt="Logo r3Data" href="https://www.re3data.org/repository/r3d100014123">
+                <object type="image/svg+xml" data="{$WebApplicationBaseURL}/images/logos/re3data-emporion-logo.svg">
+                  <img alt="re3data logo" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data.png" /> <!-- TODO: Add right version of re3data emporion logo -->
+                </object>
               </a>
             </div>
           </div>
