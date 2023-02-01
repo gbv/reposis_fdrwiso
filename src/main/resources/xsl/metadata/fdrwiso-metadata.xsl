@@ -17,65 +17,59 @@
       <xsl:if test="$mods/mods:extension[@type='temporal_period_of_reference']/mir:subject[@type='period_of_reference']">
         <xsl:variable name="period_of_reference" select="$mods/mods:extension[@type='temporal_period_of_reference']/mir:subject[@type='period_of_reference']" />
         
-        <xsl:if test="$period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']">
-          <xsl:variable name="formatStartDate">
-            <xsl:choose>
-              <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']))=4">
-                <xsl:value-of select="i18n:translate('metaData.dateYear')" />
-              </xsl:when>
-              <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']))=7">
-                <xsl:value-of select="i18n:translate('metaData.dateYearMonth')" />
-              </xsl:when>
-              <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']))=10">
-                <xsl:value-of select="i18n:translate('metaData.dateYearMonthDay')" />
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="i18n:translate('metaData.dateTime')" />
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-          <xsl:variable name="startDate">
+        <xsl:variable name="startDate">
+          <xsl:if test="$period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']">
+            <xsl:variable name="formatStartDate">
+              <xsl:choose>
+                <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']))=4">
+                  <xsl:value-of select="'yyyy'" />
+                </xsl:when>
+                <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']))=7">
+                  <xsl:value-of select="'MM.yyyy'" />
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="'dd.MM.yyyy'" />
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
             <xsl:call-template name="formatISODate">
               <xsl:with-param name="date" select="$period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='start']" />
               <xsl:with-param name="format" select="$formatStartDate" />
             </xsl:call-template>
-          </xsl:variable>
-        </xsl:if>
+          </xsl:if>
+        </xsl:variable>
 
-        <xsl:if test="$period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']">
-          <xsl:variable name="formatEndDate">
-            <xsl:choose>
-              <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']))=4">
-                <xsl:value-of select="i18n:translate('metaData.dateYear')" />
-              </xsl:when>
-              <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']))=7">
-                <xsl:value-of select="i18n:translate('metaData.dateYearMonth')" />
-              </xsl:when>
-              <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']))=10">
-                <xsl:value-of select="i18n:translate('metaData.dateYearMonthDay')" />
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="i18n:translate('metaData.dateTime')" />
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-          <xsl:variable name="endDate">
+        <xsl:variable name="endDate">
+          <xsl:if test="$period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']">
+            <xsl:variable name="formatEndDate">
+              <xsl:choose>
+                <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']))=4">
+                  <xsl:value-of select="'yyyy'" />
+                </xsl:when>
+                <xsl:when test="string-length(normalize-space($period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']))=7">
+                  <xsl:value-of select="'MM.yyyy'" />
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="'dd.MM.yyyy'" />
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
             <xsl:call-template name="formatISODate">
               <xsl:with-param name="date" select="$period_of_reference/mods:temporal[@encoding='w3cdtf'][@point='end']" />
               <xsl:with-param name="format" select="$formatEndDate" />
             </xsl:call-template>
-          </xsl:variable>
-        </xsl:if>
+          </xsl:if>
+        </xsl:variable>
 
         <div id="fdrwiso-metadata">
           <div class="mir_metadata">
             <dl>
               <dt><xsl:value-of select="concat(i18n:translate('component.mods.metaData.dictionary.period'), ': ')" /></dt>
               <dd>
-                <xsl:if test="$startDate">
+                <xsl:if test="string-length($startDate &gt; 0)">
                   <xsl:value-of select="$startDate" />
                 </xsl:if>
-                <xsl:if test="$endDate">
+                <xsl:if test="string-length($endDate &gt; 0)">
                   <xsl:value-of select="concat(' - ', $endDate)" />
                 </xsl:if>
               </dd>
