@@ -63,10 +63,6 @@
             <label xml:lang="de">Dokumenttyp</label>
             <label xml:lang="en">Genres</label>
         </item>
-        <item href="/content/browse/filetypes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Datentyp</label>
-            <label xml:lang="en">Filetypes</label>
-        </item>
         <item href="/content/browse/jel.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">JEL-Klassifikation</label>
             <label xml:lang="en">JEL Classification</label>

@@ -13,8 +13,7 @@
     </p>
     <p>
       Mit Ihren Zugangsdaten können Sie sich nun jederzeit auf Emperion 
-      <a href="../servlets/MCRLoginServlet?url=../content/index.xml">anmelden</a>,
-      um beliebig viele Beiträge im Open Access zu publizieren.
+      <a href="../servlets/MCRLoginServlet?url=../content/index.xml">anmelden,</a> um beliebig viele Beiträge im Open Access zu publizieren.
     </p>
   </section>
 
