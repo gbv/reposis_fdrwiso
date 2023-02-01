@@ -4,10 +4,17 @@
  *  - at best, this file is nearly empty :)
  */
 
+.mir_metadata {
+  margin-bottom: 0;
+}
+.mir_metadata:last-child {
+  margin-bottom: 30px;
+}
+
+
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
-
 
 
 // Large devices (desktops) and below: <= 1200px
