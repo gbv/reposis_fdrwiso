@@ -50,7 +50,6 @@
             <xed:include uri="webapp:editor/editor-includes.xed" ref="failed-validation-messages" />
             <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="userAccount" />
             <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="realName" />
-            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/register-includes.xed" ref="orcid" />
             <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="email" />
             <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/user-editor.xed" ref="passwords" />
 
