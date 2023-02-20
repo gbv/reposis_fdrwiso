@@ -5,6 +5,11 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  p {
+    a {
+      text-decoration: underline;
+    }
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
