@@ -123,11 +123,9 @@
               <!-- a class="openaire logo" href="https://www.openaire.eu" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
                 <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire.webp" />
               </a -->
-              <a title="Link zur re3data-Seite" class="r3data logo" target="_blank" alt="Logo r3Data" href="https://www.re3data.org/repository/r3d100014123">
-                <object type="image/svg+xml" data="{$WebApplicationBaseURL}/images/logos/re3data-emporion-logo.svg">
-                  <img alt="re3data logo" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data.png" /> <!-- TODO: Add right version of re3data emporion logo -->
-                </object>
-              </a>
+              <object type="image/svg+xml" data="{$WebApplicationBaseURL}/images/logos/re3data-emporion-logo.svg">
+                <img alt="re3data logo" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data.png" />
+              </object>
             </div>
           </div>
         </div>
