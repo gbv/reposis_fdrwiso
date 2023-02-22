@@ -17,6 +17,11 @@
 
 <p>Alle auf Emporion veröffentlichten Datensätze und Datenpapiere werden mit Suchmaschinentechnologie im Volltext recherchierbar gemacht. Zur Gewährleistung eines thematischen Browsings aller Inhalte von Emporion sind Sie zudem gebeten, Ihr Werk mit beschreibenden Metadaten systematisch zu erschließen. Hierzu wählen Sie im Zuge des Einreichungsvorgangs bitte den passenden JEL-Code aus. Zusätzlich haben Sie die Möglichkeit, den Inhalt Ihres Beitrags sowohl mit frei wählbaren als auch mit normierten Schlagworten zu umschreiben. Bitte erfassen Sie jedes Schlagwort separat und überprüfen Sie – sofern Sie normiertes Vokabular verwenden wollen – via „Suchen“ dessen Konformität mit der Terminologie der im Hintergrund eingebundenen <a href="https://gnd.network/Webs/gnd/DE/UeberGND/Partner/dnb/dnb_node.html">Gemeinsamen Normdatei</a> der Deutschen Nationalbibliothek.</p>
 
+<h2>Indexierung</h2>
+
+<p>Die Inhalte von Emporion werden von folgenden Suchmaschinen indexiert:<br />
+<a href="https://search.datacite.org/">DataCite Search</a> | <a href="https://www.base-search.net/">BASE</a> | <a href="https://core.ac.uk/">CORE</a> | <a href="https://explore.openaire.eu/">OpenAIRE Explore</a> | <a href="https://datasetsearch.research.google.com/">Google Data Set Search</a></p>
+
 <h2>Kontaktdaten und Löschpolitik</h2>
 
 <p>Sollten Sie weitere Rückfragen haben oder technische Schwierigkeiten während des Registrierungsvorgangs auftreten, stehen wir Ihnen jederzeit gerne zur Verfügung. Unsere Kontaktdaten finden Sie <a href="../below/contact.xml">hier</a>.</p>
@@ -29,7 +34,7 @@
 
 <h2>Registration</h2>
 
-<p>An initial registration via this <a href="../authorization/register.xed?action=register">form</a> is required in order to use the research data platform. To avoid incorrect identification, we ask you to provide your ORCID iD. Upon completion of the <a name="_Int_Y2voAsqS">form</a>, an activation link will be sent to the email provided. Once activated, you are able to login to Emporion at any time.</p>
+<p>An initial registration is required in order to use Emporion. This can be done via this <a href="../authorization/register.xed?action=register">form</a> or directly over Shibboleth using the login information of your affiliated university or research institute. In order to ensure the accurate classification of your contributions and avoid misidentification, we ask you to provide your <a href="https://orcid.org/">ORCID iD</a> when registering. You will receive an activation link via email once you have filled out the form. Upon activation, you are able to <a href="https://emporion.gswg.info/servlets/MCRLoginServlet?action=login&amp;lang=en">login</a> to Emporion at any time.</p>
 
 <h2>Document Upload</h2>
 
@@ -45,5 +50,4 @@ Please send the completed publication contract with your electronic signature in
 <p>We are happy to assist you if you have any further questions or encounter any technical difficulties during the registration process. You can find our contact details <a href="contact.xml">here</a>.</p>
 
 <p>We reserve the right to refuse one's registration for Emporion as well as the publication of individual contributions in justified exceptional cases. We ask you to refrain from either deleting or modifying already published data and documents on Emporion. Instead, any modifications of already contributed content is possible by uploading an updated version. If – for example due to criminal or copyright reasons – the public accessibility of an already published dataset or data paper is not allowed, access to it will be blocked.</p>
-</div>
-</section><meta><log lastEditor="cmathieu" date="2023-02-01" time="15:45" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="cmathieu" date="2023-02-20" time="12:57" /></meta></MyCoReWebPage>
