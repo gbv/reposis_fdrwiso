@@ -1,2036 +1,2016 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
-  <label xml:lang="en" text="Research institute" description="List of research institution (ROR)"/>
-  <label xml:lang="de" text="Forschungseinrichtung" description="Liste der Forschungseinrichtung (ROR)"/>
-  <label xml:lang="x-uri" text="https://emporion.gswg.info/api/v2/classifications/mir_institutes"/>
+  <label xml:lang="de" text="Forschungseinrichtung" description="Liste der Forschungseinrichtung (ROR)" />
+  <label xml:lang="en" text="Research institute" description="List of research institution (ROR)" />
+  <label xml:lang="x-uri" text="https://emporion.gswg.info/api/v2/classifications/mir_institutes" />
   <categories>
-    <category ID="01tbnxe16">
-      <label xml:lang="en" text="BRIQ Institute on Behavior and Inequality"/>
-      <label xml:lang="de" text="BRIQ Institute on Behavior and Inequality"/>
-    </category>
-    <category ID="05tbc9841">
-      <label xml:lang="en" text="Cluster of Excellence &quot;Matters of Activity. Image Space Material&quot;"/>
-      <label xml:lang="de" text="Cluster of Excellence &quot;Matters of Activity. Image Space Material&quot;"/>
-    </category>
-    <category ID="023392c84">
-      <label xml:lang="en" text="Musikwissenschaftliches Seminar Detmold/Paderborn"/>
-      <label xml:lang="de" text="Musikwissenschaftliches Seminar Detmold/Paderborn"/>
-    </category>
-    <category ID="01awf8081">
-      <label xml:lang="en" text="BilSE - Institut für Bildung und Forschung"/>
-      <label xml:lang="de" text="BilSE - Institut für Bildung und Forschung"/>
-    </category>
-    <category ID="003cqeh33">
-      <label xml:lang="en" text="Institut Dr. Flad"/>
-      <label xml:lang="de" text="Institut Dr. Flad"/>
-    </category>
-    <category ID="05eqhkk72">
-      <label xml:lang="en" text="German Adult Education Association"/>
-      <label xml:lang="de" text="Deutscher Volkshochschul-Verband"/>
-    </category>
-    <category ID="019vk5v89">
-      <label xml:lang="en" text="Hamburg Institute for Vocational Education and Training"/>
-      <label xml:lang="de" text="Hamburger Institut für Berufliche Bildung"/>
-    </category>
-    <category ID="00dg4wf63">
-      <label xml:lang="en" text="Institut zur Förderung von Bildung und Integration"/>
-      <label xml:lang="de" text="Institut zur Förderung von Bildung und Integration"/>
-    </category>
-    <category ID="04fcjpg80">
-      <label xml:lang="en" text="Holzbau Deutschland-Institut"/>
-      <label xml:lang="de" text="Holzbau Deutschland-Institut"/>
-    </category>
-    <category ID="00whjrr70">
-      <label xml:lang="en" text="Education and Training Service for Hamburg Businesses"/>
-      <label xml:lang="de" text="Bildungswerk der Wirtschaft Hamburg"/>
-    </category>
-    <category ID="01rxgdr42">
-      <label xml:lang="en" text="PECO-Institut"/>
-      <label xml:lang="de" text="PECO-Institut"/>
-    </category>
-    <category ID="00ptgb077">
-      <label xml:lang="en" text="Staatsinstitut für Schulqualität und Bildungsforschung"/>
-      <label xml:lang="de" text="Staatsinstitut für Schulqualität und Bildungsforschung"/>
-    </category>
-    <category ID="01k8fm112">
-      <label xml:lang="en" text="Universität Bayern"/>
-      <label xml:lang="de" text="Universität Bayern"/>
-    </category>
-    <category ID="05bv91d86">
-      <label xml:lang="en" text="Mannheim Centre for European Social Research"/>
-      <label xml:lang="de" text="Mannheimer Zentrum für Europäische Sozialforschung"/>
-    </category>
-    <category ID="01nhxrw57">
-      <label xml:lang="en" text="Westfalen-Kolleg"/>
-      <label xml:lang="de" text="Westfalen-Kolleg"/>
-    </category>
-    <category ID="02enpq749">
-      <label xml:lang="en" text="Edith-Stein-Schulstiftung des Bistums Magdeburg"/>
-      <label xml:lang="de" text="Edith-Stein-Schulstiftung des Bistums Magdeburg"/>
-    </category>
-    <category ID="02kkvpp62">
-      <label xml:lang="en" text="Technical University of Munich"/>
-      <label xml:lang="de" text="Technische Universität München"/>
-    </category>
-    <category ID="04zc7p361">
-      <label xml:lang="en" text="University of Kassel"/>
-      <label xml:lang="de" text="Universität Kassel"/>
-    </category>
-    <category ID="00f7hpc57">
-      <label xml:lang="en" text="University of Erlangen-Nuremberg"/>
-      <label xml:lang="de" text="Friedrich-Alexander-Universität Erlangen-Nürnberg"/>
-    </category>
-    <category ID="02azyry73">
-      <label xml:lang="en" text="University of Siegen"/>
-      <label xml:lang="de" text="Universität Siegen"/>
-    </category>
-    <category ID="010nsgg66">
-      <label xml:lang="en" text="TU Braunschweig"/>
-      <label xml:lang="de" text="Technische Universität Braunschweig"/>
-    </category>
-    <category ID="04bs1pb34">
-      <label xml:lang="en" text="Hamburg University of Technology"/>
-      <label xml:lang="de" text="Technische Universität Hamburg"/>
-    </category>
-    <category ID="02hpadn98">
-      <label xml:lang="en" text="Bielefeld University"/>
-      <label xml:lang="de" text="Universität Bielefeld"/>
-    </category>
-    <category ID="01eezs655">
-      <label xml:lang="en" text="University of Regensburg"/>
-      <label xml:lang="de" text="Universität Regensburg"/>
-    </category>
-    <category ID="02p5hsv84">
-      <label xml:lang="en" text="Coburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Coburg"/>
-    </category>
-    <category ID="01y01jq30">
-      <label xml:lang="en" text="Carl Maria von Weber College of Music"/>
-      <label xml:lang="de" text="Hochschule für Musik &quot;Carl Maria von Weber&quot;"/>
-    </category>
-    <category ID="000evwg49">
-      <label xml:lang="en" text="University of Music FRANZ LISZT Weimar"/>
-      <label xml:lang="de" text="Hochschule für Musik Franz Liszt Weimar"/>
-    </category>
-    <category ID="05256tw11">
-      <label xml:lang="en" text="Cologne University of Music"/>
-      <label xml:lang="de" text="Hochschule für Musik und Tanz Köln"/>
-    </category>
-    <category ID="00dfbms98">
-      <label xml:lang="en" text="University of Music and Theatre Hamburg"/>
-      <label xml:lang="de" text="Hochschule für Musik und Theater Hamburg"/>
-    </category>
-    <category ID="01ge5zt06">
-      <label xml:lang="en" text="Eberswalde University for Sustainable Development"/>
-      <label xml:lang="de" text="Hochschule für Nachhaltige Entwicklung Eberswalde"/>
-    </category>
-    <category ID="02kqy4228">
-      <label xml:lang="en" text="Munich School of Philosophy"/>
-      <label xml:lang="de" text="Hochschule für Philosophie München"/>
-    </category>
-    <category ID="006thab72">
-      <label xml:lang="en" text="Medical School Hamburg"/>
-      <label xml:lang="de" text="Medical School Hamburg"/>
-    </category>
-    <category ID="04nkken68">
-      <label xml:lang="en" text="Augustana-Hochschule Neuendettelsau"/>
-      <label xml:lang="de" text="Augustana-Hochschule Neuendettelsau"/>
-    </category>
-    <category ID="04fdat027">
-      <label xml:lang="en" text="IU International University of Applied Sciences"/>
-      <label xml:lang="de" text="IU Internationale Hochschule"/>
-    </category>
-    <category ID="04sms9203">
-      <label xml:lang="en" text="Aschaffenburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Technische Hochschule Aschaffenburg"/>
-    </category>
-    <category ID="00vd2h880">
-      <label xml:lang="en" text="Catholic University of Applied Sciences Freiburg"/>
-      <label xml:lang="de" text="Katholische Hochschule Freiburg"/>
-    </category>
-    <category ID="04eejsy70">
-      <label xml:lang="en" text="Fulda Faculty of Theology"/>
-      <label xml:lang="de" text="Theologische Fakultät Fulda"/>
-    </category>
-    <category ID="01h7vw195">
-      <label xml:lang="en" text="German Police University"/>
-      <label xml:lang="de" text="Deutsche Hochschule der Polizei"/>
-    </category>
-    <category ID="024nr0776">
-      <label xml:lang="en" text="Catholic University of Applied Sciences of North Rhine – Westphalia"/>
-      <label xml:lang="de" text="Katholische Hochschule Nordrhein-Westfalen"/>
-    </category>
-    <category ID="00g07sz63">
-      <label xml:lang="en" text="SRH Hochschule Heidelberg"/>
-      <label xml:lang="de" text="SRH Hochschule Heidelberg"/>
-    </category>
-    <category ID="021f61w41">
-      <label xml:lang="en" text="Lübeck Academy of Music"/>
-      <label xml:lang="de" text="Musikhochschule Lübeck"/>
-    </category>
-    <category ID="026c3xn33">
-      <label xml:lang="en" text="University of Applied Management Studies"/>
-      <label xml:lang="de" text="Hochschule der Wirtschaft für Management"/>
-    </category>
-    <category ID="02hdve317">
-      <label xml:lang="en" text="Academy of Fine Arts Karlsruhe"/>
-      <label xml:lang="de" text="Staatliche Akademie der Bildenden Künste Karlsruhe"/>
-    </category>
-    <category ID="044rf5p19">
-      <label xml:lang="en" text="Academy of Fine Arts Munich"/>
-      <label xml:lang="de" text="Akademie der Bildenden Künste München"/>
-    </category>
-    <category ID="00zbhen47">
-      <label xml:lang="en" text="Berlin-Weissensee Art Academy"/>
-      <label xml:lang="de" text="Kunsthochschule Berlin-Weißensee"/>
-    </category>
-    <category ID="0572yc306">
-      <label xml:lang="en" text="SRH Hochschule für Wirtschaft und Medien Calw"/>
-      <label xml:lang="de" text="SRH Hochschule für Wirtschaft und Medien Calw"/>
-    </category>
-    <category ID="03waye253">
-      <label xml:lang="en" text="Fachhochschule der Sächsischen Verwaltung Meißen"/>
-      <label xml:lang="de" text="Fachhochschule der Sächsischen Verwaltung Meißen"/>
-    </category>
-    <category ID="015a98c38">
-      <label xml:lang="en" text="Accadis Hochschule Bad Homburg"/>
-      <label xml:lang="de" text="Accadis Hochschule Bad Homburg"/>
-    </category>
-    <category ID="04mvanw22">
-      <label xml:lang="en" text="University of Applied Police Sciences Saxony Anhalt"/>
-      <label xml:lang="de" text="Fachhochschule Polizei Sachsen-Anhalt"/>
-    </category>
-    <category ID="017bbsh25">
-      <label xml:lang="en" text="BSP Business School Berlin"/>
-      <label xml:lang="de" text="BSP Business School Berlin"/>
-    </category>
-    <category ID="047h65335">
-      <label xml:lang="en" text="Deutsche Hochschule für Prävention und Gesundheitsmanagement"/>
-      <label xml:lang="de" text="Deutsche Hochschule für Prävention und Gesundheitsmanagement"/>
-    </category>
-    <category ID="05k9vmz93">
-      <label xml:lang="en" text="Hochschule für Telekommunikation Leipzig"/>
-      <label xml:lang="de" text="Hochschule für Telekommunikation Leipzig"/>
-    </category>
-    <category ID="01v7j8968">
-      <label xml:lang="en" text="Hochschule für den öffentlichen Dienst in Bayern"/>
-      <label xml:lang="de" text="Hochschule für den öffentlichen Dienst in Bayern"/>
-    </category>
-    <category ID="05q2pee13">
-      <label xml:lang="en" text="Hochschule für Öffentliche Verwaltung Bremen"/>
-      <label xml:lang="de" text="Hochschule für Öffentliche Verwaltung Bremen"/>
-    </category>
-    <category ID="01hwhm419">
-      <label xml:lang="en" text="Hessian University for Police and Administration"/>
-      <label xml:lang="de" text="Hessische Hochschule für Polizei und Verwaltung"/>
-    </category>
-    <category ID="018mbvt80">
-      <label xml:lang="en" text="German open Business School"/>
-      <label xml:lang="de" text="Hochschule für Wirtschaft und Verwaltung"/>
-    </category>
-    <category ID="02kraxp86">
-      <label xml:lang="en" text="SRH Hochschule der Populären Künste"/>
-      <label xml:lang="de" text="SRH Hochschule der Populären Künste"/>
-    </category>
-    <category ID="01r8xsy94">
-      <label xml:lang="en" text="ESCP Business School"/>
-      <label xml:lang="de" text="ESCP Business School"/>
-    </category>
-    <category ID="04tqgg260">
-      <label xml:lang="en" text="FH Aachen"/>
-      <label xml:lang="de" text="FH Aachen"/>
-    </category>
-    <category ID="014nnvj65">
-      <label xml:lang="en" text="TH Köln - University of Applied Sciences"/>
-      <label xml:lang="de" text="TH Köln"/>
-    </category>
-    <category ID="05e5kd476">
-      <label xml:lang="en" text="Ulm University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Ulm"/>
-    </category>
-    <category ID="01trbq046">
-      <label xml:lang="en" text="German Research School for Simulation Sciences"/>
-      <label xml:lang="de" text="German Research School for Simulation Sciences"/>
-    </category>
-    <category ID="00k62pe27">
-      <label xml:lang="en" text="Technical University of Applied Sciences Wildau"/>
-      <label xml:lang="de" text="Technische Hochschule Wildau"/>
-    </category>
-    <category ID="027b9qx26">
-      <label xml:lang="en" text="Hochschule Niederrhein"/>
-      <label xml:lang="de" text="Hochschule Niederrhein"/>
-    </category>
-    <category ID="03q0ab227">
-      <label xml:lang="en" text="Fachhochschule Kiel"/>
-      <label xml:lang="de" text="Fachhochschule Kiel"/>
-    </category>
-    <category ID="03yjyed28">
-      <label xml:lang="en" text="Karlshochschule International University"/>
-      <label xml:lang="de" text="Karlshochschule International University"/>
-    </category>
-    <category ID="03xgcq477">
-      <label xml:lang="en" text="Leipzig University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für Technik, Wirtschaft und Kultur Leipzig"/>
-    </category>
-    <category ID="0167rnj42">
-      <label xml:lang="en" text="Ansbach University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Ansbach"/>
-    </category>
-    <category ID="02xdzy536">
-      <label xml:lang="en" text="Baden-Wuerttemberg Cooperative State University"/>
-      <label xml:lang="de" text="Duale Hochschule Baden-Württemberg"/>
-    </category>
-    <category ID="03eznrw16">
-      <label xml:lang="en" text="Berlin University of the Arts"/>
-      <label xml:lang="de" text="Universität der Künste Berlin"/>
-    </category>
-    <category ID="04wdt0z89">
-      <label xml:lang="en" text="Rhine-Waal University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Rhein-Waal"/>
-    </category>
-    <category ID="02ywmkj38">
-      <label xml:lang="en" text="Ukrainian Free University"/>
-      <label xml:lang="de" text="Ukrainische Freie Universität München"/>
-    </category>
-    <category ID="01pxkj057">
-      <label xml:lang="en" text="TH Bingen University of Applied Sciences"/>
-      <label xml:lang="de" text="Technische Hochschule Bingen"/>
-    </category>
-    <category ID="022598c22">
-      <label xml:lang="en" text="University of Maryland University College Europe"/>
-      <label xml:lang="de" text="University of Maryland University College Europe"/>
-    </category>
-    <category ID="01btqj997">
-      <label xml:lang="en" text="Salomon Ludwig Steinheim-Institut"/>
-      <label xml:lang="de" text="Salomon Ludwig Steinheim-Institut"/>
-    </category>
-    <category ID="009dxjw45">
-      <label xml:lang="en" text="Faurecia (Germany)"/>
-      <label xml:lang="de" text="Faurecia (Germany)"/>
-    </category>
-    <category ID="02nq6sy34">
-      <label xml:lang="en" text="Akademie für Gesundheitsberufe"/>
-      <label xml:lang="de" text="Akademie für Gesundheitsberufe"/>
-    </category>
-    <category ID="05gxhfq53">
-      <label xml:lang="en" text="Hochschule der Polizei Rheinland Pfalz"/>
-      <label xml:lang="de" text="Hochschule der Polizei Rheinland Pfalz"/>
-    </category>
-    <category ID="02qtztk24">
-      <label xml:lang="en" text="Abnoba (Germany)"/>
-      <label xml:lang="de" text="Abnoba (Germany)"/>
-    </category>
-    <category ID="040d40q10">
-      <label xml:lang="en" text="Kunstakademie Düsseldorf"/>
-      <label xml:lang="de" text="Kunstakademie Düsseldorf"/>
-    </category>
-    <category ID="04qj3gf68">
-      <label xml:lang="en" text="Brandenburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Technische Hochschule Brandenburg"/>
-    </category>
-    <category ID="02bxzcy64">
-      <label xml:lang="en" text="Technische Hochschule Ingolstadt"/>
-      <label xml:lang="de" text="Technische Hochschule Ingolstadt"/>
-    </category>
-    <category ID="04g99jx54">
-      <label xml:lang="en" text="University of Applied Sciences Stralsund"/>
-      <label xml:lang="de" text="Fachhochschule Stralsund"/>
-    </category>
-    <category ID="00nggaz43">
-      <label xml:lang="en" text="Georg Simon Ohm University of Applied Sciences Nuremberg"/>
-      <label xml:lang="de" text="Technische Hochschule Nürnberg Georg Simon Ohm"/>
-    </category>
-    <category ID="02nkxrq89">
-      <label xml:lang="en" text="Ruhr West University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Ruhr West"/>
-    </category>
-    <category ID="00f2yqf98">
-      <label xml:lang="en" text="Hannover Medical School"/>
-      <label xml:lang="de" text="Medizinische Hochschule Hannover"/>
-    </category>
-    <category ID="03bnmw459">
-      <label xml:lang="en" text="University of Potsdam"/>
-      <label xml:lang="de" text="Universität Potsdam"/>
-    </category>
-    <category ID="02msan859">
-      <label xml:lang="en" text="European University Viadrina"/>
-      <label xml:lang="de" text="Europa-Universität Viadrina Frankfurt"/>
-    </category>
-    <category ID="033bb5z47">
-      <label xml:lang="en" text="Bauhaus University, Weimar"/>
-      <label xml:lang="de" text="Bauhaus-Universität Weimar"/>
-    </category>
-    <category ID="024z2rq82">
-      <label xml:lang="en" text="Heinrich Heine University Düsseldorf"/>
-      <label xml:lang="de" text="Heinrich-Heine-Universität Düsseldorf"/>
-    </category>
-    <category ID="007bw6q41">
-      <label xml:lang="en" text="Evangelische Hochschule Berlin"/>
-      <label xml:lang="de" text="Evangelische Hochschule Berlin"/>
-    </category>
-    <category ID="04rnfrn04">
-      <label xml:lang="en" text="Center for Psychobiology and Behavioral Medicine"/>
-      <label xml:lang="de" text="Institut für Psychobiologie und Verhaltensmedizin"/>
-    </category>
-    <category ID="03d0yjb51">
-      <label xml:lang="en" text="IST-Hochschule für Management"/>
-      <label xml:lang="de" text="IST-Hochschule für Management"/>
-    </category>
-    <category ID="02wxx3e24">
-      <label xml:lang="en" text="Technical University of Cottbus"/>
-      <label xml:lang="de" text="Brandenburg University of Technology Cottbus-Senftenberg"/>
-    </category>
-    <category ID="00fbnyb24">
-      <label xml:lang="en" text="University of Würzburg"/>
-      <label xml:lang="de" text="Julius-Maximilians-Universität Würzburg"/>
-    </category>
-    <category ID="0189raq88">
-      <label xml:lang="en" text="German Sport University Cologne"/>
-      <label xml:lang="de" text="Deutsche Sporthochschule Köln"/>
-    </category>
-    <category ID="04hsa7a08">
-      <label xml:lang="en" text="Göttingen Academy of Sciences and Humanities"/>
-      <label xml:lang="de" text="Akademie der Wissenschaften zu Göttingen"/>
-    </category>
-    <category ID="03zdwsf69">
-      <label xml:lang="en" text="University of Rostock"/>
-      <label xml:lang="de" text="Universität Rostock"/>
-    </category>
-    <category ID="04vnq7t77">
-      <label xml:lang="en" text="University of Stuttgart"/>
-      <label xml:lang="de" text="Universität Stuttgart"/>
-    </category>
-    <category ID="032000t02">
-      <label xml:lang="en" text="University of Ulm"/>
-      <label xml:lang="de" text="Universität Ulm"/>
-    </category>
-    <category ID="031vc2293">
-      <label xml:lang="en" text="TU Bergakademie Freiberg"/>
-      <label xml:lang="de" text="Technische Universität Bergakademie Freiberg"/>
-    </category>
-    <category ID="05ydjnb78">
-      <label xml:lang="en" text="University of Passau"/>
-      <label xml:lang="de" text="Universität Passau"/>
-    </category>
-    <category ID="041bz9r75">
-      <label xml:lang="en" text="Fulda University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Fulda"/>
-    </category>
-    <category ID="03aft2f80">
-      <label xml:lang="en" text="Braunschweig University of Art"/>
-      <label xml:lang="de" text="Hochschule für Bildende Künste Braunschweig"/>
-    </category>
-    <category ID="00gm0aw40">
-      <label xml:lang="en" text="Ostbayerische Technische Hochschule Amberg-Weiden"/>
-      <label xml:lang="de" text="Ostbayerische Technische Hochschule Amberg-Weiden"/>
-    </category>
-    <category ID="00yx29a03">
-      <label xml:lang="en" text="Fernhochschule – The Mobile University"/>
-      <label xml:lang="de" text="Fernhochschule – The Mobile University"/>
-    </category>
-    <category ID="046ak2485">
-      <label xml:lang="en" text="Free University of Berlin"/>
-      <label xml:lang="de" text="Freie Universität Berlin"/>
-    </category>
-    <category ID="025e8aw85">
-      <label xml:lang="en" text="Comenius-Institut"/>
-      <label xml:lang="de" text="Comenius-Institut"/>
-    </category>
-    <category ID="01b2gkw73">
-      <label xml:lang="en" text="Deutsche Angestellten-Akademie"/>
-      <label xml:lang="de" text="Deutsche Angestellten-Akademie"/>
-    </category>
-    <category ID="03a8y0358">
-      <label xml:lang="en" text="FIVE - Forschungs- und Innovationsverbund an der Evangelischen Hochschule Freiburg"/>
-      <label xml:lang="de" text="FIVE - Forschungs- und Innovationsverbund an der Evangelischen Hochschule Freiburg"/>
-    </category>
-    <category ID="02ezvhm25">
-      <label xml:lang="en" text="Progenius"/>
-      <label xml:lang="de" text="Progenius"/>
-    </category>
-    <category ID="01m2aa958">
-      <label xml:lang="en" text="Hanse Institut Oldenburg Bildung und Gesundheit"/>
-      <label xml:lang="de" text="Hanse Institut Oldenburg Bildung und Gesundheit"/>
-    </category>
-    <category ID="00pg0dt16">
-      <label xml:lang="en" text="Hessische Lehrkräfteakademie"/>
-      <label xml:lang="de" text="Hessische Lehrkräfteakademie"/>
-    </category>
-    <category ID="01c1pcz80">
-      <label xml:lang="en" text="Kleine Private Lehrinstitut Derksen"/>
-      <label xml:lang="de" text="Kleine Private Lehrinstitut Derksen"/>
-    </category>
-    <category ID="00717c553">
-      <label xml:lang="en" text="Philosophisch-Theologische Hochschule Münster"/>
-      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Münster"/>
-    </category>
-    <category ID="03bh13774">
-      <label xml:lang="en" text="Wilhelm Löhe University for Applied Sciences"/>
-      <label xml:lang="de" text="Wilhelm Löhe Hochschule für angewandte Wissenschaften"/>
-    </category>
-    <category ID="02dsdsv34">
-      <label xml:lang="en" text="University for Police and Public Administration North Rhine-Westphalia"/>
-      <label xml:lang="de" text="Hochschule für Polizei und Öffentliche Verwaltung Nordrhein-Westfalen"/>
-    </category>
-    <category ID="042aqky30">
-      <label xml:lang="en" text="TU Dresden"/>
-      <label xml:lang="de" text="Technische Universität Dresden"/>
-    </category>
-    <category ID="031bsb921">
-      <label xml:lang="en" text="University of Mannheim"/>
-      <label xml:lang="de" text="Universität Mannheim"/>
-    </category>
-    <category ID="01j9f6752">
-      <label xml:lang="en" text="University of Koblenz and Landau"/>
-      <label xml:lang="de" text="Universität Koblenz-Landau"/>
-    </category>
-    <category ID="00pd74e08">
-      <label xml:lang="en" text="University of Münster"/>
-      <label xml:lang="de" text="Westfälische Wilhelms-Universität Münster"/>
-    </category>
-    <category ID="01c1w6d29">
-      <label xml:lang="en" text="University of Bamberg"/>
-      <label xml:lang="de" text="Otto-Friedrich-Universität Bamberg"/>
-    </category>
-    <category ID="038t36y30">
-      <label xml:lang="en" text="Heidelberg University"/>
-      <label xml:lang="de" text="Ruprecht-Karls-Universität Heidelberg"/>
-    </category>
-    <category ID="04cvxnb49">
-      <label xml:lang="en" text="Goethe University Frankfurt"/>
-      <label xml:lang="de" text="Goethe-Universität Frankfurt am Main"/>
-    </category>
-    <category ID="02zp2df93">
-      <label xml:lang="en" text="Institute of Empirical Health Economics"/>
-      <label xml:lang="de" text="Institut für Empirische Gesundheitsökonomie"/>
-    </category>
-    <category ID="045tmdc16">
-      <label xml:lang="en" text="CODE University of Applied Sciences"/>
-      <label xml:lang="de" text="CODE University of Applied Sciences"/>
-    </category>
-    <category ID="03czk8k96">
-      <label xml:lang="en" text="Hochschule Macromedia"/>
-      <label xml:lang="de" text="Hochschule Macromedia"/>
-    </category>
-    <category ID="03nzdk586">
-      <label xml:lang="en" text="Cooperative Clinical Drug Research and Development"/>
-      <label xml:lang="de" text="Cooperative Clinical Drug Research and Development"/>
-    </category>
-    <category ID="03hzkp562">
-      <label xml:lang="en" text="Academy of Visual Arts Leipzig"/>
-      <label xml:lang="de" text="Hochschule für Grafik und Buchkunst Leipzig"/>
-    </category>
-    <category ID="03yxw1t21">
-      <label xml:lang="en" text="Academy of Fine Arts Nuremberg"/>
-      <label xml:lang="de" text="Akademie der Bildenden Künste Nürnberg"/>
-    </category>
-    <category ID="04w49ae90">
-      <label xml:lang="en" text="EBC Hochschule"/>
-      <label xml:lang="de" text="EBC Hochschule"/>
-    </category>
-    <category ID="00dnfj623">
-      <label xml:lang="en" text="Hanns Eisler College or Academy of Music"/>
-      <label xml:lang="de" text="Hochschule für Musik Hanns Eisler"/>
-    </category>
-    <category ID="05fwp8t64">
-      <label xml:lang="en" text="Hochschule der Deutschen Bundesbank"/>
-      <label xml:lang="de" text="Hochschule der Deutschen Bundesbank"/>
-    </category>
-    <category ID="02re32a17">
-      <label xml:lang="en" text="University of Applied Sciences Mainz"/>
-      <label xml:lang="de" text="Hochschule Mainz"/>
-    </category>
-    <category ID="04w23p232">
-      <label xml:lang="en" text="Evangelische Hochschule Darmstadt"/>
-      <label xml:lang="de" text="Evangelische Hochschule Darmstadt"/>
-    </category>
-    <category ID="000tpgs13">
-      <label xml:lang="en" text="Muthesius University in Kiel"/>
-      <label xml:lang="de" text="Muthesius Kunsthochschule"/>
-    </category>
-    <category ID="04fxab197">
-      <label xml:lang="en" text="Natural Science and Technical Academy Isny"/>
-      <label xml:lang="de" text="Naturwissenschaftlich-Technische Akademie Isny"/>
-    </category>
-    <category ID="02g11qe83">
-      <label xml:lang="en" text="Fachhochschule für Rechtspflege Nordrhein Westfalen"/>
-      <label xml:lang="de" text="Fachhochschule für Rechtspflege Nordrhein Westfalen"/>
-    </category>
-    <category ID="04j1sr579">
-      <label xml:lang="en" text="Hochschule für Gesundheit &amp; Sport, Technik &amp; Kunst"/>
-      <label xml:lang="de" text="Hochschule für Gesundheit &amp; Sport, Technik &amp; Kunst"/>
-    </category>
-    <category ID="02e5n0e79">
-      <label xml:lang="en" text="AMD Academy of Fashion and Design"/>
-      <label xml:lang="de" text="Akademie Mode &amp; Design"/>
-    </category>
-    <category ID="04580fn28">
-      <label xml:lang="en" text="Hamburger Fern-Hochschule"/>
-      <label xml:lang="de" text="Hamburger Fern-Hochschule"/>
-    </category>
-    <category ID="051rc7j94">
-      <label xml:lang="en" text="Diploma University"/>
-      <label xml:lang="de" text="Diploma Hochschule"/>
-    </category>
-    <category ID="00jbwpt44">
-      <label xml:lang="en" text="University of Applied Sciences for Media Communication and Business"/>
-      <label xml:lang="de" text="Hochschule für Medien, Kommunikation und Wirtschaft"/>
-    </category>
-    <category ID="05dbw7b97">
-      <label xml:lang="en" text="International YMCA University of Applied Sciences"/>
-      <label xml:lang="de" text="CVJM-Hochschule"/>
-    </category>
-    <category ID="04sn8qj61">
-      <label xml:lang="en" text="International School of Management"/>
-      <label xml:lang="de" text="International School of Management"/>
-    </category>
-    <category ID="001vjqx13">
-      <label xml:lang="en" text="Medical School Berlin"/>
-      <label xml:lang="de" text="Medical School Berlin"/>
-    </category>
-    <category ID="02nfh7608">
-      <label xml:lang="en" text="Centre de Coopération Universitaire Franco-Bavarois"/>
-      <label xml:lang="de" text="Bayerisch-Französische Hochschulzentrum"/>
-    </category>
-    <category ID="01gq10q51">
-      <label xml:lang="en" text="Akademie für Technikfolgenabschätzung"/>
-      <label xml:lang="de" text="Akademie für Technikfolgenabschätzung"/>
-    </category>
-    <category ID="04kzfg204">
-      <label xml:lang="en" text="University of Applied Sciences Appollon"/>
-      <label xml:lang="de" text="Apollon Hochschule der Gesundheitswirtschaft"/>
-    </category>
-    <category ID="04tenkb98">
-      <label xml:lang="en" text="German Graduate School of Management and Law"/>
-      <label xml:lang="de" text="German Graduate School of Management and Law"/>
-    </category>
-    <category ID="05m0ggf57">
-      <label xml:lang="en" text="Catholic University of Applied Sciences"/>
-      <label xml:lang="de" text="Katholische Hochschule Mainz"/>
-    </category>
-    <category ID="04vq9c111">
-      <label xml:lang="en" text="Karlsruhe College of Arts and Design"/>
-      <label xml:lang="de" text="Staatliche Hochschule für Gestaltung Karlsruhe"/>
-    </category>
-    <category ID="02j0n6s98">
-      <label xml:lang="en" text="Ludwigsburg University of Education"/>
-      <label xml:lang="de" text="Pädagogische Hochschule Ludwigsburg"/>
-    </category>
-    <category ID="0378gm372">
-      <label xml:lang="en" text="RheinMain University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule RheinMain"/>
-    </category>
-    <category ID="02pnhcc10">
-      <label xml:lang="en" text="Rottenburg University of Applied Forest Sciences"/>
-      <label xml:lang="de" text="Hochschule für Forstwirtschaft Rottenburg"/>
-    </category>
-    <category ID="046e0mt33">
-      <label xml:lang="en" text="University of Flensburg"/>
-      <label xml:lang="de" text="Universität Flensburg"/>
-    </category>
-    <category ID="02kw5st29">
-      <label xml:lang="en" text="Deggendorf Institute of Technology"/>
-      <label xml:lang="de" text="Technische Hochschule Deggendorf"/>
-    </category>
-    <category ID="056z5bx32">
-      <label xml:lang="en" text="University of Applied Sciences Landshut"/>
-      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften Landshut"/>
-    </category>
-    <category ID="05pb4em20">
-      <label xml:lang="en" text="Bonn-Cologne Graduate School of Physics and Astronomy"/>
-      <label xml:lang="de" text="Bonn-Cologne Graduate School of Physics and Astronomy"/>
-    </category>
-    <category ID="02hapf869">
-      <label xml:lang="en" text="Institute of Early Childhood Research"/>
-      <label xml:lang="de" text="Staatsinstitut für Frühpädagogik"/>
-    </category>
-    <category ID="0436y2h42">
-      <label xml:lang="en" text="Hermann Staudinger Gymnasium"/>
-      <label xml:lang="de" text="Hermann Staudinger Gymnasium"/>
-    </category>
-    <category ID="00x67m532">
-      <label xml:lang="en" text="Hanover University of Music Drama and Media"/>
-      <label xml:lang="de" text="Hochschule für Musik, Theater und Medien Hannover"/>
-    </category>
-    <category ID="05gxyna29">
-      <label xml:lang="en" text="Frankfurt School of Finance &amp; Management"/>
-      <label xml:lang="de" text="Hochschule für Bankwirtschaft"/>
-    </category>
-    <category ID="03b9q7371">
-      <label xml:lang="en" text="Neubrandenburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Neubrandenburg"/>
-    </category>
-    <category ID="00b6j6x40">
-      <label xml:lang="en" text="International Psychoanalytic University Berlin"/>
-      <label xml:lang="de" text="International Psychoanalytic University Berlin"/>
-    </category>
-    <category ID="04e1yzk82">
-      <label xml:lang="en" text="Robert Schumann University of Music and Media"/>
-      <label xml:lang="de" text="Robert Schumann Hochschule"/>
-    </category>
-    <category ID="03ccc5z68">
-      <label xml:lang="en" text="Evangelische Hochschule Ludwigsburg"/>
-      <label xml:lang="de" text="Evangelische Hochschule Ludwigsburg"/>
-    </category>
-    <category ID="02gf6fa33">
-      <label xml:lang="en" text="Research Institute for Music Theater Studies"/>
-      <label xml:lang="de" text="Forschungsinstitut für Musiktheater"/>
-    </category>
-    <category ID="058ddgs73">
-      <label xml:lang="en" text="Center for Art and Media Karlsruhe"/>
-      <label xml:lang="de" text="Zentrum für Kunst und Medien"/>
-    </category>
-    <category ID="03606hw36">
-      <label xml:lang="en" text="University of Erfurt"/>
-      <label xml:lang="de" text="Universität Erfurt"/>
-    </category>
-    <category ID="05tbp1g38">
-      <label xml:lang="en" text="Zeppelin University"/>
-      <label xml:lang="de" text="Zeppelin Universität"/>
-    </category>
-    <category ID="024xejm70">
-      <label xml:lang="en" text="European School of Management and Technology"/>
-      <label xml:lang="de" text="European School of Management and Technology"/>
-    </category>
-    <category ID="022r03w28">
-      <label xml:lang="en" text="Stuttgart Media University"/>
-      <label xml:lang="de" text="Hochschule der Medien"/>
-    </category>
-    <category ID="012k1v959">
-      <label xml:lang="en" text="Munich University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften München"/>
-    </category>
-    <category ID="01c0m1t63">
-      <label xml:lang="en" text="Karlsruhe University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Karlsruhe Technik und Wirtschaft"/>
-    </category>
-    <category ID="01fzsd381">
-      <label xml:lang="en" text="HafenCity University Hamburg"/>
-      <label xml:lang="de" text="HafenCity Universität Hamburg"/>
-    </category>
-    <category ID="048yn7628">
-      <label xml:lang="en" text="Harz University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Harz"/>
-    </category>
-    <category ID="04j351e79">
-      <label xml:lang="en" text="Koblenz University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Koblenz"/>
-    </category>
-    <category ID="04vjfp916">
-      <label xml:lang="en" text="Magdeburg-Stendal University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Magdeburg-Stendal"/>
-    </category>
-    <category ID="02qdc9985">
-      <label xml:lang="en" text="Mittelhessen University of Applied Sciences"/>
-      <label xml:lang="de" text="Technische Hochschule Mittelhessen"/>
-    </category>
-    <category ID="01v0c1y10">
-      <label xml:lang="en" text="EBZ Business School"/>
-      <label xml:lang="de" text="EBZ Business School"/>
-    </category>
-    <category ID="0355d9b09">
-      <label xml:lang="en" text="Sprachen &amp; Dolmetscher Institut München"/>
-      <label xml:lang="de" text="Hochschule für Angewandte Sprachen"/>
-    </category>
-    <category ID="05k17x772">
-      <label xml:lang="en" text="Fachhochschule der Polizei des Landes Brandenburg"/>
-      <label xml:lang="de" text="Fachhochschule der Polizei des Landes Brandenburg"/>
-    </category>
-    <category ID="0245cg223">
-      <label xml:lang="en" text="University of Freiburg"/>
-      <label xml:lang="de" text="Albert-Ludwigs-Universität Freiburg"/>
-    </category>
-    <category ID="03ggzay52">
-      <label xml:lang="en" text="Neu Ulm University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften Neu-Ulm"/>
-    </category>
-    <category ID="04qfbfc73">
-      <label xml:lang="en" text="Berufskolleg Am Wasserturm"/>
-      <label xml:lang="de" text="Berufskolleg Am Wasserturm"/>
-    </category>
-    <category ID="02778hg05">
-      <label xml:lang="en" text="University of Trier"/>
-      <label xml:lang="de" text="Universität Trier"/>
-    </category>
-    <category ID="05qpz1x62">
-      <label xml:lang="en" text="Friedrich Schiller University Jena"/>
-      <label xml:lang="de" text="Friedrich-Schiller-Universität Jena"/>
-    </category>
-    <category ID="05f23gs03">
-      <label xml:lang="en" text="Université franco-allemande"/>
-      <label xml:lang="de" text="Université franco-allemande"/>
-    </category>
-    <category ID="05myv7q56">
-      <label xml:lang="en" text="Hochschule Geisenheim University"/>
-      <label xml:lang="de" text="Hochschule Geisenheim"/>
-    </category>
-    <category ID="023b0x485">
-      <label xml:lang="en" text="Johannes Gutenberg University Mainz"/>
-      <label xml:lang="de" text="Johannes Gutenberg-Universität Mainz"/>
-    </category>
-    <category ID="059vymd37">
-      <label xml:lang="en" text="Osnabrück University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Osnabrück"/>
-    </category>
-    <category ID="02e3hdx05">
-      <label xml:lang="en" text="Trier University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Trier"/>
-    </category>
-    <category ID="05q5pk319">
-      <label xml:lang="en" text="Dresden University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Dresden"/>
-    </category>
-    <category ID="039gdg280">
-      <label xml:lang="en" text="Stuttgart University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für Technik Stuttgart"/>
-    </category>
-    <category ID="031ph8d53">
-      <label xml:lang="en" text="University of Applied Sciences Worms"/>
-      <label xml:lang="de" text="Hochschule Worms"/>
-    </category>
-    <category ID="045f0ws19">
-      <label xml:lang="en" text="Universities of Giessen and Marburg Lung Center"/>
-      <label xml:lang="de" text="Universities of Giessen and Marburg Lung Center"/>
-    </category>
-    <category ID="056tzgr32">
-      <label xml:lang="en" text="Zittau/Görlitz University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Zittau/Görlitz"/>
-    </category>
-    <category ID="00w7whj55">
-      <label xml:lang="en" text="Beuth University of Applied Sciences"/>
-      <label xml:lang="de" text="Beuth Hochschule für Technik Berlin"/>
-    </category>
-    <category ID="01t4pxy10">
-      <label xml:lang="en" text="Dresden International University"/>
-      <label xml:lang="de" text="Dresden International University"/>
-    </category>
-    <category ID="05874db82">
-      <label xml:lang="en" text="Excellence Cluster Universe"/>
-      <label xml:lang="de" text="Exzellenzcluster Universe"/>
-    </category>
-    <category ID="016604a03">
-      <label xml:lang="en" text="Augsburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften Augsburg"/>
-    </category>
-    <category ID="01we8bn75">
-      <label xml:lang="en" text="PFH Private University of Applied Sciences"/>
-      <label xml:lang="de" text="Private Hochschule Göttingen"/>
-    </category>
-    <category ID="05re2x545">
-      <label xml:lang="en" text="Burg Giebichenstein University of Art and Design Halle"/>
-      <label xml:lang="de" text="Burg Giebichenstein Kunsthochschule Halle"/>
-    </category>
-    <category ID="03aky0p13">
-      <label xml:lang="en" text="Media Design University for Design and Computer Science"/>
-      <label xml:lang="de" text="Mediadesign Hochschule für Design und Informatik"/>
-    </category>
-    <category ID="029r33q13">
-      <label xml:lang="en" text="Hochschule für Musik Saar"/>
-      <label xml:lang="de" text="Hochschule für Musik Saar"/>
-    </category>
-    <category ID="02d89at43">
-      <label xml:lang="en" text="University of Applied Labour Studies of the Federal Employment Agency"/>
-      <label xml:lang="de" text="Hochschule der Bundesagentur für Arbeit"/>
-    </category>
-    <category ID="03py54049">
-      <label xml:lang="en" text="Ernst Busch Academy of Dramatic Arts"/>
-      <label xml:lang="de" text="Hochschule für Schauspielkunst Ernst Busch"/>
-    </category>
-    <category ID="00jw3g525">
-      <label xml:lang="en" text="Munich Business School"/>
-      <label xml:lang="de" text="Munich Business School"/>
-    </category>
-    <category ID="01d4n6n22">
-      <label xml:lang="en" text="Hochschule für Kunsttherapie Nürtingen"/>
-      <label xml:lang="de" text="Hochschule für Kunsttherapie Nürtingen"/>
-    </category>
-    <category ID="05ygfpx91">
-      <label xml:lang="en" text="SRH Fernhochschule Riedlingen"/>
-      <label xml:lang="de" text="SRH Fernhochschule Riedlingen"/>
-    </category>
-    <category ID="0530gbs37">
-      <label xml:lang="en" text="IB Hochschule"/>
-      <label xml:lang="de" text="IB Hochschule"/>
-    </category>
-    <category ID="0243j3z07">
-      <label xml:lang="en" text="European Fernhochschule Hamburg"/>
-      <label xml:lang="de" text="Europäische Fernhochschule Hamburg"/>
-    </category>
-    <category ID="01qjbb734">
-      <label xml:lang="en" text="Saxon Police Force"/>
-      <label xml:lang="de" text="Hochschule der Sächsischen Polizei"/>
-    </category>
-    <category ID="01gm0md04">
-      <label xml:lang="en" text="Provadis School of International Management and Technology"/>
-      <label xml:lang="de" text="Provadis Hochschule"/>
-    </category>
-    <category ID="046ns5110">
-      <label xml:lang="en" text="Fachhochschule der Wirtschaft"/>
-      <label xml:lang="de" text="Fachhochschule der Wirtschaft"/>
-    </category>
-    <category ID="02r724415">
-      <label xml:lang="en" text="Evangelische Hochschule Dresden"/>
-      <label xml:lang="de" text="Evangelische Hochschule Dresden"/>
-    </category>
-    <category ID="03bavdz78">
-      <label xml:lang="en" text="Hochschule für Musik Freiburg"/>
-      <label xml:lang="de" text="Hochschule für Musik Freiburg"/>
-    </category>
-    <category ID="01ptm9403">
-      <label xml:lang="en" text="Palucca Hochschule für Tanz Dresden"/>
-      <label xml:lang="de" text="Palucca Hochschule für Tanz Dresden"/>
-    </category>
-    <category ID="00j9xkc07">
-      <label xml:lang="en" text="European University of Applied Sciences"/>
-      <label xml:lang="de" text="Europäische Fachhochschule Rhein/Erft"/>
-    </category>
-    <category ID="036f7qt17">
-      <label xml:lang="en" text="University of Applied Sciences Fliedner Fachhochschule"/>
-      <label xml:lang="de" text="Fliedner Fachhochschule Düsseldorf"/>
-    </category>
-    <category ID="05w6fhk97">
-      <label xml:lang="en" text="Cologne Business School"/>
-      <label xml:lang="de" text="Cologne Business School"/>
-    </category>
-    <category ID="000jzpp78">
-      <label xml:lang="en" text="International University in Germany"/>
-      <label xml:lang="de" text="International University in Germany"/>
-    </category>
-    <category ID="02rm8h934">
-      <label xml:lang="en" text="UNESCO-UNEVOC International Centre for Technical and Vocational Education and Training"/>
-      <label xml:lang="de" text="UNESCO-UNEVOC International Centre for Technical and Vocational Education and Training"/>
-    </category>
-    <category ID="01xpfrc74">
-      <label xml:lang="en" text="Flensburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Flensburg"/>
-    </category>
-    <category ID="04t5phd24">
-      <label xml:lang="en" text="South Westphalia University of Applied Sciences"/>
-      <label xml:lang="de" text="Fachhochschule Südwestfalen"/>
-    </category>
-    <category ID="04x02q560">
-      <label xml:lang="en" text="Bochum University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Bochum"/>
-    </category>
-    <category ID="03crxcn36">
-      <label xml:lang="en" text="Albstadt-Sigmaringen University"/>
-      <label xml:lang="de" text="Hochschule Albstadt-Sigmaringen"/>
-    </category>
-    <category ID="04qbqv677">
-      <label xml:lang="en" text="Film University Babelsberg"/>
-      <label xml:lang="de" text="Filmuniversität Babelsberg Konrad Wolf"/>
-    </category>
-    <category ID="001rdde17">
-      <label xml:lang="en" text="Hamm-Lippstadt University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Hamm-Lippstadt"/>
-    </category>
-    <category ID="05c11k793">
-      <label xml:lang="en" text="Bucerius Law School"/>
-      <label xml:lang="de" text="Bucerius Law School"/>
-    </category>
-    <category ID="012m9bp23">
-      <label xml:lang="en" text="University of Applied Sciences Potsdam"/>
-      <label xml:lang="de" text="Fachhochschule Potsdam"/>
-    </category>
-    <category ID="028j9tc52">
-      <label xml:lang="en" text="Niedersächsisches Institut für frühkindliche Bildung und Entwicklung"/>
-      <label xml:lang="de" text="Niedersächsisches Institut für frühkindliche Bildung und Entwicklung"/>
-    </category>
-    <category ID="00zayq578">
-      <label xml:lang="en" text="State Academy of Fine Arts in Stuttgart"/>
-      <label xml:lang="de" text="Staatliche Akademie der Bildenden Künste Stuttgart"/>
-    </category>
-    <category ID="01bk10867">
-      <label xml:lang="en" text="Ostfalia University of Applied Sciences"/>
-      <label xml:lang="de" text="Ostfalia Hochschule für Angewandte Wissenschaften"/>
-    </category>
-    <category ID="02rtsfd15">
-      <label xml:lang="en" text="University of Education Freiburg"/>
-      <label xml:lang="de" text="Pädagogische Hochschule Freiburg"/>
-    </category>
-    <category ID="03efsge90">
-      <label xml:lang="en" text="Steinbeis University Berlin"/>
-      <label xml:lang="de" text="Steinbeis-Hochschule Berlin"/>
-    </category>
-    <category ID="03rkmps36">
-      <label xml:lang="en" text="Berlin School of Economics and Law"/>
-      <label xml:lang="de" text="Hochschule für Wirtschaft und Recht"/>
-    </category>
-    <category ID="045gdxt02">
-      <label xml:lang="en" text="University of Fine Arts in Hamburg"/>
-      <label xml:lang="de" text="Hochschule für bildende Künste"/>
-    </category>
-    <category ID="04wqsqf86">
-      <label xml:lang="en" text="Dresden Academy of Fine Arts"/>
-      <label xml:lang="de" text="Hochschule für Bildende Künste Dresden"/>
-    </category>
-    <category ID="00xnq7h44">
-      <label xml:lang="en" text="Hochschule für Künste im Sozialen"/>
-      <label xml:lang="de" text="Hochschule für Künste im Sozialen"/>
-    </category>
-    <category ID="01js9jv94">
-      <label xml:lang="en" text="EBS University of Business and Law"/>
-      <label xml:lang="de" text="EBS Universität für Wirtschaft und Recht"/>
-    </category>
-    <category ID="04b404920">
-      <label xml:lang="en" text="Alice Salomon University of Applied Sciences Berlin"/>
-      <label xml:lang="de" text="Alice Salomon Hochschule Berlin"/>
-    </category>
-    <category ID="013kf9t32">
-      <label xml:lang="en" text="Hanseatic University Rostock"/>
-      <label xml:lang="de" text="Private Hanseuniversität"/>
-    </category>
-    <category ID="014cnmj57">
-      <label xml:lang="en" text="Ravensburg University of Cooperative Education"/>
-      <label xml:lang="de" text="Duale Hochschule Baden-Württemberg Ravensburg"/>
-    </category>
-    <category ID="02rqsa469">
-      <label xml:lang="en" text="Nürtingen-Geislingen University of Applied Science"/>
-      <label xml:lang="de" text="Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen"/>
-    </category>
-    <category ID="02fstjp34">
-      <label xml:lang="en" text="University of the Arts Bremen"/>
-      <label xml:lang="de" text="Hochschule für Künste Bremen"/>
-    </category>
-    <category ID="01k5h5v15">
-      <label xml:lang="en" text="University of Applied Sciences Würzburg-Schweinfurt"/>
-      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften Würzburg-Schweinfurt"/>
-    </category>
-    <category ID="04839sh14">
-      <label xml:lang="en" text="Medizinische Hochschule Brandenburg Theodor Fontane"/>
-      <label xml:lang="de" text="Medizinische Hochschule Brandenburg Theodor Fontane"/>
-    </category>
-    <category ID="02652az59">
-      <label xml:lang="en" text="Control Union Academy"/>
-      <label xml:lang="de" text="Control Union Academy"/>
-    </category>
-    <category ID="00nm1ws09">
-      <label xml:lang="en" text="Institut für Nachhaltiges Management"/>
-      <label xml:lang="de" text="Institut für Nachhaltiges Management"/>
-    </category>
-    <category ID="03gsqqb61">
-      <label xml:lang="en" text="Institut für Soziale Infrastruktur"/>
-      <label xml:lang="de" text="Institut für Soziale Infrastruktur"/>
-    </category>
-    <category ID="05k2sh226">
-      <label xml:lang="en" text="Bard College Berlin"/>
-      <label xml:lang="de" text="Bard College Berlin"/>
-    </category>
-    <category ID="00yq55g44">
-      <label xml:lang="en" text="Witten/Herdecke University"/>
-      <label xml:lang="de" text="Universität Witten/Herdecke"/>
-    </category>
-    <category ID="03z6vda50">
-      <label xml:lang="en" text="University of Applied Sciences FHDW Hannover"/>
-      <label xml:lang="de" text="Fachhochschule für die Wirtschaft Hannover"/>
-    </category>
-    <category ID="00e8f1a50">
-      <label xml:lang="en" text="Theologische Fakultät Paderborn"/>
-      <label xml:lang="de" text="Theologische Fakultät Paderborn"/>
-    </category>
-    <category ID="00t3r8h32">
-      <label xml:lang="en" text="University of Lübeck"/>
-      <label xml:lang="de" text="Universität zu Lübeck"/>
-    </category>
-    <category ID="04tsk2644">
-      <label xml:lang="en" text="Ruhr University Bochum"/>
-      <label xml:lang="de" text="Ruhr-Universität Bochum"/>
-    </category>
-    <category ID="03p14d497">
-      <label xml:lang="en" text="University of Augsburg"/>
-      <label xml:lang="de" text="Universität Augsburg"/>
-    </category>
-    <category ID="04t3en479">
-      <label xml:lang="en" text="Karlsruhe Institute of Technology"/>
-      <label xml:lang="de" text="Karlsruher Institut für Technologie"/>
-    </category>
-    <category ID="01z1z7017">
-      <label xml:lang="en" text="Forschungsinstitut für Kinderernährung"/>
-      <label xml:lang="de" text="Forschungsinstitut für Kinderernährung"/>
-    </category>
-    <category ID="0191jdv19">
-      <label xml:lang="en" text="Fachhochschule Clara Hoffbauer Potsdam"/>
-      <label xml:lang="de" text="Fachhochschule Clara Hoffbauer Potsdam"/>
-    </category>
-    <category ID="05kkv3f82">
-      <label xml:lang="en" text="University of the Bundeswehr Munich"/>
-      <label xml:lang="de" text="Universität der Bundeswehr München"/>
-    </category>
-    <category ID="01y9bpm73">
-      <label xml:lang="en" text="University of Göttingen"/>
-      <label xml:lang="de" text="Georg-August-Universität Göttingen"/>
-    </category>
-    <category ID="01rdrb571">
-      <label xml:lang="en" text="Philipps University of Marburg"/>
-      <label xml:lang="de" text="Philipps-Universität Marburg"/>
-    </category>
-    <category ID="04m2anh63">
-      <label xml:lang="en" text="Bonn-Rhein-Sieg University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Bonn-Rhein-Sieg"/>
-    </category>
-    <category ID="04wb1en98">
-      <label xml:lang="en" text="Evangelical School of Social Work &amp; Diakonie"/>
-      <label xml:lang="de" text="Evangelische Hochschule für Soziale Arbeit &amp; Diakonie"/>
-    </category>
-    <category ID="04f7jc139">
-      <label xml:lang="en" text="Bremen University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Bremen"/>
-    </category>
-    <category ID="03fzkfr34">
-      <label xml:lang="en" text="Landesinstitut für Pädagogik und Medien"/>
-      <label xml:lang="de" text="Landesinstitut für Pädagogik und Medien"/>
-    </category>
-    <category ID="01qvmm256">
-      <label xml:lang="en" text="Academy of Arts Education"/>
-      <label xml:lang="de" text="Akademie der Kulturellen Bildung"/>
-    </category>
-    <category ID="04d5zsn45">
-      <label xml:lang="en" text="Deutsch Amerikanisches Institut Saarland"/>
-      <label xml:lang="de" text="Deutsch Amerikanisches Institut Saarland"/>
-    </category>
-    <category ID="045ky2r08">
-      <label xml:lang="en" text="Erich-Brost-Institut"/>
-      <label xml:lang="de" text="Erich-Brost-Institut"/>
-    </category>
-    <category ID="038ftp957">
-      <label xml:lang="en" text="German Foreign Trade and Transport Academy"/>
-      <label xml:lang="de" text="German Foreign Trade and Transport Academy"/>
-    </category>
-    <category ID="01kxwcg54">
-      <label xml:lang="en" text="Schweißtechnische Lehr- und Versuchsanstalt Nord"/>
-      <label xml:lang="de" text="Schweißtechnische Lehr- und Versuchsanstalt Nord"/>
-    </category>
-    <category ID="01n1byn02">
-      <label xml:lang="en" text="Institut der Feuerwehr Nordrhein-Westfalen"/>
-      <label xml:lang="de" text="Institut der Feuerwehr Nordrhein-Westfalen"/>
-    </category>
-    <category ID="00sf4jq50">
-      <label xml:lang="en" text="Institut für Brand- und Katastrophenschutz Heyrothsberge"/>
-      <label xml:lang="de" text="Institut für Brand- und Katastrophenschutz Heyrothsberge"/>
-    </category>
-    <category ID="04x6bfw13">
-      <label xml:lang="en" text="Gesellschaft für Pädagogik und Information"/>
-      <label xml:lang="de" text="Gesellschaft für Pädagogik und Information"/>
-    </category>
-    <category ID="03dyvyv84">
-      <label xml:lang="en" text="Felsenweg-Institut"/>
-      <label xml:lang="de" text="Felsenweg-Institut"/>
-    </category>
-    <category ID="0547r0f90">
-      <label xml:lang="en" text="Landesinstitut für Schule und Medien Berlin-Brandenburg"/>
-      <label xml:lang="de" text="Landesinstitut für Schule und Medien Berlin-Brandenburg"/>
-    </category>
-    <category ID="00mczy147">
-      <label xml:lang="en" text="Medien Management Institut"/>
-      <label xml:lang="de" text="Medien Management Institut"/>
-    </category>
-    <category ID="04dmvwm54">
-      <label xml:lang="en" text="Medizinische Akademie Erfurt"/>
-      <label xml:lang="de" text="Medizinische Akademie Erfurt"/>
-    </category>
-    <category ID="03jyr3j92">
-      <label xml:lang="en" text="Staatliche Lehr- und Versuchsanstalt für Gartenbau"/>
-      <label xml:lang="de" text="Staatliche Lehr- und Versuchsanstalt für Gartenbau"/>
-    </category>
-    <category ID="046j18q84">
-      <label xml:lang="en" text="Internationales Institut für Nachhaltiges Energiemanagement, Politik, Risiko und Soziale Innovationen"/>
-      <label xml:lang="de" text="Internationales Institut für Nachhaltiges Energiemanagement, Politik, Risiko und Soziale Innovationen"/>
-    </category>
-    <category ID="027wbjg72">
-      <label xml:lang="en" text="Johann Adam Möhler Institute for Ecumenism"/>
-      <label xml:lang="de" text="Johann-Adam-Möhler-Institut für Ökumenik"/>
-    </category>
-    <category ID="03zekj455">
-      <label xml:lang="en" text="Berlin Mathematical School"/>
-      <label xml:lang="de" text="Berlin Mathematical School"/>
-    </category>
-    <category ID="01weqhp73">
-      <label xml:lang="en" text="Technische Universität Ilmenau"/>
-      <label xml:lang="de" text="Technische Universität Ilmenau"/>
-    </category>
-    <category ID="00g30e956">
-      <label xml:lang="en" text="Universität Hamburg"/>
-      <label xml:lang="de" text="Universität Hamburg"/>
-    </category>
-    <category ID="001rdaz60">
-      <label xml:lang="en" text="Bavarian Academy of Sciences and Humanities"/>
-      <label xml:lang="de" text="Bayerische Akademie der Wissenschaften"/>
-    </category>
-    <category ID="0473a4773">
-      <label xml:lang="en" text="Hertie School"/>
-      <label xml:lang="de" text="Hertie School"/>
-    </category>
-    <category ID="0076zct58">
-      <label xml:lang="en" text="Anhalt University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Anhalt"/>
-    </category>
-    <category ID="048gb8814">
-      <label xml:lang="en" text="Schwetzingen Technical Institute &amp; Graduate Court Registrars' College"/>
-      <label xml:lang="de" text="Fachhochschule für Rechtspflege Schwetzingen"/>
-    </category>
-    <category ID="02g2sh456">
-      <label xml:lang="en" text="University of Education Schwaebisch Gmuend"/>
-      <label xml:lang="de" text="Pädagogische Hochschule Schwäbisch Gmünd"/>
-    </category>
-    <category ID="041nas322">
-      <label xml:lang="en" text="University of Bonn"/>
-      <label xml:lang="de" text="Rheinische Friedrich-Wilhelms-Universität Bonn"/>
-    </category>
-    <category ID="00rcxh774">
-      <label xml:lang="en" text="University of Cologne"/>
-      <label xml:lang="de" text="Universität zu Köln"/>
-    </category>
-    <category ID="00mx91s63">
-      <label xml:lang="en" text="Catholic University of Eichstätt-Ingolstadt"/>
-      <label xml:lang="de" text="Katholische Universität Eichstätt-Ingolstadt"/>
-    </category>
-    <category ID="00fkqwx76">
-      <label xml:lang="en" text="HAW Hamburg"/>
-      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften Hamburg"/>
-    </category>
-    <category ID="03av75f26">
-      <label xml:lang="en" text="Max Planck Institute for Multidisciplinary Sciences"/>
-      <label xml:lang="de" text="Max Planck Institut für Multidisziplinäre Naturwissenschaften"/>
-    </category>
-    <category ID="03afcx965">
-      <label xml:lang="en" text="bbw University of Applied Sciences"/>
-      <label xml:lang="de" text="bbw Hochschule"/>
-    </category>
-    <category ID="00f2wje32">
-      <label xml:lang="en" text="Academy of Media Arts Cologne"/>
-      <label xml:lang="de" text="Kunsthochschule für Medien Köln"/>
-    </category>
-    <category ID="01hkc4630">
-      <label xml:lang="en" text="University of Applied Sciences Erfurt"/>
-      <label xml:lang="de" text="Fachhochschule Erfurt"/>
-    </category>
-    <category ID="00996c044">
-      <label xml:lang="en" text="Catholic University of Applied Social Sciences"/>
-      <label xml:lang="de" text="Katholische Hochschule für Sozialwesen Berlin"/>
-    </category>
-    <category ID="01w09y597">
-      <label xml:lang="en" text="Mannheim University of Music and Performing Arts"/>
-      <label xml:lang="de" text="Staatliche Hochschule für Musik und Darstellende Kunst Mannheim"/>
-    </category>
-    <category ID="03pqf0084">
-      <label xml:lang="en" text="International University Institute"/>
-      <label xml:lang="de" text="Geschichte des Internationalen Hochschulinstituts (IHI) Zittau"/>
-    </category>
-    <category ID="05b7xvc63">
-      <label xml:lang="en" text="Nuremberg University of Music"/>
-      <label xml:lang="de" text="Hochschule für Musik Nürnberg"/>
-    </category>
-    <category ID="030sdwr92">
-      <label xml:lang="en" text="University of Art and Design Offenbach"/>
-      <label xml:lang="de" text="Hochschule für Gestaltung Offenbach"/>
-    </category>
-    <category ID="026kenw55">
-      <label xml:lang="en" text="SRH Hochschule für Gesundheit Gera"/>
-      <label xml:lang="de" text="SRH Hochschule für Gesundheit Gera"/>
-    </category>
-    <category ID="02832sw36">
-      <label xml:lang="en" text="Trossingen University of Music"/>
-      <label xml:lang="de" text="Staatliche Hochschule für Musik Trossingen"/>
-    </category>
-    <category ID="038fwdn76">
-      <label xml:lang="en" text="University of Applied Management"/>
-      <label xml:lang="de" text="Hochschule für Angewandtes Management"/>
-    </category>
-    <category ID="016zq4f37">
-      <label xml:lang="en" text="University of Design Schwäbisch Gmünd"/>
-      <label xml:lang="de" text="Hochschule für Gestaltung Schwäbisch Gmünd"/>
-    </category>
-    <category ID="031eq5e98">
-      <label xml:lang="en" text="University of Education Weingarten"/>
-      <label xml:lang="de" text="Pädagogische Hochschule Weingarten"/>
-    </category>
-    <category ID="01ej3e061">
-      <label xml:lang="en" text="Philosophisch-Theologische Hochschule SVD St. Augustin"/>
-      <label xml:lang="de" text="Philosophisch-Theologische Hochschule SVD St. Augustin"/>
-    </category>
-    <category ID="057qv9h29">
-      <label xml:lang="en" text="State University of Music and Performing Arts Stuttgart"/>
-      <label xml:lang="de" text="Musikhochschule Stuttgart"/>
-    </category>
-    <category ID="040dxjz28">
-      <label xml:lang="en" text="Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege des Landes Mecklenburg-Vorpommern"/>
-      <label xml:lang="de" text="Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege des Landes Mecklenburg-Vorpommern"/>
-    </category>
-    <category ID="02743t710">
-      <label xml:lang="en" text="Norddeutsche Hochschule für Rechtspflege"/>
-      <label xml:lang="de" text="Norddeutsche Hochschule für Rechtspflege"/>
-    </category>
-    <category ID="03037cz33">
-      <label xml:lang="en" text="Design Akademie Berlin"/>
-      <label xml:lang="de" text="Design Akademie Berlin"/>
-    </category>
-    <category ID="02a8wk986">
-      <label xml:lang="en" text="AKAD University"/>
-      <label xml:lang="de" text="AKAD University"/>
-    </category>
-    <category ID="0167r2g29">
-      <label xml:lang="en" text="Merz Akademie"/>
-      <label xml:lang="de" text="Merz Akademie"/>
-    </category>
-    <category ID="0560e8961">
-      <label xml:lang="en" text="Hamburg School of Business Administration"/>
-      <label xml:lang="de" text="Hamburg School of Business Administration"/>
-    </category>
-    <category ID="00xdvw685">
-      <label xml:lang="en" text="college 21"/>
-      <label xml:lang="de" text="Hochschule 21"/>
-    </category>
-    <category ID="05eyxqf74">
-      <label xml:lang="en" text="Private Hochschule für Wirtschaft und Technik"/>
-      <label xml:lang="de" text="Fachhochschule für Wirtschaft und Technik"/>
-    </category>
-    <category ID="04m4shs41">
-      <label xml:lang="en" text="Dekra Hochschule für Medien"/>
-      <label xml:lang="de" text="Dekra Hochschule für Medien"/>
-    </category>
-    <category ID="03t7d6q88">
-      <label xml:lang="en" text="Federal University of Applied Administrative Sciences"/>
-      <label xml:lang="de" text="Federal University of Applied Administrative Sciences"/>
-    </category>
-    <category ID="04ms51788">
-      <label xml:lang="en" text="Westsächsische Hochschule Zwickau"/>
-      <label xml:lang="de" text="Westsächsische Hochschule Zwickau"/>
-    </category>
-    <category ID="00jvbme10">
-      <label xml:lang="en" text="Fachhochschule für Finanzen Brandenburg"/>
-      <label xml:lang="de" text="Fachhochschule für Finanzen Brandenburg"/>
-    </category>
-    <category ID="03eqwj662">
-      <label xml:lang="en" text="Leibniz University of Applied Sciences"/>
-      <label xml:lang="de" text="Leibniz Fachhochschule"/>
-    </category>
-    <category ID="01tkb3y54">
-      <label xml:lang="en" text="GISMA Business School"/>
-      <label xml:lang="de" text="GISMA Business School"/>
-    </category>
-    <category ID="01bc76c69">
-      <label xml:lang="en" text="University of Applied Sciences Emden Leer"/>
-      <label xml:lang="de" text="Hochschule Emden / Leer"/>
-    </category>
-    <category ID="003r76697">
-      <label xml:lang="en" text="Nordakademie"/>
-      <label xml:lang="de" text="Nordakademie"/>
-    </category>
-    <category ID="01hqp1g48">
-      <label xml:lang="en" text="University of Applied Sciences Kehl"/>
-      <label xml:lang="de" text="Hochschule Kehl"/>
-    </category>
-    <category ID="001yqrb02">
-      <label xml:lang="en" text="University of Applied Sciences Bremerhaven"/>
-      <label xml:lang="de" text="Hochschule Bremerhaven"/>
-    </category>
-    <category ID="03m2kj587">
-      <label xml:lang="en" text="Hochschule Hannover"/>
-      <label xml:lang="de" text="Hochschule Hannover"/>
-    </category>
-    <category ID="01t1kq612">
-      <label xml:lang="en" text="Karlsruhe University of Education"/>
-      <label xml:lang="de" text="Pädagogische Hochschule Karlsruhe"/>
-    </category>
-    <category ID="056cezx90">
-      <label xml:lang="en" text="Esslingen University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Esslingen"/>
-    </category>
-    <category ID="01w0fb867">
-      <label xml:lang="en" text="Alanus University of Arts and Social Sciences"/>
-      <label xml:lang="de" text="Alanus Hochschule für Kunst und Gesellschaft"/>
-    </category>
-    <category ID="05m3vpd98">
-      <label xml:lang="en" text="FOM University of Applied Sciences for Economics and Management"/>
-      <label xml:lang="de" text="FOM - Hochschule für Oekonomie und Management"/>
-    </category>
-    <category ID="03c0qqf32">
-      <label xml:lang="en" text="Frankfurt University of Music and Performing Arts"/>
-      <label xml:lang="de" text="Hochschule für Musik und Darstellende Kunst Frankfurt am Main"/>
-    </category>
-    <category ID="00z9cn431">
-      <label xml:lang="en" text="Kühne Logistics University"/>
-      <label xml:lang="de" text="Kühne Logistics University"/>
-    </category>
-    <category ID="01d30w739">
-      <label xml:lang="en" text="German University of Administrative Sciences"/>
-      <label xml:lang="de" text="Deutsche Universität für Verwaltungswissenschaften Speyer"/>
-    </category>
-    <category ID="04f8x5b20">
-      <label xml:lang="en" text="Merseburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Merseburg"/>
-    </category>
-    <category ID="02vvvm705">
-      <label xml:lang="en" text="Jade University of Applied Sciences"/>
-      <label xml:lang="de" text="Jade Hochschule"/>
-    </category>
-    <category ID="03w3a0h43">
-      <label xml:lang="en" text="Protestant University of Applied Sciences Freiburg"/>
-      <label xml:lang="de" text="Evangelische Hochschule Freiburg"/>
-    </category>
-    <category ID="04nbz6d36">
-      <label xml:lang="en" text="Nordhausen University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Nordhausen"/>
-    </category>
-    <category ID="01a7snz60">
-      <label xml:lang="en" text="University of Television and Film Munich"/>
-      <label xml:lang="de" text="Hochschule für Fernsehen und Film München"/>
-    </category>
-    <category ID="00s4rmz74">
-      <label xml:lang="en" text="University of Applied Sciences Ravensburg-Weingarten"/>
-      <label xml:lang="de" text="Hochschule Ravensburg-Weingarten"/>
-    </category>
-    <category ID="00bwfj843">
-      <label xml:lang="en" text="University of Applied Sciences Wedel"/>
-      <label xml:lang="de" text="Private Fachhochschule Wedel"/>
-    </category>
-    <category ID="045y6d111">
-      <label xml:lang="en" text="University of Vechta"/>
-      <label xml:lang="de" text="Universität Vechta"/>
-    </category>
-    <category ID="04e209f39">
-      <label xml:lang="en" text="Loewe Center for Synthetic Microbiology"/>
-      <label xml:lang="de" text="Loewe-Zentrum für Synthetische Mikrobiologie"/>
-    </category>
-    <category ID="024ga3r86">
-      <label xml:lang="en" text="University of Applied Sciences Mittweida"/>
-      <label xml:lang="de" text="Hochschule Mittweida"/>
-    </category>
-    <category ID="05jgq9443">
-      <label xml:lang="en" text="Berlin-Brandenburg Academy of Sciences and Humanities"/>
-      <label xml:lang="de" text="Berlin-Brandenburgische Akademie der Wissenschaften"/>
-    </category>
-    <category ID="01a2z2x66">
-      <label xml:lang="en" text="Cologne Institute for Economic Research"/>
-      <label xml:lang="de" text="Institut der deutschen Wirtschaft Köln"/>
-    </category>
-    <category ID="05jghsy80">
-      <label xml:lang="en" text="Holbein-Gymnasium Augsburg"/>
-      <label xml:lang="de" text="Holbein-Gymnasium Augsburg"/>
-    </category>
-    <category ID="039a0eq51">
-      <label xml:lang="en" text="Ostkirchliches Institut Regensburg"/>
-      <label xml:lang="de" text="Ostkirchliches Institut Regensburg"/>
-    </category>
-    <category ID="04b98k103">
-      <label xml:lang="en" text="Döpfer Schulen Regensburg"/>
-      <label xml:lang="de" text="Döpfer Schulen Regensburg"/>
-    </category>
-    <category ID="03zvpee43">
-      <label xml:lang="en" text="Hochschule für Gesundheitsorientierte Wissenschaften Rhein-Neckar"/>
-      <label xml:lang="de" text="Hochschule für Gesundheitsorientierte Wissenschaften Rhein-Neckar"/>
-    </category>
-    <category ID="04e8jbs38">
-      <label xml:lang="en" text="Helmut Schmidt University"/>
-      <label xml:lang="de" text="Helmut-Schmidt-Universität"/>
-    </category>
-    <category ID="015qjqf64">
-      <label xml:lang="en" text="University of Veterinary Medicine Hannover, Foundation"/>
-      <label xml:lang="de" text="Stiftung Tierärztliche Hochschule Hannover"/>
-    </category>
-    <category ID="01rfnc002">
-      <label xml:lang="en" text="Ernst Abbe University of Applied Sciences Jena"/>
-      <label xml:lang="de" text="Ernst-Abbe-Hochschule Jena"/>
-    </category>
-    <category ID="00gzkxz88">
-      <label xml:lang="en" text="Weihenstephan-Triesdorf University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Weihenstephan-Triesdorf"/>
-    </category>
-    <category ID="05591te55">
-      <label xml:lang="en" text="Ludwig-Maximilians-Universität in Munich"/>
-      <label xml:lang="de" text="Ludwig-Maximilians-Universität München"/>
-    </category>
-    <category ID="0234wmv40">
-      <label xml:lang="en" text="University of Bayreuth"/>
-      <label xml:lang="de" text="Universität Bayreuth"/>
-    </category>
-    <category ID="04zrf7b53">
-      <label xml:lang="en" text="University of Kaiserslautern"/>
-      <label xml:lang="de" text="Technische Universität Kaiserslautern"/>
-    </category>
-    <category ID="02f9det96">
-      <label xml:lang="en" text="University of Hildesheim"/>
-      <label xml:lang="de" text="Universität Hildesheim"/>
-    </category>
-    <category ID="04v76ef78">
-      <label xml:lang="en" text="Kiel University"/>
-      <label xml:lang="de" text="Christian-Albrechts-Universität zu Kiel"/>
-    </category>
-    <category ID="02m11x738">
-      <label xml:lang="en" text="Furtwangen University"/>
-      <label xml:lang="de" text="Hochschule Furtwangen"/>
-    </category>
-    <category ID="04tkkr536">
-      <label xml:lang="en" text="University of Hagen"/>
-      <label xml:lang="de" text="FernUniversität in Hagen"/>
-    </category>
-    <category ID="05dkqa017">
-      <label xml:lang="en" text="University of Applied Sciences Kaiserslautern"/>
-      <label xml:lang="de" text="Hochschule Kaiserslautern"/>
-    </category>
-    <category ID="00s1ckt27">
-      <label xml:lang="en" text="University of Wismar"/>
-      <label xml:lang="de" text="Hochschule Wismar"/>
-    </category>
-    <category ID="04p7ekn23">
-      <label xml:lang="en" text="Westfälische Hochschule"/>
-      <label xml:lang="de" text="Westfälische Hochschule"/>
-    </category>
-    <category ID="00r1edq15">
-      <label xml:lang="en" text="University of Greifswald"/>
-      <label xml:lang="de" text="Ernst-Moritz-Arndt-Universität Greifswald"/>
-    </category>
-    <category ID="02tdyw459">
-      <label xml:lang="en" text="Archives School Marburg"/>
-      <label xml:lang="de" text="Archivschule Marburg"/>
-    </category>
-    <category ID="02nzadc54">
-      <label xml:lang="en" text="Hochschule für öffentliche Verwaltung Rheinland-Pfalz"/>
-      <label xml:lang="de" text="Hochschule für öffentliche Verwaltung Rheinland-Pfalz"/>
-    </category>
-    <category ID="02r625m11">
-      <label xml:lang="en" text="Frankfurt University of Applied Sciences"/>
-      <label xml:lang="de" text="Frankfurt University of Applied Sciences"/>
-    </category>
-    <category ID="047wbd030">
-      <label xml:lang="en" text="Darmstadt University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Darmstadt"/>
-    </category>
-    <category ID="033n9gh91">
-      <label xml:lang="en" text="Carl von Ossietzky University of Oldenburg"/>
-      <label xml:lang="de" text="Carl von Ossietzky Universität Oldenburg"/>
-    </category>
-    <category ID="04ers2y35">
-      <label xml:lang="en" text="University of Bremen"/>
-      <label xml:lang="de" text="Universität Bremen"/>
-    </category>
-    <category ID="03s7gtk40">
-      <label xml:lang="en" text="Leipzig University"/>
-      <label xml:lang="de" text="Universität Leipzig"/>
-    </category>
-    <category ID="0546hnb39">
-      <label xml:lang="en" text="University of Konstanz"/>
-      <label xml:lang="de" text="Universität Konstanz"/>
-    </category>
-    <category ID="04qmmjx98">
-      <label xml:lang="en" text="Osnabrück University"/>
-      <label xml:lang="de" text="Universität Osnabrück"/>
-    </category>
-    <category ID="042xxdh20">
-      <label xml:lang="en" text="Ludwigshafen University of Business and Society"/>
-      <label xml:lang="de" text="Hochschule für Wirtschaft und Gesellschaft Ludwigshafen"/>
-    </category>
-    <category ID="04xfq0f34">
-      <label xml:lang="en" text="RWTH Aachen University"/>
-      <label xml:lang="de" text="Rheinisch-Westfälische Technische Hochschule Aachen"/>
-    </category>
-    <category ID="04eka8j06">
-      <label xml:lang="en" text="Ostwestfalen-Lippe University of Applied Sciences and Arts"/>
-      <label xml:lang="de" text="Technische Hochschule Ostwestfalen-Lippe"/>
-    </category>
-    <category ID="04b9vrm74">
-      <label xml:lang="en" text="Regensburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Ostbayerische Technische Hochschule Regensburg"/>
-    </category>
-    <category ID="04gg60e72">
-      <label xml:lang="en" text="Hochschule Aalen"/>
-      <label xml:lang="de" text="Hochschule Aalen"/>
-    </category>
-    <category ID="0004r6b85">
-      <label xml:lang="en" text="University of Applied Sciences Biberach"/>
-      <label xml:lang="de" text="Hochschule Biberach"/>
-    </category>
-    <category ID="04p61dj41">
-      <label xml:lang="en" text="Mannheim University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Mannheim"/>
-    </category>
-    <category ID="00pv45a02">
-      <label xml:lang="en" text="Münster University of Applied Sciences"/>
-      <label xml:lang="de" text="Fachhochschule Münster"/>
-    </category>
-    <category ID="02nq4wt82">
-      <label xml:lang="en" text="Schmalkalden University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Schmalkalden"/>
-    </category>
-    <category ID="00ftx0026">
-      <label xml:lang="en" text="Hochschule Düsseldorf University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Düsseldorf"/>
-    </category>
-    <category ID="04hazks31">
-      <label xml:lang="en" text="International Max Planck Research School for Advanced Methods in Process and Systems Engineering"/>
-      <label xml:lang="de" text="International Max Planck Research School for Advanced Methods in Process and Systems Engineering"/>
-    </category>
-    <category ID="05n911h24">
-      <label xml:lang="en" text="Technical University of Darmstadt"/>
-      <label xml:lang="de" text="Technische Universität Darmstadt"/>
-    </category>
-    <category ID="038t2yw28">
-      <label xml:lang="en" text="Institute for Educational Quality Improvement"/>
-      <label xml:lang="de" text="Institut zur Qualitätsentwicklung im Bildungswesen"/>
-    </category>
-    <category ID="00f7ytv44">
-      <label xml:lang="en" text="Curculio Institute"/>
-      <label xml:lang="de" text="Curculio Institute"/>
-    </category>
-    <category ID="044w5t390">
-      <label xml:lang="en" text="European Centre for Community Education"/>
-      <label xml:lang="de" text="European Centre for Community Education"/>
-    </category>
-    <category ID="03b7zcy46">
-      <label xml:lang="en" text="Fachinstitut für Informatik und Grafikdesign"/>
-      <label xml:lang="de" text="Fachinstitut für Informatik und Grafikdesign"/>
-    </category>
-    <category ID="03e5gcq07">
-      <label xml:lang="en" text="Institut für Ausbildung Jugendlicher"/>
-      <label xml:lang="de" text="Institut für Ausbildung Jugendlicher"/>
-    </category>
-    <category ID="00ea83k06">
-      <label xml:lang="en" text="Institut für Kommunikation und Wirtschaftsbildung"/>
-      <label xml:lang="de" text="Institut für Kommunikation und Wirtschaftsbildung"/>
-    </category>
-    <category ID="01qve8440">
-      <label xml:lang="en" text="Institut für Berufliche Bildung"/>
-      <label xml:lang="de" text="Institut für Berufliche Bildung"/>
-    </category>
-    <category ID="03225mv93">
-      <label xml:lang="en" text="Museumspädagogische Zentrum"/>
-      <label xml:lang="de" text="Museumspädagogische Zentrum"/>
-    </category>
-    <category ID="047d27s15">
-      <label xml:lang="en" text="Permakultur Institut"/>
-      <label xml:lang="de" text="Permakultur Institut"/>
-    </category>
-    <category ID="054kgce12">
-      <label xml:lang="en" text="An-Institut für Transfer und Weiterbildung"/>
-      <label xml:lang="de" text="An-Institut für Transfer und Weiterbildung"/>
-    </category>
-    <category ID="02dm92c46">
-      <label xml:lang="en" text="Europa-Institut"/>
-      <label xml:lang="de" text="Europa-Institut"/>
-    </category>
-    <category ID="03rw8a492">
-      <label xml:lang="en" text="German University Association of Advanced Graduate Training"/>
-      <label xml:lang="de" text="Universitätsverband zur Qualifizierung des wissenschaftlichen Nachwuchses in Deutschland"/>
-    </category>
-    <category ID="039jwf091">
-      <label xml:lang="en" text="Acatech"/>
-      <label xml:lang="de" text="Deutsche Akademie der Technikwissenschaften"/>
-    </category>
-    <category ID="03ps48j85">
-      <label xml:lang="en" text="University of Music Karlsruhe"/>
-      <label xml:lang="de" text="Hochschule für Musik Karlsruhe"/>
-    </category>
-    <category ID="03xp99m49">
-      <label xml:lang="en" text="Institute for Integrated Management of Material Fluxes and of Resources"/>
-      <label xml:lang="de" text="Institute for Integrated Management of Material Fluxes and of Resources"/>
-    </category>
-    <category ID="02fm9ey65">
-      <label xml:lang="en" text="Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften"/>
-      <label xml:lang="de" text="Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften"/>
-    </category>
-    <category ID="00edvg943">
-      <label xml:lang="en" text="Fachhochschule Bielefeld"/>
-      <label xml:lang="de" text="Fachhochschule Bielefeld"/>
-    </category>
-    <category ID="03d1zwe41">
-      <label xml:lang="en" text="Center for Behavioral Brain Sciences"/>
-      <label xml:lang="de" text="Center for Behavioral Brain Sciences"/>
-    </category>
-    <category ID="03a1kwz48">
-      <label xml:lang="en" text="University of Tübingen"/>
-      <label xml:lang="de" text="Eberhard Karls Universität Tübingen"/>
-    </category>
-    <category ID="05f3gj938">
-      <label xml:lang="en" text="BTK University of Arts &amp; Design"/>
-      <label xml:lang="de" text="BTK - Hochschule für Kunst &amp; Design"/>
-    </category>
-    <category ID="00ztzxf77">
-      <label xml:lang="en" text="Academy of Fine Arts Münster"/>
-      <label xml:lang="de" text="Kunstakademie Münster"/>
-    </category>
-    <category ID="03kzgcv48">
-      <label xml:lang="en" text="Giessen School of Theology"/>
-      <label xml:lang="de" text="Freie Theologische Hochschule Gießen"/>
-    </category>
-    <category ID="033jd5r25">
-      <label xml:lang="en" text="Technische Hochschule Georg Agricola"/>
-      <label xml:lang="de" text="Technische Hochschule Georg Agricola"/>
-    </category>
-    <category ID="00txhpa83">
-      <label xml:lang="en" text="RFH - University of Applied Sciences Cologne"/>
-      <label xml:lang="de" text="Rheinische Fachhochschule Köln"/>
-    </category>
-    <category ID="03vz3qc29">
-      <label xml:lang="en" text="Protestant University of Applied Sciences Rhineland-Westphalia-Lippe"/>
-      <label xml:lang="de" text="Evangelische Hochschule Rheinland-Westfalen-Lippe"/>
-    </category>
-    <category ID="01prjcc04">
-      <label xml:lang="en" text="SRH University Berlin"/>
-      <label xml:lang="de" text="SRH Hochschule Berlin"/>
-    </category>
-    <category ID="05m1pqv80">
-      <label xml:lang="en" text="University of Music Würzburg"/>
-      <label xml:lang="de" text="Hochschule für Musik Würzburg"/>
-    </category>
-    <category ID="00vcnds94">
-      <label xml:lang="en" text="Philosophisch-Theologische Hochschule Benediktbeuern"/>
-      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Benediktbeuern"/>
-    </category>
-    <category ID="036smcz74">
-      <label xml:lang="en" text="Philosophisch-Theologische Hochschule Vallendar"/>
-      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Vallendar"/>
-    </category>
-    <category ID="02m7p2c22">
-      <label xml:lang="en" text="University of Music and Performing Arts Munich"/>
-      <label xml:lang="de" text="Hochschule für Musik und Theater München"/>
-    </category>
-    <category ID="03bthq143">
-      <label xml:lang="en" text="West Coast University of Applied Sciences"/>
-      <label xml:lang="de" text="Fachhochschule Westküste"/>
-    </category>
-    <category ID="03y02pg02">
-      <label xml:lang="en" text="University of Music Detmold"/>
-      <label xml:lang="de" text="Hochschule für Musik Detmold"/>
-    </category>
-    <category ID="01j2dwr66">
-      <label xml:lang="en" text="Catholic University of Applied Sciences in Munich"/>
-      <label xml:lang="de" text="Katholische Stiftungsfachhochschule München"/>
-    </category>
-    <category ID="04z03cz64">
-      <label xml:lang="en" text="Hochschule der Bildenden Künste Saar"/>
-      <label xml:lang="de" text="Hochschule der Bildenden Künste Saar"/>
-    </category>
-    <category ID="04tr4sk76">
-      <label xml:lang="en" text="Fachhochschule für Finanzen Nordrhein Westfalen"/>
-      <label xml:lang="de" text="Fachhochschule für Finanzen Nordrhein Westfalen"/>
-    </category>
-    <category ID="02qbcmz19">
-      <label xml:lang="en" text="University of Applied Sciences for Public Administration and Management"/>
-      <label xml:lang="de" text="Fachhochschule für öffentliche Verwaltung Nordrhein-Westfalen"/>
-    </category>
-    <category ID="05d6z1532">
-      <label xml:lang="en" text="Hochschule für Finanzen Rheinland Pfalz"/>
-      <label xml:lang="de" text="Hochschule für Finanzen Rheinland Pfalz"/>
-    </category>
-    <category ID="01eyhzm47">
-      <label xml:lang="en" text="Fachhochschule für Verwaltung des Saarlandes"/>
-      <label xml:lang="de" text="Fachhochschule für Verwaltung des Saarlandes"/>
-    </category>
-    <category ID="00vkbtf98">
-      <label xml:lang="en" text="Wilhelm Büchner Hochschule"/>
-      <label xml:lang="de" text="Wilhelm Büchner Hochschule"/>
-    </category>
-    <category ID="003xt6d81">
-      <label xml:lang="en" text="Fachhochschule für Verwaltung und Dienstleistung"/>
-      <label xml:lang="de" text="Fachhochschule für Verwaltung und Dienstleistung"/>
-    </category>
-    <category ID="01f5b8367">
-      <label xml:lang="en" text="Fachhochschule des Mittelstands"/>
-      <label xml:lang="de" text="Fachhochschule des Mittelstands"/>
-    </category>
-    <category ID="0367m1n91">
-      <label xml:lang="en" text="Hochschule Weserbergland"/>
-      <label xml:lang="de" text="Hochschule Weserbergland"/>
-    </category>
-    <category ID="01k6xby62">
-      <label xml:lang="en" text="SRH Hochschule für Logistik und Wirtschaft"/>
-      <label xml:lang="de" text="SRH Hochschule für Logistik und Wirtschaft"/>
-    </category>
-    <category ID="03hj8rz96">
-      <label xml:lang="en" text="hsg Bochum - University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für Gesundheit Bochum"/>
-    </category>
-    <category ID="041w2kh96">
-      <label xml:lang="en" text="University of Applied Sciences Europe"/>
-      <label xml:lang="de" text="University of Applied Sciences Europe"/>
-    </category>
-    <category ID="055s1wn27">
-      <label xml:lang="en" text="Hochschule für Polizei Baden-Württemberg"/>
-      <label xml:lang="de" text="Hochschule für Polizei Baden-Württemberg"/>
-    </category>
-    <category ID="05tn39y33">
-      <label xml:lang="en" text="Akademie der Polizei Hamburg"/>
-      <label xml:lang="de" text="Akademie der Polizei Hamburg"/>
-    </category>
-    <category ID="035jc1316">
-      <label xml:lang="en" text="Hessische Hochschule für Finanzen und Rechtspflege"/>
-      <label xml:lang="de" text="Hessische Hochschule für Finanzen und Rechtspflege"/>
-    </category>
-    <category ID="00apjgf04">
-      <label xml:lang="en" text="Schiller International University"/>
-      <label xml:lang="de" text="Schiller International University"/>
-    </category>
-    <category ID="005k9c849">
-      <label xml:lang="en" text="Evangelische Stiftung Volmarstein"/>
-      <label xml:lang="de" text="Evangelische Stiftung Volmarstein"/>
-    </category>
-    <category ID="042seb440">
-      <label xml:lang="en" text="Berufsförderungszentrum Essen"/>
-      <label xml:lang="de" text="Berufsförderungszentrum Essen"/>
-    </category>
-    <category ID="00q644y50">
-      <label xml:lang="en" text="Reutlingen University"/>
-      <label xml:lang="de" text="Hochschule Reutlingen"/>
-    </category>
-    <category ID="032xqbj11">
-      <label xml:lang="en" text="Technical University of Applied Sciences Lübeck"/>
-      <label xml:lang="de" text="Technische Hochschule Lübeck"/>
-    </category>
-    <category ID="01kdxra28">
-      <label xml:lang="en" text="Academy of Sciences and Literature"/>
-      <label xml:lang="de" text="Akademie der Wissenschaften und der Literatur Mainz"/>
-    </category>
-    <category ID="00vjd4k74">
-      <label xml:lang="en" text="HHL Leipzig Graduate School of Management"/>
-      <label xml:lang="de" text="Handelshochschule Leipzig"/>
-    </category>
-    <category ID="00f5q5839">
-      <label xml:lang="en" text="University of Applied Sciences and Arts University of Applied Sciences and Arts Hildesheim/Holzminden/Göttingen"/>
-      <label xml:lang="de" text="Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen"/>
-    </category>
-    <category ID="052gzq419">
-      <label xml:lang="en" text="Hochschule für Jüdische Studien"/>
-      <label xml:lang="de" text="Hochschule für Jüdische Studien"/>
-    </category>
-    <category ID="04g5gcg95">
-      <label xml:lang="en" text="Heilbronn University"/>
-      <label xml:lang="de" text="Hochschule Heilbronn"/>
-    </category>
-    <category ID="0044w3h23">
-      <label xml:lang="en" text="Heidelberg University of Education"/>
-      <label xml:lang="de" text="Pädagogische Hochschule Heidelberg"/>
-    </category>
-    <category ID="01x84xc38">
-      <label xml:lang="en" text="Sankt Georgen Graduate School of Philosophy and Theology"/>
-      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Sankt Georgen"/>
-    </category>
-    <category ID="01nbps758">
-      <label xml:lang="en" text="International University of Cooperative Education"/>
-      <label xml:lang="de" text="Internationale Berufsakademie"/>
-    </category>
-    <category ID="03gf02c22">
-      <label xml:lang="en" text="Folkwang University of the Arts"/>
-      <label xml:lang="de" text="Folkwang Universität der Künste"/>
-    </category>
-    <category ID="038rep477">
-      <label xml:lang="en" text="Friedensau Adventist University"/>
-      <label xml:lang="de" text="Theologische Hochschule Friedensau"/>
-    </category>
-    <category ID="01tbgce33">
-      <label xml:lang="en" text="Lutheran University of Applied Sciences Nuremberg"/>
-      <label xml:lang="de" text="Evangelische Hochschule Nürnberg"/>
-    </category>
-    <category ID="03dv91853">
-      <label xml:lang="en" text="Dortmund University of Applied Sciences and Arts"/>
-      <label xml:lang="de" text="Fachhochschule Dortmund"/>
-    </category>
-    <category ID="00qakfc35">
-      <label xml:lang="en" text="Pforzheim University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Pforzheim"/>
-    </category>
-    <category ID="031yv7164">
-      <label xml:lang="en" text="Rostock University of Music and Theatre"/>
-      <label xml:lang="de" text="Hochschule für Musik und Theater Rostock"/>
-    </category>
-    <category ID="04q5vv384">
-      <label xml:lang="en" text="Hof University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften Hof"/>
-    </category>
-    <category ID="03hbmgt12">
-      <label xml:lang="en" text="University of Applied Sciences Rosenheim"/>
-      <label xml:lang="de" text="Hochschule Rosenheim"/>
-    </category>
-    <category ID="04msbx814">
-      <label xml:lang="en" text="University of Music and Theatre Leipzig"/>
-      <label xml:lang="de" text="Hochschule für Musik und Theater Felix Mendelssohn Bartholdy Leipzig"/>
-    </category>
-    <category ID="0260evc53">
-      <label xml:lang="en" text="Maschinenbauschule Ansbach"/>
-      <label xml:lang="de" text="Maschinenbauschule Ansbach"/>
-    </category>
-    <category ID="02m4p8096">
-      <label xml:lang="en" text="Kempten University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Kempten"/>
-    </category>
-    <category ID="03w8kgm26">
-      <label xml:lang="en" text="SB Science Management"/>
-      <label xml:lang="de" text="SB Science Management"/>
-    </category>
-    <category ID="03v4gjf40">
-      <label xml:lang="en" text="Technical University of Berlin"/>
-      <label xml:lang="de" text="Technische Universität Berlin"/>
-    </category>
-    <category ID="00a208s56">
-      <label xml:lang="en" text="Chemnitz University of Technology"/>
-      <label xml:lang="de" text="Technische Universität Chemnitz"/>
-    </category>
-    <category ID="033eqas34">
-      <label xml:lang="en" text="University of Giessen"/>
-      <label xml:lang="de" text="Justus Liebig-Universität Gießen"/>
-    </category>
-    <category ID="05gqaka33">
-      <label xml:lang="en" text="Martin Luther University Halle-Wittenberg"/>
-      <label xml:lang="de" text="Martin-Luther-Universität Halle-Wittenberg"/>
-    </category>
-    <category ID="0304hq317">
-      <label xml:lang="en" text="Leibniz University Hannover"/>
-      <label xml:lang="de" text="Leibniz Universität Hannover"/>
-    </category>
-    <category ID="00b1c9541">
-      <label xml:lang="en" text="University of Hohenheim"/>
-      <label xml:lang="de" text="Universität Hohenheim"/>
-    </category>
-    <category ID="01jdpyv68">
-      <label xml:lang="en" text="Saarland University"/>
-      <label xml:lang="de" text="Universität des Saarlandes"/>
-    </category>
-    <category ID="02ge27m07">
-      <label xml:lang="en" text="htw saar - University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft des Saarlandes"/>
-    </category>
-    <category ID="01crqqh49">
-      <label xml:lang="en" text="Parmenides Foundation"/>
-      <label xml:lang="de" text="Parmenides Foundation"/>
-    </category>
-    <category ID="03hj50651">
-      <label xml:lang="en" text="Fresenius University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Fresenius University of Applied Sciences"/>
-    </category>
-    <category ID="03zh5eq96">
-      <label xml:lang="en" text="Offenburg University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Offenburg"/>
-    </category>
-    <category ID="02qchbs48">
-      <label xml:lang="en" text="Psychologische Hochschule Berlin"/>
-      <label xml:lang="de" text="Psychologische Hochschule Berlin"/>
-    </category>
-    <category ID="0583z7951">
-      <label xml:lang="en" text="Eckert Schools International"/>
-      <label xml:lang="de" text="Eckert Schools International"/>
-    </category>
-    <category ID="05b38ps04">
-      <label xml:lang="en" text="Landesinstitut für Lehrerbildung und Schulentwicklung"/>
-      <label xml:lang="de" text="Landesinstitut für Lehrerbildung und Schulentwicklung"/>
-    </category>
-    <category ID="03xkxsc82">
-      <label xml:lang="en" text="Institut für Berufs- und Sozialpädagogik"/>
-      <label xml:lang="de" text="Institut für Berufs- und Sozialpädagogik"/>
-    </category>
-    <category ID="00wg9tw09">
-      <label xml:lang="en" text="Institut für Textoptimierung"/>
-      <label xml:lang="de" text="Institut für Textoptimierung"/>
-    </category>
-    <category ID="03qwtkn62">
-      <label xml:lang="en" text="Lebensmittelinstitut KIN"/>
-      <label xml:lang="de" text="Lebensmittelinstitut KIN"/>
-    </category>
-    <category ID="018fbs662">
-      <label xml:lang="en" text="Nestor Bildungsinstitut"/>
-      <label xml:lang="de" text="Nestor Bildungsinstitut"/>
-    </category>
-    <category ID="02dxkcn59">
-      <label xml:lang="en" text="Hochschuldidaktischen Zentrum Sachsen"/>
-      <label xml:lang="de" text="Hochschuldidaktischen Zentrum Sachsen"/>
-    </category>
-    <category ID="002n9qz56">
-      <label xml:lang="en" text="European School of Materials"/>
-      <label xml:lang="de" text="European School of Materials"/>
-    </category>
-    <category ID="00x67g916">
-      <label xml:lang="en" text="Allensbach University"/>
-      <label xml:lang="de" text="Allensbach Hochschule"/>
-    </category>
-    <category ID="03t7jd518">
-      <label xml:lang="en" text="Duale Hochschule Gera-Eisenach"/>
-      <label xml:lang="de" text="Duale Hochschule Gera-Eisenach"/>
-    </category>
-    <category ID="03gzxs418">
-      <label xml:lang="en" text="University of Applied Sciences - Public Administration and Finance Ludwigsburg"/>
-      <label xml:lang="de" text="Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg"/>
-    </category>
-    <category ID="00a0w0523">
-      <label xml:lang="en" text="Centre for East European and International Studies"/>
-      <label xml:lang="de" text="Zentrum für Osteuropa- und internationale Studien"/>
-    </category>
-    <category ID="022zhm372">
-      <label xml:lang="en" text="Paracelsus Medizinische Privatuniversität"/>
-      <label xml:lang="de" text="Paracelsus Medizinische Privatuniversität"/>
-    </category>
-    <category ID="04vpsen23">
-      <label xml:lang="en" text="HSD Hochschule Döpfer"/>
-      <label xml:lang="de" text="HSD Hochschule Döpfer"/>
-    </category>
-    <category ID="01yhahq71">
-      <label xml:lang="en" text="WHU – Otto Beisheim School of Management"/>
-      <label xml:lang="de" text="WHU – Otto Beisheim School of Management"/>
-    </category>
-    <category ID="01xzwj424">
-      <label xml:lang="en" text="HTW Berlin - University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Berlin"/>
-    </category>
-    <category ID="05xy1nn52">
-      <label xml:lang="en" text="Multiscale Bioimaging"/>
-      <label xml:lang="de" text="Multiscale Bioimaging"/>
-    </category>
-    <category ID="02k4gk709">
-      <label xml:lang="en" text="Christiani"/>
-      <label xml:lang="de" text="Christiani"/>
+    <category ID="05wxywg93">
+      <label xml:lang="de" text="Leibniz-Institut für Finanzmarktforschung SAFE" />
+      <label xml:lang="en" text="Leibniz Institute for Financial Research SAFE" />
+    </category>
+    <category ID="02pse8162">
+      <label xml:lang="de" text="RWI – Leibniz-Institut für Wirtschaftsforschung" />
+      <label xml:lang="en" text="RWI – Leibniz Institute for Economic Research" />
+    </category>
+    <category ID="02qnsw591">
+      <label xml:lang="de" text="ZEW – Leibniz-Zentrum für Europäische Wirtschaftsforschung" />
+      <label xml:lang="en" text="ZEW – Leibniz Centre for European Economic Research" />
+    </category>
+    <category ID="03gjpvv92">
+      <label xml:lang="de" text="Leibniz-Institut für Wirtschaftsforschung Halle" />
+      <label xml:lang="en" text="Halle Institute for Economic Research" />
+    </category>
+    <category ID="045495t75">
+      <label xml:lang="de" text="ifo Institut für Wirtschaftsforschung" />
+      <label xml:lang="en" text="ifo Institute for Economic Research" />
+    </category>
+    <category ID="032yym934">
+      <label xml:lang="de" text="Kiel Institut für Weltwirtschaft – Leibniz Zentrum zur Erforschung globaler ökonomischer Herausforderungen" />
+      <label xml:lang="en" text="Kiel Institute for the World Economy" />
+    </category>
+    <category ID="0050vmv35">
+      <label xml:lang="de" text="Deutsches Institut für Wirtschaftsforschung" />
+      <label xml:lang="en" text="German Institute for Economic Research" />
+    </category>
+    <category ID="0090zs177">
+      <label xml:lang="de" text="London School of Economics and Political Science" />
+      <label xml:lang="en" text="London School of Economics and Political Science" />
     </category>
     <category ID="01hcx6992">
-      <label xml:lang="en" text="Humboldt-Universität zu Berlin"/>
-      <label xml:lang="de" text="Humboldt-Universität zu Berlin"/>
+      <label xml:lang="de" text="Humboldt-Universität zu Berlin" />
+      <label xml:lang="en" text="Humboldt-Universität zu Berlin" />
+    </category>
+    <category ID="01rxgdr42">
+      <label xml:lang="de" text="PECO-Institut" />
+      <label xml:lang="en" text="PECO-Institut" />
+    </category>
+    <category ID="00ptgb077">
+      <label xml:lang="de" text="Staatsinstitut für Schulqualität und Bildungsforschung" />
+      <label xml:lang="en" text="Staatsinstitut für Schulqualität und Bildungsforschung" />
+    </category>
+    <category ID="01k8fm112">
+      <label xml:lang="de" text="Universität Bayern" />
+      <label xml:lang="en" text="Universität Bayern" />
+    </category>
+    <category ID="05bv91d86">
+      <label xml:lang="de" text="Mannheimer Zentrum für Europäische Sozialforschung" />
+      <label xml:lang="en" text="Mannheim Centre for European Social Research" />
+    </category>
+    <category ID="01nhxrw57">
+      <label xml:lang="de" text="Westfalen-Kolleg" />
+      <label xml:lang="en" text="Westfalen-Kolleg" />
+    </category>
+    <category ID="02enpq749">
+      <label xml:lang="de" text="Edith-Stein-Schulstiftung des Bistums Magdeburg" />
+      <label xml:lang="en" text="Edith-Stein-Schulstiftung des Bistums Magdeburg" />
+    </category>
+    <category ID="02kkvpp62">
+      <label xml:lang="de" text="Technische Universität München" />
+      <label xml:lang="en" text="Technical University of Munich" />
+    </category>
+    <category ID="04zc7p361">
+      <label xml:lang="de" text="Universität Kassel" />
+      <label xml:lang="en" text="University of Kassel" />
+    </category>
+    <category ID="00f7hpc57">
+      <label xml:lang="de" text="Friedrich-Alexander-Universität Erlangen-Nürnberg" />
+      <label xml:lang="en" text="University of Erlangen-Nuremberg" />
+    </category>
+    <category ID="02azyry73">
+      <label xml:lang="de" text="Universität Siegen" />
+      <label xml:lang="en" text="University of Siegen" />
+    </category>
+    <category ID="010nsgg66">
+      <label xml:lang="de" text="Technische Universität Braunschweig" />
+      <label xml:lang="en" text="TU Braunschweig" />
+    </category>
+    <category ID="04bs1pb34">
+      <label xml:lang="de" text="Technische Universität Hamburg" />
+      <label xml:lang="en" text="Hamburg University of Technology" />
+    </category>
+    <category ID="02hpadn98">
+      <label xml:lang="de" text="Universität Bielefeld" />
+      <label xml:lang="en" text="Bielefeld University" />
+    </category>
+    <category ID="01eezs655">
+      <label xml:lang="de" text="Universität Regensburg" />
+      <label xml:lang="en" text="University of Regensburg" />
+    </category>
+    <category ID="02p5hsv84">
+      <label xml:lang="de" text="Hochschule Coburg" />
+      <label xml:lang="en" text="Coburg University of Applied Sciences" />
+    </category>
+    <category ID="01y01jq30">
+      <label xml:lang="de" text="Hochschule für Musik &quot;Carl Maria von Weber&quot;" />
+      <label xml:lang="en" text="Carl Maria von Weber College of Music" />
+    </category>
+    <category ID="000evwg49">
+      <label xml:lang="de" text="Hochschule für Musik Franz Liszt Weimar" />
+      <label xml:lang="en" text="University of Music FRANZ LISZT Weimar" />
+    </category>
+    <category ID="05256tw11">
+      <label xml:lang="de" text="Hochschule für Musik und Tanz Köln" />
+      <label xml:lang="en" text="Cologne University of Music" />
+    </category>
+    <category ID="00dfbms98">
+      <label xml:lang="de" text="Hochschule für Musik und Theater Hamburg" />
+      <label xml:lang="en" text="University of Music and Theatre Hamburg" />
+    </category>
+    <category ID="01ge5zt06">
+      <label xml:lang="de" text="Hochschule für Nachhaltige Entwicklung Eberswalde" />
+      <label xml:lang="en" text="Eberswalde University for Sustainable Development" />
+    </category>
+    <category ID="02kqy4228">
+      <label xml:lang="de" text="Hochschule für Philosophie München" />
+      <label xml:lang="en" text="Munich School of Philosophy" />
+    </category>
+    <category ID="006thab72">
+      <label xml:lang="de" text="Medical School Hamburg" />
+      <label xml:lang="en" text="Medical School Hamburg" />
+    </category>
+    <category ID="04nkken68">
+      <label xml:lang="de" text="Augustana-Hochschule Neuendettelsau" />
+      <label xml:lang="en" text="Augustana-Hochschule Neuendettelsau" />
+    </category>
+    <category ID="04fdat027">
+      <label xml:lang="de" text="IU Internationale Hochschule" />
+      <label xml:lang="en" text="IU International University of Applied Sciences" />
+    </category>
+    <category ID="04sms9203">
+      <label xml:lang="de" text="Technische Hochschule Aschaffenburg" />
+      <label xml:lang="en" text="Aschaffenburg University of Applied Sciences" />
+    </category>
+    <category ID="00vd2h880">
+      <label xml:lang="de" text="Katholische Hochschule Freiburg" />
+      <label xml:lang="en" text="Catholic University of Applied Sciences Freiburg" />
+    </category>
+    <category ID="04eejsy70">
+      <label xml:lang="de" text="Theologische Fakultät Fulda" />
+      <label xml:lang="en" text="Fulda Faculty of Theology" />
+    </category>
+    <category ID="01h7vw195">
+      <label xml:lang="de" text="Deutsche Hochschule der Polizei" />
+      <label xml:lang="en" text="German Police University" />
+    </category>
+    <category ID="024nr0776">
+      <label xml:lang="de" text="Katholische Hochschule Nordrhein-Westfalen" />
+      <label xml:lang="en" text="Catholic University of Applied Sciences of North Rhine – Westphalia" />
+    </category>
+    <category ID="00g07sz63">
+      <label xml:lang="de" text="SRH Hochschule Heidelberg" />
+      <label xml:lang="en" text="SRH Hochschule Heidelberg" />
+    </category>
+    <category ID="021f61w41">
+      <label xml:lang="de" text="Musikhochschule Lübeck" />
+      <label xml:lang="en" text="Lübeck Academy of Music" />
+    </category>
+    <category ID="026c3xn33">
+      <label xml:lang="de" text="Hochschule der Wirtschaft für Management" />
+      <label xml:lang="en" text="University of Applied Management Studies" />
+    </category>
+    <category ID="02hdve317">
+      <label xml:lang="de" text="Staatliche Akademie der Bildenden Künste Karlsruhe" />
+      <label xml:lang="en" text="Academy of Fine Arts Karlsruhe" />
+    </category>
+    <category ID="044rf5p19">
+      <label xml:lang="de" text="Akademie der Bildenden Künste München" />
+      <label xml:lang="en" text="Academy of Fine Arts Munich" />
+    </category>
+    <category ID="00zbhen47">
+      <label xml:lang="de" text="Kunsthochschule Berlin-Weißensee" />
+      <label xml:lang="en" text="Berlin-Weissensee Art Academy" />
+    </category>
+    <category ID="0572yc306">
+      <label xml:lang="de" text="SRH Hochschule für Wirtschaft und Medien Calw" />
+      <label xml:lang="en" text="SRH Hochschule für Wirtschaft und Medien Calw" />
+    </category>
+    <category ID="03waye253">
+      <label xml:lang="de" text="Fachhochschule der Sächsischen Verwaltung Meißen" />
+      <label xml:lang="en" text="Fachhochschule der Sächsischen Verwaltung Meißen" />
+    </category>
+    <category ID="015a98c38">
+      <label xml:lang="de" text="Accadis Hochschule Bad Homburg" />
+      <label xml:lang="en" text="Accadis Hochschule Bad Homburg" />
+    </category>
+    <category ID="04mvanw22">
+      <label xml:lang="de" text="Fachhochschule Polizei Sachsen-Anhalt" />
+      <label xml:lang="en" text="University of Applied Police Sciences Saxony Anhalt" />
+    </category>
+    <category ID="017bbsh25">
+      <label xml:lang="de" text="BSP Business School Berlin" />
+      <label xml:lang="en" text="BSP Business School Berlin" />
+    </category>
+    <category ID="047h65335">
+      <label xml:lang="de" text="Deutsche Hochschule für Prävention und Gesundheitsmanagement" />
+      <label xml:lang="en" text="Deutsche Hochschule für Prävention und Gesundheitsmanagement" />
+    </category>
+    <category ID="05k9vmz93">
+      <label xml:lang="de" text="Hochschule für Telekommunikation Leipzig" />
+      <label xml:lang="en" text="Hochschule für Telekommunikation Leipzig" />
+    </category>
+    <category ID="01v7j8968">
+      <label xml:lang="de" text="Hochschule für den öffentlichen Dienst in Bayern" />
+      <label xml:lang="en" text="Hochschule für den öffentlichen Dienst in Bayern" />
+    </category>
+    <category ID="05q2pee13">
+      <label xml:lang="de" text="Hochschule für Öffentliche Verwaltung Bremen" />
+      <label xml:lang="en" text="Hochschule für Öffentliche Verwaltung Bremen" />
+    </category>
+    <category ID="01hwhm419">
+      <label xml:lang="de" text="Hessische Hochschule für Polizei und Verwaltung" />
+      <label xml:lang="en" text="Hessian University for Police and Administration" />
+    </category>
+    <category ID="018mbvt80">
+      <label xml:lang="de" text="Hochschule für Wirtschaft und Verwaltung" />
+      <label xml:lang="en" text="German open Business School" />
+    </category>
+    <category ID="02kraxp86">
+      <label xml:lang="de" text="SRH Hochschule der Populären Künste" />
+      <label xml:lang="en" text="SRH Hochschule der Populären Künste" />
+    </category>
+    <category ID="01r8xsy94">
+      <label xml:lang="de" text="ESCP Business School" />
+      <label xml:lang="en" text="ESCP Business School" />
+    </category>
+    <category ID="04tqgg260">
+      <label xml:lang="de" text="FH Aachen" />
+      <label xml:lang="en" text="FH Aachen" />
+    </category>
+    <category ID="014nnvj65">
+      <label xml:lang="de" text="TH Köln" />
+      <label xml:lang="en" text="TH Köln - University of Applied Sciences" />
+    </category>
+    <category ID="05e5kd476">
+      <label xml:lang="de" text="Hochschule Ulm" />
+      <label xml:lang="en" text="Ulm University of Applied Sciences" />
+    </category>
+    <category ID="01trbq046">
+      <label xml:lang="de" text="German Research School for Simulation Sciences" />
+      <label xml:lang="en" text="German Research School for Simulation Sciences" />
+    </category>
+    <category ID="00k62pe27">
+      <label xml:lang="de" text="Technische Hochschule Wildau" />
+      <label xml:lang="en" text="Technical University of Applied Sciences Wildau" />
+    </category>
+    <category ID="027b9qx26">
+      <label xml:lang="de" text="Hochschule Niederrhein" />
+      <label xml:lang="en" text="Hochschule Niederrhein" />
+    </category>
+    <category ID="03q0ab227">
+      <label xml:lang="de" text="Fachhochschule Kiel" />
+      <label xml:lang="en" text="Fachhochschule Kiel" />
+    </category>
+    <category ID="03yjyed28">
+      <label xml:lang="de" text="Karlshochschule International University" />
+      <label xml:lang="en" text="Karlshochschule International University" />
+    </category>
+    <category ID="03xgcq477">
+      <label xml:lang="de" text="Hochschule für Technik, Wirtschaft und Kultur Leipzig" />
+      <label xml:lang="en" text="Leipzig University of Applied Sciences" />
+    </category>
+    <category ID="0167rnj42">
+      <label xml:lang="de" text="Hochschule Ansbach" />
+      <label xml:lang="en" text="Ansbach University of Applied Sciences" />
+    </category>
+    <category ID="02xdzy536">
+      <label xml:lang="de" text="Duale Hochschule Baden-Württemberg" />
+      <label xml:lang="en" text="Baden-Wuerttemberg Cooperative State University" />
+    </category>
+    <category ID="03eznrw16">
+      <label xml:lang="de" text="Universität der Künste Berlin" />
+      <label xml:lang="en" text="Berlin University of the Arts" />
+    </category>
+    <category ID="04wdt0z89">
+      <label xml:lang="de" text="Hochschule Rhein-Waal" />
+      <label xml:lang="en" text="Rhine-Waal University of Applied Sciences" />
+    </category>
+    <category ID="02ywmkj38">
+      <label xml:lang="de" text="Ukrainische Freie Universität München" />
+      <label xml:lang="en" text="Ukrainian Free University" />
+    </category>
+    <category ID="01pxkj057">
+      <label xml:lang="de" text="Technische Hochschule Bingen" />
+      <label xml:lang="en" text="TH Bingen University of Applied Sciences" />
+    </category>
+    <category ID="022598c22">
+      <label xml:lang="de" text="University of Maryland University College Europe" />
+      <label xml:lang="en" text="University of Maryland University College Europe" />
+    </category>
+    <category ID="01btqj997">
+      <label xml:lang="de" text="Salomon Ludwig Steinheim-Institut" />
+      <label xml:lang="en" text="Salomon Ludwig Steinheim-Institut" />
+    </category>
+    <category ID="009dxjw45">
+      <label xml:lang="de" text="Faurecia (Germany)" />
+      <label xml:lang="en" text="Faurecia (Germany)" />
+    </category>
+    <category ID="02nq6sy34">
+      <label xml:lang="de" text="Akademie für Gesundheitsberufe" />
+      <label xml:lang="en" text="Akademie für Gesundheitsberufe" />
+    </category>
+    <category ID="05gxhfq53">
+      <label xml:lang="de" text="Hochschule der Polizei Rheinland Pfalz" />
+      <label xml:lang="en" text="Hochschule der Polizei Rheinland Pfalz" />
+    </category>
+    <category ID="02qtztk24">
+      <label xml:lang="de" text="Abnoba (Germany)" />
+      <label xml:lang="en" text="Abnoba (Germany)" />
+    </category>
+    <category ID="040d40q10">
+      <label xml:lang="de" text="Kunstakademie Düsseldorf" />
+      <label xml:lang="en" text="Kunstakademie Düsseldorf" />
+    </category>
+    <category ID="04qj3gf68">
+      <label xml:lang="de" text="Technische Hochschule Brandenburg" />
+      <label xml:lang="en" text="Brandenburg University of Applied Sciences" />
+    </category>
+    <category ID="02bxzcy64">
+      <label xml:lang="de" text="Technische Hochschule Ingolstadt" />
+      <label xml:lang="en" text="Technische Hochschule Ingolstadt" />
+    </category>
+    <category ID="04g99jx54">
+      <label xml:lang="de" text="Fachhochschule Stralsund" />
+      <label xml:lang="en" text="University of Applied Sciences Stralsund" />
+    </category>
+    <category ID="00nggaz43">
+      <label xml:lang="de" text="Technische Hochschule Nürnberg Georg Simon Ohm" />
+      <label xml:lang="en" text="Georg Simon Ohm University of Applied Sciences Nuremberg" />
+    </category>
+    <category ID="02nkxrq89">
+      <label xml:lang="de" text="Hochschule Ruhr West" />
+      <label xml:lang="en" text="Ruhr West University of Applied Sciences" />
+    </category>
+    <category ID="00f2yqf98">
+      <label xml:lang="de" text="Medizinische Hochschule Hannover" />
+      <label xml:lang="en" text="Hannover Medical School" />
+    </category>
+    <category ID="03bnmw459">
+      <label xml:lang="de" text="Universität Potsdam" />
+      <label xml:lang="en" text="University of Potsdam" />
+    </category>
+    <category ID="02msan859">
+      <label xml:lang="de" text="Europa-Universität Viadrina Frankfurt" />
+      <label xml:lang="en" text="European University Viadrina" />
+    </category>
+    <category ID="033bb5z47">
+      <label xml:lang="de" text="Bauhaus-Universität Weimar" />
+      <label xml:lang="en" text="Bauhaus University, Weimar" />
+    </category>
+    <category ID="024z2rq82">
+      <label xml:lang="de" text="Heinrich-Heine-Universität Düsseldorf" />
+      <label xml:lang="en" text="Heinrich Heine University Düsseldorf" />
+    </category>
+    <category ID="007bw6q41">
+      <label xml:lang="de" text="Evangelische Hochschule Berlin" />
+      <label xml:lang="en" text="Evangelische Hochschule Berlin" />
+    </category>
+    <category ID="04rnfrn04">
+      <label xml:lang="de" text="Institut für Psychobiologie und Verhaltensmedizin" />
+      <label xml:lang="en" text="Center for Psychobiology and Behavioral Medicine" />
+    </category>
+    <category ID="03d0yjb51">
+      <label xml:lang="de" text="IST-Hochschule für Management" />
+      <label xml:lang="en" text="IST-Hochschule für Management" />
+    </category>
+    <category ID="02wxx3e24">
+      <label xml:lang="de" text="Brandenburg University of Technology Cottbus-Senftenberg" />
+      <label xml:lang="en" text="Technical University of Cottbus" />
+    </category>
+    <category ID="00fbnyb24">
+      <label xml:lang="de" text="Julius-Maximilians-Universität Würzburg" />
+      <label xml:lang="en" text="University of Würzburg" />
+    </category>
+    <category ID="0189raq88">
+      <label xml:lang="de" text="Deutsche Sporthochschule Köln" />
+      <label xml:lang="en" text="German Sport University Cologne" />
+    </category>
+    <category ID="04hsa7a08">
+      <label xml:lang="de" text="Akademie der Wissenschaften zu Göttingen" />
+      <label xml:lang="en" text="Göttingen Academy of Sciences and Humanities" />
+    </category>
+    <category ID="03zdwsf69">
+      <label xml:lang="de" text="Universität Rostock" />
+      <label xml:lang="en" text="University of Rostock" />
+    </category>
+    <category ID="04vnq7t77">
+      <label xml:lang="de" text="Universität Stuttgart" />
+      <label xml:lang="en" text="University of Stuttgart" />
+    </category>
+    <category ID="032000t02">
+      <label xml:lang="de" text="Universität Ulm" />
+      <label xml:lang="en" text="University of Ulm" />
+    </category>
+    <category ID="031vc2293">
+      <label xml:lang="de" text="Technische Universität Bergakademie Freiberg" />
+      <label xml:lang="en" text="TU Bergakademie Freiberg" />
+    </category>
+    <category ID="05ydjnb78">
+      <label xml:lang="de" text="Universität Passau" />
+      <label xml:lang="en" text="University of Passau" />
+    </category>
+    <category ID="041bz9r75">
+      <label xml:lang="de" text="Hochschule Fulda" />
+      <label xml:lang="en" text="Fulda University of Applied Sciences" />
+    </category>
+    <category ID="03aft2f80">
+      <label xml:lang="de" text="Hochschule für Bildende Künste Braunschweig" />
+      <label xml:lang="en" text="Braunschweig University of Art" />
+    </category>
+    <category ID="00gm0aw40">
+      <label xml:lang="de" text="Ostbayerische Technische Hochschule Amberg-Weiden" />
+      <label xml:lang="en" text="Ostbayerische Technische Hochschule Amberg-Weiden" />
+    </category>
+    <category ID="00yx29a03">
+      <label xml:lang="de" text="Fernhochschule – The Mobile University" />
+      <label xml:lang="en" text="Fernhochschule – The Mobile University" />
+    </category>
+    <category ID="046ak2485">
+      <label xml:lang="de" text="Freie Universität Berlin" />
+      <label xml:lang="en" text="Free University of Berlin" />
+    </category>
+    <category ID="025e8aw85">
+      <label xml:lang="de" text="Comenius-Institut" />
+      <label xml:lang="en" text="Comenius-Institut" />
+    </category>
+    <category ID="01b2gkw73">
+      <label xml:lang="de" text="Deutsche Angestellten-Akademie" />
+      <label xml:lang="en" text="Deutsche Angestellten-Akademie" />
+    </category>
+    <category ID="03a8y0358">
+      <label xml:lang="de" text="FIVE - Forschungs- und Innovationsverbund an der Evangelischen Hochschule Freiburg" />
+      <label xml:lang="en" text="FIVE - Forschungs- und Innovationsverbund an der Evangelischen Hochschule Freiburg" />
+    </category>
+    <category ID="02ezvhm25">
+      <label xml:lang="de" text="Progenius" />
+      <label xml:lang="en" text="Progenius" />
+    </category>
+    <category ID="01m2aa958">
+      <label xml:lang="de" text="Hanse Institut Oldenburg Bildung und Gesundheit" />
+      <label xml:lang="en" text="Hanse Institut Oldenburg Bildung und Gesundheit" />
+    </category>
+    <category ID="00pg0dt16">
+      <label xml:lang="de" text="Hessische Lehrkräfteakademie" />
+      <label xml:lang="en" text="Hessische Lehrkräfteakademie" />
+    </category>
+    <category ID="01c1pcz80">
+      <label xml:lang="de" text="Kleine Private Lehrinstitut Derksen" />
+      <label xml:lang="en" text="Kleine Private Lehrinstitut Derksen" />
+    </category>
+    <category ID="00717c553">
+      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Münster" />
+      <label xml:lang="en" text="Philosophisch-Theologische Hochschule Münster" />
+    </category>
+    <category ID="03bh13774">
+      <label xml:lang="de" text="Wilhelm Löhe Hochschule für angewandte Wissenschaften" />
+      <label xml:lang="en" text="Wilhelm Löhe University for Applied Sciences" />
+    </category>
+    <category ID="02dsdsv34">
+      <label xml:lang="de" text="Hochschule für Polizei und Öffentliche Verwaltung Nordrhein-Westfalen" />
+      <label xml:lang="en" text="University for Police and Public Administration North Rhine-Westphalia" />
+    </category>
+    <category ID="042aqky30">
+      <label xml:lang="de" text="Technische Universität Dresden" />
+      <label xml:lang="en" text="TU Dresden" />
+    </category>
+    <category ID="031bsb921">
+      <label xml:lang="de" text="Universität Mannheim" />
+      <label xml:lang="en" text="University of Mannheim" />
+    </category>
+    <category ID="01j9f6752">
+      <label xml:lang="de" text="Universität Koblenz-Landau" />
+      <label xml:lang="en" text="University of Koblenz and Landau" />
+    </category>
+    <category ID="00pd74e08">
+      <label xml:lang="de" text="Westfälische Wilhelms-Universität Münster" />
+      <label xml:lang="en" text="University of Münster" />
+    </category>
+    <category ID="01c1w6d29">
+      <label xml:lang="de" text="Otto-Friedrich-Universität Bamberg" />
+      <label xml:lang="en" text="University of Bamberg" />
+    </category>
+    <category ID="038t36y30">
+      <label xml:lang="de" text="Ruprecht-Karls-Universität Heidelberg" />
+      <label xml:lang="en" text="Heidelberg University" />
+    </category>
+    <category ID="04cvxnb49">
+      <label xml:lang="de" text="Goethe-Universität Frankfurt am Main" />
+      <label xml:lang="en" text="Goethe University Frankfurt" />
+    </category>
+    <category ID="02zp2df93">
+      <label xml:lang="de" text="Institut für Empirische Gesundheitsökonomie" />
+      <label xml:lang="en" text="Institute of Empirical Health Economics" />
+    </category>
+    <category ID="045tmdc16">
+      <label xml:lang="de" text="CODE University of Applied Sciences" />
+      <label xml:lang="en" text="CODE University of Applied Sciences" />
+    </category>
+    <category ID="03czk8k96">
+      <label xml:lang="de" text="Hochschule Macromedia" />
+      <label xml:lang="en" text="Hochschule Macromedia" />
+    </category>
+    <category ID="03nzdk586">
+      <label xml:lang="de" text="Cooperative Clinical Drug Research and Development" />
+      <label xml:lang="en" text="Cooperative Clinical Drug Research and Development" />
+    </category>
+    <category ID="03hzkp562">
+      <label xml:lang="de" text="Hochschule für Grafik und Buchkunst Leipzig" />
+      <label xml:lang="en" text="Academy of Visual Arts Leipzig" />
+    </category>
+    <category ID="03yxw1t21">
+      <label xml:lang="de" text="Akademie der Bildenden Künste Nürnberg" />
+      <label xml:lang="en" text="Academy of Fine Arts Nuremberg" />
+    </category>
+    <category ID="04w49ae90">
+      <label xml:lang="de" text="EBC Hochschule" />
+      <label xml:lang="en" text="EBC Hochschule" />
+    </category>
+    <category ID="00dnfj623">
+      <label xml:lang="de" text="Hochschule für Musik Hanns Eisler" />
+      <label xml:lang="en" text="Hanns Eisler College or Academy of Music" />
+    </category>
+    <category ID="05fwp8t64">
+      <label xml:lang="de" text="Hochschule der Deutschen Bundesbank" />
+      <label xml:lang="en" text="Hochschule der Deutschen Bundesbank" />
+    </category>
+    <category ID="02re32a17">
+      <label xml:lang="de" text="Hochschule Mainz" />
+      <label xml:lang="en" text="University of Applied Sciences Mainz" />
+    </category>
+    <category ID="04w23p232">
+      <label xml:lang="de" text="Evangelische Hochschule Darmstadt" />
+      <label xml:lang="en" text="Evangelische Hochschule Darmstadt" />
+    </category>
+    <category ID="000tpgs13">
+      <label xml:lang="de" text="Muthesius Kunsthochschule" />
+      <label xml:lang="en" text="Muthesius University in Kiel" />
+    </category>
+    <category ID="04fxab197">
+      <label xml:lang="de" text="Naturwissenschaftlich-Technische Akademie Isny" />
+      <label xml:lang="en" text="Natural Science and Technical Academy Isny" />
+    </category>
+    <category ID="02g11qe83">
+      <label xml:lang="de" text="Fachhochschule für Rechtspflege Nordrhein Westfalen" />
+      <label xml:lang="en" text="Fachhochschule für Rechtspflege Nordrhein Westfalen" />
+    </category>
+    <category ID="04j1sr579">
+      <label xml:lang="de" text="Hochschule für Gesundheit &amp; Sport, Technik &amp; Kunst" />
+      <label xml:lang="en" text="Hochschule für Gesundheit &amp; Sport, Technik &amp; Kunst" />
+    </category>
+    <category ID="02e5n0e79">
+      <label xml:lang="de" text="Akademie Mode &amp; Design" />
+      <label xml:lang="en" text="AMD Academy of Fashion and Design" />
+    </category>
+    <category ID="04580fn28">
+      <label xml:lang="de" text="Hamburger Fern-Hochschule" />
+      <label xml:lang="en" text="Hamburger Fern-Hochschule" />
+    </category>
+    <category ID="051rc7j94">
+      <label xml:lang="de" text="Diploma Hochschule" />
+      <label xml:lang="en" text="Diploma University" />
+    </category>
+    <category ID="00jbwpt44">
+      <label xml:lang="de" text="Hochschule für Medien, Kommunikation und Wirtschaft" />
+      <label xml:lang="en" text="University of Applied Sciences for Media Communication and Business" />
+    </category>
+    <category ID="05dbw7b97">
+      <label xml:lang="de" text="CVJM-Hochschule" />
+      <label xml:lang="en" text="International YMCA University of Applied Sciences" />
+    </category>
+    <category ID="04sn8qj61">
+      <label xml:lang="de" text="International School of Management" />
+      <label xml:lang="en" text="International School of Management" />
+    </category>
+    <category ID="001vjqx13">
+      <label xml:lang="de" text="Medical School Berlin" />
+      <label xml:lang="en" text="Medical School Berlin" />
+    </category>
+    <category ID="02nfh7608">
+      <label xml:lang="de" text="Bayerisch-Französische Hochschulzentrum" />
+      <label xml:lang="en" text="Centre de Coopération Universitaire Franco-Bavarois" />
+    </category>
+    <category ID="01gq10q51">
+      <label xml:lang="de" text="Akademie für Technikfolgenabschätzung" />
+      <label xml:lang="en" text="Akademie für Technikfolgenabschätzung" />
+    </category>
+    <category ID="04kzfg204">
+      <label xml:lang="de" text="Apollon Hochschule der Gesundheitswirtschaft" />
+      <label xml:lang="en" text="University of Applied Sciences Appollon" />
+    </category>
+    <category ID="04tenkb98">
+      <label xml:lang="de" text="German Graduate School of Management and Law" />
+      <label xml:lang="en" text="German Graduate School of Management and Law" />
+    </category>
+    <category ID="05m0ggf57">
+      <label xml:lang="de" text="Katholische Hochschule Mainz" />
+      <label xml:lang="en" text="Catholic University of Applied Sciences" />
+    </category>
+    <category ID="04vq9c111">
+      <label xml:lang="de" text="Staatliche Hochschule für Gestaltung Karlsruhe" />
+      <label xml:lang="en" text="Karlsruhe College of Arts and Design" />
+    </category>
+    <category ID="02j0n6s98">
+      <label xml:lang="de" text="Pädagogische Hochschule Ludwigsburg" />
+      <label xml:lang="en" text="Ludwigsburg University of Education" />
+    </category>
+    <category ID="0378gm372">
+      <label xml:lang="de" text="Hochschule RheinMain" />
+      <label xml:lang="en" text="RheinMain University of Applied Sciences" />
+    </category>
+    <category ID="02pnhcc10">
+      <label xml:lang="de" text="Hochschule für Forstwirtschaft Rottenburg" />
+      <label xml:lang="en" text="Rottenburg University of Applied Forest Sciences" />
+    </category>
+    <category ID="046e0mt33">
+      <label xml:lang="de" text="Universität Flensburg" />
+      <label xml:lang="en" text="University of Flensburg" />
+    </category>
+    <category ID="02kw5st29">
+      <label xml:lang="de" text="Technische Hochschule Deggendorf" />
+      <label xml:lang="en" text="Deggendorf Institute of Technology" />
+    </category>
+    <category ID="056z5bx32">
+      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften Landshut" />
+      <label xml:lang="en" text="University of Applied Sciences Landshut" />
+    </category>
+    <category ID="05pb4em20">
+      <label xml:lang="de" text="Bonn-Cologne Graduate School of Physics and Astronomy" />
+      <label xml:lang="en" text="Bonn-Cologne Graduate School of Physics and Astronomy" />
+    </category>
+    <category ID="02hapf869">
+      <label xml:lang="de" text="Staatsinstitut für Frühpädagogik" />
+      <label xml:lang="en" text="Institute of Early Childhood Research" />
+    </category>
+    <category ID="0436y2h42">
+      <label xml:lang="de" text="Hermann Staudinger Gymnasium" />
+      <label xml:lang="en" text="Hermann Staudinger Gymnasium" />
+    </category>
+    <category ID="00x67m532">
+      <label xml:lang="de" text="Hochschule für Musik, Theater und Medien Hannover" />
+      <label xml:lang="en" text="Hanover University of Music Drama and Media" />
+    </category>
+    <category ID="05gxyna29">
+      <label xml:lang="de" text="Hochschule für Bankwirtschaft" />
+      <label xml:lang="en" text="Frankfurt School of Finance &amp; Management" />
+    </category>
+    <category ID="03b9q7371">
+      <label xml:lang="de" text="Hochschule Neubrandenburg" />
+      <label xml:lang="en" text="Neubrandenburg University of Applied Sciences" />
+    </category>
+    <category ID="00b6j6x40">
+      <label xml:lang="de" text="International Psychoanalytic University Berlin" />
+      <label xml:lang="en" text="International Psychoanalytic University Berlin" />
+    </category>
+    <category ID="04e1yzk82">
+      <label xml:lang="de" text="Robert Schumann Hochschule" />
+      <label xml:lang="en" text="Robert Schumann University of Music and Media" />
+    </category>
+    <category ID="03ccc5z68">
+      <label xml:lang="de" text="Evangelische Hochschule Ludwigsburg" />
+      <label xml:lang="en" text="Evangelische Hochschule Ludwigsburg" />
+    </category>
+    <category ID="02gf6fa33">
+      <label xml:lang="de" text="Forschungsinstitut für Musiktheater" />
+      <label xml:lang="en" text="Research Institute for Music Theater Studies" />
+    </category>
+    <category ID="058ddgs73">
+      <label xml:lang="de" text="Zentrum für Kunst und Medien" />
+      <label xml:lang="en" text="Center for Art and Media Karlsruhe" />
+    </category>
+    <category ID="03606hw36">
+      <label xml:lang="de" text="Universität Erfurt" />
+      <label xml:lang="en" text="University of Erfurt" />
+    </category>
+    <category ID="05tbp1g38">
+      <label xml:lang="de" text="Zeppelin Universität" />
+      <label xml:lang="en" text="Zeppelin University" />
+    </category>
+    <category ID="024xejm70">
+      <label xml:lang="de" text="European School of Management and Technology" />
+      <label xml:lang="en" text="European School of Management and Technology" />
+    </category>
+    <category ID="022r03w28">
+      <label xml:lang="de" text="Hochschule der Medien" />
+      <label xml:lang="en" text="Stuttgart Media University" />
+    </category>
+    <category ID="012k1v959">
+      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften München" />
+      <label xml:lang="en" text="Munich University of Applied Sciences" />
+    </category>
+    <category ID="01c0m1t63">
+      <label xml:lang="de" text="Hochschule Karlsruhe Technik und Wirtschaft" />
+      <label xml:lang="en" text="Karlsruhe University of Applied Sciences" />
+    </category>
+    <category ID="01fzsd381">
+      <label xml:lang="de" text="HafenCity Universität Hamburg" />
+      <label xml:lang="en" text="HafenCity University Hamburg" />
+    </category>
+    <category ID="048yn7628">
+      <label xml:lang="de" text="Hochschule Harz" />
+      <label xml:lang="en" text="Harz University of Applied Sciences" />
+    </category>
+    <category ID="04j351e79">
+      <label xml:lang="de" text="Hochschule Koblenz" />
+      <label xml:lang="en" text="Koblenz University of Applied Sciences" />
+    </category>
+    <category ID="04vjfp916">
+      <label xml:lang="de" text="Hochschule Magdeburg-Stendal" />
+      <label xml:lang="en" text="Magdeburg-Stendal University of Applied Sciences" />
+    </category>
+    <category ID="02qdc9985">
+      <label xml:lang="de" text="Technische Hochschule Mittelhessen" />
+      <label xml:lang="en" text="Mittelhessen University of Applied Sciences" />
+    </category>
+    <category ID="01v0c1y10">
+      <label xml:lang="de" text="EBZ Business School" />
+      <label xml:lang="en" text="EBZ Business School" />
+    </category>
+    <category ID="0355d9b09">
+      <label xml:lang="de" text="Hochschule für Angewandte Sprachen" />
+      <label xml:lang="en" text="Sprachen &amp; Dolmetscher Institut München" />
+    </category>
+    <category ID="05k17x772">
+      <label xml:lang="de" text="Fachhochschule der Polizei des Landes Brandenburg" />
+      <label xml:lang="en" text="Fachhochschule der Polizei des Landes Brandenburg" />
+    </category>
+    <category ID="0245cg223">
+      <label xml:lang="de" text="Albert-Ludwigs-Universität Freiburg" />
+      <label xml:lang="en" text="University of Freiburg" />
+    </category>
+    <category ID="03ggzay52">
+      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften Neu-Ulm" />
+      <label xml:lang="en" text="Neu Ulm University of Applied Sciences" />
+    </category>
+    <category ID="04qfbfc73">
+      <label xml:lang="de" text="Berufskolleg Am Wasserturm" />
+      <label xml:lang="en" text="Berufskolleg Am Wasserturm" />
+    </category>
+    <category ID="02778hg05">
+      <label xml:lang="de" text="Universität Trier" />
+      <label xml:lang="en" text="University of Trier" />
+    </category>
+    <category ID="05qpz1x62">
+      <label xml:lang="de" text="Friedrich-Schiller-Universität Jena" />
+      <label xml:lang="en" text="Friedrich Schiller University Jena" />
+    </category>
+    <category ID="05f23gs03">
+      <label xml:lang="de" text="Université franco-allemande" />
+      <label xml:lang="en" text="Université franco-allemande" />
+    </category>
+    <category ID="05myv7q56">
+      <label xml:lang="de" text="Hochschule Geisenheim" />
+      <label xml:lang="en" text="Hochschule Geisenheim University" />
+    </category>
+    <category ID="023b0x485">
+      <label xml:lang="de" text="Johannes Gutenberg-Universität Mainz" />
+      <label xml:lang="en" text="Johannes Gutenberg University Mainz" />
+    </category>
+    <category ID="059vymd37">
+      <label xml:lang="de" text="Hochschule Osnabrück" />
+      <label xml:lang="en" text="Osnabrück University of Applied Sciences" />
+    </category>
+    <category ID="02e3hdx05">
+      <label xml:lang="de" text="Hochschule Trier" />
+      <label xml:lang="en" text="Trier University of Applied Sciences" />
+    </category>
+    <category ID="05q5pk319">
+      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Dresden" />
+      <label xml:lang="en" text="Dresden University of Applied Sciences" />
+    </category>
+    <category ID="039gdg280">
+      <label xml:lang="de" text="Hochschule für Technik Stuttgart" />
+      <label xml:lang="en" text="Stuttgart University of Applied Sciences" />
+    </category>
+    <category ID="031ph8d53">
+      <label xml:lang="de" text="Hochschule Worms" />
+      <label xml:lang="en" text="University of Applied Sciences Worms" />
+    </category>
+    <category ID="056tzgr32">
+      <label xml:lang="de" text="Hochschule Zittau/Görlitz" />
+      <label xml:lang="en" text="Zittau/Görlitz University of Applied Sciences" />
+    </category>
+    <category ID="01t4pxy10">
+      <label xml:lang="de" text="Dresden International University" />
+      <label xml:lang="en" text="Dresden International University" />
+    </category>
+    <category ID="016604a03">
+      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften Augsburg" />
+      <label xml:lang="en" text="Augsburg University of Applied Sciences" />
+    </category>
+    <category ID="01we8bn75">
+      <label xml:lang="de" text="Private Hochschule Göttingen" />
+      <label xml:lang="en" text="PFH Private University of Applied Sciences" />
+    </category>
+    <category ID="05re2x545">
+      <label xml:lang="de" text="Burg Giebichenstein Kunsthochschule Halle" />
+      <label xml:lang="en" text="Burg Giebichenstein University of Art and Design Halle" />
+    </category>
+    <category ID="03aky0p13">
+      <label xml:lang="de" text="Mediadesign Hochschule für Design und Informatik" />
+      <label xml:lang="en" text="Media Design University for Design and Computer Science" />
+    </category>
+    <category ID="029r33q13">
+      <label xml:lang="de" text="Hochschule für Musik Saar" />
+      <label xml:lang="en" text="Hochschule für Musik Saar" />
+    </category>
+    <category ID="02d89at43">
+      <label xml:lang="de" text="Hochschule der Bundesagentur für Arbeit" />
+      <label xml:lang="en" text="University of Applied Labour Studies of the Federal Employment Agency" />
+    </category>
+    <category ID="03py54049">
+      <label xml:lang="de" text="Hochschule für Schauspielkunst Ernst Busch" />
+      <label xml:lang="en" text="Ernst Busch Academy of Dramatic Arts" />
+    </category>
+    <category ID="00jw3g525">
+      <label xml:lang="de" text="Munich Business School" />
+      <label xml:lang="en" text="Munich Business School" />
+    </category>
+    <category ID="01d4n6n22">
+      <label xml:lang="de" text="Hochschule für Kunsttherapie Nürtingen" />
+      <label xml:lang="en" text="Hochschule für Kunsttherapie Nürtingen" />
+    </category>
+    <category ID="05ygfpx91">
+      <label xml:lang="de" text="SRH Fernhochschule Riedlingen" />
+      <label xml:lang="en" text="SRH Fernhochschule Riedlingen" />
+    </category>
+    <category ID="0530gbs37">
+      <label xml:lang="de" text="IB Hochschule" />
+      <label xml:lang="en" text="IB Hochschule" />
+    </category>
+    <category ID="0243j3z07">
+      <label xml:lang="de" text="Europäische Fernhochschule Hamburg" />
+      <label xml:lang="en" text="European Fernhochschule Hamburg" />
+    </category>
+    <category ID="01qjbb734">
+      <label xml:lang="de" text="Hochschule der Sächsischen Polizei" />
+      <label xml:lang="en" text="Saxon Police Force" />
+    </category>
+    <category ID="01gm0md04">
+      <label xml:lang="de" text="Provadis Hochschule" />
+      <label xml:lang="en" text="Provadis School of International Management and Technology" />
+    </category>
+    <category ID="046ns5110">
+      <label xml:lang="de" text="Fachhochschule der Wirtschaft" />
+      <label xml:lang="en" text="Fachhochschule der Wirtschaft" />
+    </category>
+    <category ID="02r724415">
+      <label xml:lang="de" text="Evangelische Hochschule Dresden" />
+      <label xml:lang="en" text="Evangelische Hochschule Dresden" />
+    </category>
+    <category ID="03bavdz78">
+      <label xml:lang="de" text="Hochschule für Musik Freiburg" />
+      <label xml:lang="en" text="Hochschule für Musik Freiburg" />
+    </category>
+    <category ID="01ptm9403">
+      <label xml:lang="de" text="Palucca Hochschule für Tanz Dresden" />
+      <label xml:lang="en" text="Palucca Hochschule für Tanz Dresden" />
+    </category>
+    <category ID="00j9xkc07">
+      <label xml:lang="de" text="Europäische Fachhochschule Rhein/Erft" />
+      <label xml:lang="en" text="European University of Applied Sciences" />
+    </category>
+    <category ID="036f7qt17">
+      <label xml:lang="de" text="Fliedner Fachhochschule Düsseldorf" />
+      <label xml:lang="en" text="University of Applied Sciences Fliedner Fachhochschule" />
+    </category>
+    <category ID="05w6fhk97">
+      <label xml:lang="de" text="Cologne Business School" />
+      <label xml:lang="en" text="Cologne Business School" />
+    </category>
+    <category ID="000jzpp78">
+      <label xml:lang="de" text="International University in Germany" />
+      <label xml:lang="en" text="International University in Germany" />
+    </category>
+    <category ID="02rm8h934">
+      <label xml:lang="de" text="UNESCO-UNEVOC International Centre for Technical and Vocational Education and Training" />
+      <label xml:lang="en" text="UNESCO-UNEVOC International Centre for Technical and Vocational Education and Training" />
+    </category>
+    <category ID="01xpfrc74">
+      <label xml:lang="de" text="Hochschule Flensburg" />
+      <label xml:lang="en" text="Flensburg University of Applied Sciences" />
+    </category>
+    <category ID="04t5phd24">
+      <label xml:lang="de" text="Fachhochschule Südwestfalen" />
+      <label xml:lang="en" text="South Westphalia University of Applied Sciences" />
+    </category>
+    <category ID="04x02q560">
+      <label xml:lang="de" text="Hochschule Bochum" />
+      <label xml:lang="en" text="Bochum University of Applied Sciences" />
+    </category>
+    <category ID="03crxcn36">
+      <label xml:lang="de" text="Hochschule Albstadt-Sigmaringen" />
+      <label xml:lang="en" text="Albstadt-Sigmaringen University" />
+    </category>
+    <category ID="04qbqv677">
+      <label xml:lang="de" text="Filmuniversität Babelsberg Konrad Wolf" />
+      <label xml:lang="en" text="Film University Babelsberg" />
+    </category>
+    <category ID="001rdde17">
+      <label xml:lang="de" text="Hochschule Hamm-Lippstadt" />
+      <label xml:lang="en" text="Hamm-Lippstadt University of Applied Sciences" />
+    </category>
+    <category ID="05c11k793">
+      <label xml:lang="de" text="Bucerius Law School" />
+      <label xml:lang="en" text="Bucerius Law School" />
+    </category>
+    <category ID="012m9bp23">
+      <label xml:lang="de" text="Fachhochschule Potsdam" />
+      <label xml:lang="en" text="University of Applied Sciences Potsdam" />
+    </category>
+    <category ID="028j9tc52">
+      <label xml:lang="de" text="Niedersächsisches Institut für frühkindliche Bildung und Entwicklung" />
+      <label xml:lang="en" text="Niedersächsisches Institut für frühkindliche Bildung und Entwicklung" />
+    </category>
+    <category ID="00zayq578">
+      <label xml:lang="de" text="Staatliche Akademie der Bildenden Künste Stuttgart" />
+      <label xml:lang="en" text="State Academy of Fine Arts in Stuttgart" />
+    </category>
+    <category ID="01bk10867">
+      <label xml:lang="de" text="Ostfalia Hochschule für Angewandte Wissenschaften" />
+      <label xml:lang="en" text="Ostfalia University of Applied Sciences" />
+    </category>
+    <category ID="02rtsfd15">
+      <label xml:lang="de" text="Pädagogische Hochschule Freiburg" />
+      <label xml:lang="en" text="University of Education Freiburg" />
+    </category>
+    <category ID="03efsge90">
+      <label xml:lang="de" text="Steinbeis-Hochschule Berlin" />
+      <label xml:lang="en" text="Steinbeis University Berlin" />
+    </category>
+    <category ID="03rkmps36">
+      <label xml:lang="de" text="Hochschule für Wirtschaft und Recht" />
+      <label xml:lang="en" text="Berlin School of Economics and Law" />
+    </category>
+    <category ID="045gdxt02">
+      <label xml:lang="de" text="Hochschule für bildende Künste" />
+      <label xml:lang="en" text="University of Fine Arts in Hamburg" />
+    </category>
+    <category ID="04wqsqf86">
+      <label xml:lang="de" text="Hochschule für Bildende Künste Dresden" />
+      <label xml:lang="en" text="Dresden Academy of Fine Arts" />
+    </category>
+    <category ID="00xnq7h44">
+      <label xml:lang="de" text="Hochschule für Künste im Sozialen" />
+      <label xml:lang="en" text="Hochschule für Künste im Sozialen" />
+    </category>
+    <category ID="01js9jv94">
+      <label xml:lang="de" text="EBS Universität für Wirtschaft und Recht" />
+      <label xml:lang="en" text="EBS University of Business and Law" />
+    </category>
+    <category ID="04b404920">
+      <label xml:lang="de" text="Alice Salomon Hochschule Berlin" />
+      <label xml:lang="en" text="Alice Salomon University of Applied Sciences Berlin" />
+    </category>
+    <category ID="013kf9t32">
+      <label xml:lang="de" text="Private Hanseuniversität" />
+      <label xml:lang="en" text="Hanseatic University Rostock" />
+    </category>
+    <category ID="014cnmj57">
+      <label xml:lang="de" text="Duale Hochschule Baden-Württemberg Ravensburg" />
+      <label xml:lang="en" text="Ravensburg University of Cooperative Education" />
+    </category>
+    <category ID="02rqsa469">
+      <label xml:lang="de" text="Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen" />
+      <label xml:lang="en" text="Nürtingen-Geislingen University of Applied Science" />
+    </category>
+    <category ID="02fstjp34">
+      <label xml:lang="de" text="Hochschule für Künste Bremen" />
+      <label xml:lang="en" text="University of the Arts Bremen" />
+    </category>
+    <category ID="01k5h5v15">
+      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften Würzburg-Schweinfurt" />
+      <label xml:lang="en" text="University of Applied Sciences Würzburg-Schweinfurt" />
+    </category>
+    <category ID="04839sh14">
+      <label xml:lang="de" text="Medizinische Hochschule Brandenburg Theodor Fontane" />
+      <label xml:lang="en" text="Medizinische Hochschule Brandenburg Theodor Fontane" />
+    </category>
+    <category ID="02652az59">
+      <label xml:lang="de" text="Control Union Academy" />
+      <label xml:lang="en" text="Control Union Academy" />
+    </category>
+    <category ID="00nm1ws09">
+      <label xml:lang="de" text="Institut für Nachhaltiges Management" />
+      <label xml:lang="en" text="Institut für Nachhaltiges Management" />
+    </category>
+    <category ID="03gsqqb61">
+      <label xml:lang="de" text="Institut für Soziale Infrastruktur" />
+      <label xml:lang="en" text="Institut für Soziale Infrastruktur" />
+    </category>
+    <category ID="05k2sh226">
+      <label xml:lang="de" text="Bard College Berlin" />
+      <label xml:lang="en" text="Bard College Berlin" />
+    </category>
+    <category ID="00yq55g44">
+      <label xml:lang="de" text="Universität Witten/Herdecke" />
+      <label xml:lang="en" text="Witten/Herdecke University" />
+    </category>
+    <category ID="03z6vda50">
+      <label xml:lang="de" text="Fachhochschule für die Wirtschaft Hannover" />
+      <label xml:lang="en" text="University of Applied Sciences FHDW Hannover" />
+    </category>
+    <category ID="00e8f1a50">
+      <label xml:lang="de" text="Theologische Fakultät Paderborn" />
+      <label xml:lang="en" text="Theologische Fakultät Paderborn" />
+    </category>
+    <category ID="00t3r8h32">
+      <label xml:lang="de" text="Universität zu Lübeck" />
+      <label xml:lang="en" text="University of Lübeck" />
+    </category>
+    <category ID="04tsk2644">
+      <label xml:lang="de" text="Ruhr-Universität Bochum" />
+      <label xml:lang="en" text="Ruhr University Bochum" />
+    </category>
+    <category ID="03p14d497">
+      <label xml:lang="de" text="Universität Augsburg" />
+      <label xml:lang="en" text="University of Augsburg" />
+    </category>
+    <category ID="04t3en479">
+      <label xml:lang="de" text="Karlsruher Institut für Technologie" />
+      <label xml:lang="en" text="Karlsruhe Institute of Technology" />
+    </category>
+    <category ID="01z1z7017">
+      <label xml:lang="de" text="Forschungsinstitut für Kinderernährung" />
+      <label xml:lang="en" text="Forschungsinstitut für Kinderernährung" />
+    </category>
+    <category ID="0191jdv19">
+      <label xml:lang="de" text="Fachhochschule Clara Hoffbauer Potsdam" />
+      <label xml:lang="en" text="Fachhochschule Clara Hoffbauer Potsdam" />
+    </category>
+    <category ID="05kkv3f82">
+      <label xml:lang="de" text="Universität der Bundeswehr München" />
+      <label xml:lang="en" text="University of the Bundeswehr Munich" />
+    </category>
+    <category ID="01y9bpm73">
+      <label xml:lang="de" text="Georg-August-Universität Göttingen" />
+      <label xml:lang="en" text="University of Göttingen" />
+    </category>
+    <category ID="01rdrb571">
+      <label xml:lang="de" text="Philipps-Universität Marburg" />
+      <label xml:lang="en" text="Philipps University of Marburg" />
+    </category>
+    <category ID="04m2anh63">
+      <label xml:lang="de" text="Hochschule Bonn-Rhein-Sieg" />
+      <label xml:lang="en" text="Bonn-Rhein-Sieg University of Applied Sciences" />
+    </category>
+    <category ID="04wb1en98">
+      <label xml:lang="de" text="Evangelische Hochschule für Soziale Arbeit &amp; Diakonie" />
+      <label xml:lang="en" text="Evangelical School of Social Work &amp; Diakonie" />
+    </category>
+    <category ID="04f7jc139">
+      <label xml:lang="de" text="Hochschule Bremen" />
+      <label xml:lang="en" text="Bremen University of Applied Sciences" />
+    </category>
+    <category ID="03fzkfr34">
+      <label xml:lang="de" text="Landesinstitut für Pädagogik und Medien" />
+      <label xml:lang="en" text="Landesinstitut für Pädagogik und Medien" />
+    </category>
+    <category ID="01qvmm256">
+      <label xml:lang="de" text="Akademie der Kulturellen Bildung" />
+      <label xml:lang="en" text="Academy of Arts Education" />
+    </category>
+    <category ID="04d5zsn45">
+      <label xml:lang="de" text="Deutsch Amerikanisches Institut Saarland" />
+      <label xml:lang="en" text="Deutsch Amerikanisches Institut Saarland" />
+    </category>
+    <category ID="045ky2r08">
+      <label xml:lang="de" text="Erich-Brost-Institut" />
+      <label xml:lang="en" text="Erich-Brost-Institut" />
+    </category>
+    <category ID="038ftp957">
+      <label xml:lang="de" text="German Foreign Trade and Transport Academy" />
+      <label xml:lang="en" text="German Foreign Trade and Transport Academy" />
+    </category>
+    <category ID="01kxwcg54">
+      <label xml:lang="de" text="Schweißtechnische Lehr- und Versuchsanstalt Nord" />
+      <label xml:lang="en" text="Schweißtechnische Lehr- und Versuchsanstalt Nord" />
+    </category>
+    <category ID="01n1byn02">
+      <label xml:lang="de" text="Institut der Feuerwehr Nordrhein-Westfalen" />
+      <label xml:lang="en" text="Institut der Feuerwehr Nordrhein-Westfalen" />
+    </category>
+    <category ID="00sf4jq50">
+      <label xml:lang="de" text="Institut für Brand- und Katastrophenschutz Heyrothsberge" />
+      <label xml:lang="en" text="Institut für Brand- und Katastrophenschutz Heyrothsberge" />
+    </category>
+    <category ID="04x6bfw13">
+      <label xml:lang="de" text="Gesellschaft für Pädagogik und Information" />
+      <label xml:lang="en" text="Gesellschaft für Pädagogik und Information" />
+    </category>
+    <category ID="03dyvyv84">
+      <label xml:lang="de" text="Felsenweg-Institut" />
+      <label xml:lang="en" text="Felsenweg-Institut" />
+    </category>
+    <category ID="0547r0f90">
+      <label xml:lang="de" text="Landesinstitut für Schule und Medien Berlin-Brandenburg" />
+      <label xml:lang="en" text="Landesinstitut für Schule und Medien Berlin-Brandenburg" />
+    </category>
+    <category ID="00mczy147">
+      <label xml:lang="de" text="Medien Management Institut" />
+      <label xml:lang="en" text="Medien Management Institut" />
+    </category>
+    <category ID="04dmvwm54">
+      <label xml:lang="de" text="Medizinische Akademie Erfurt" />
+      <label xml:lang="en" text="Medizinische Akademie Erfurt" />
+    </category>
+    <category ID="03jyr3j92">
+      <label xml:lang="de" text="Staatliche Lehr- und Versuchsanstalt für Gartenbau" />
+      <label xml:lang="en" text="Staatliche Lehr- und Versuchsanstalt für Gartenbau" />
+    </category>
+    <category ID="046j18q84">
+      <label xml:lang="de" text="Internationales Institut für Nachhaltiges Energiemanagement, Politik, Risiko und Soziale Innovationen" />
+      <label xml:lang="en" text="Internationales Institut für Nachhaltiges Energiemanagement, Politik, Risiko und Soziale Innovationen" />
+    </category>
+    <category ID="027wbjg72">
+      <label xml:lang="de" text="Johann-Adam-Möhler-Institut für Ökumenik" />
+      <label xml:lang="en" text="Johann Adam Möhler Institute for Ecumenism" />
+    </category>
+    <category ID="03zekj455">
+      <label xml:lang="de" text="Berlin Mathematical School" />
+      <label xml:lang="en" text="Berlin Mathematical School" />
+    </category>
+    <category ID="01weqhp73">
+      <label xml:lang="de" text="Technische Universität Ilmenau" />
+      <label xml:lang="en" text="Technische Universität Ilmenau" />
+    </category>
+    <category ID="00g30e956">
+      <label xml:lang="de" text="Universität Hamburg" />
+      <label xml:lang="en" text="Universität Hamburg" />
+    </category>
+    <category ID="001rdaz60">
+      <label xml:lang="de" text="Bayerische Akademie der Wissenschaften" />
+      <label xml:lang="en" text="Bavarian Academy of Sciences and Humanities" />
+    </category>
+    <category ID="0473a4773">
+      <label xml:lang="de" text="Hertie School" />
+      <label xml:lang="en" text="Hertie School" />
+    </category>
+    <category ID="0076zct58">
+      <label xml:lang="de" text="Hochschule Anhalt" />
+      <label xml:lang="en" text="Anhalt University of Applied Sciences" />
+    </category>
+    <category ID="048gb8814">
+      <label xml:lang="de" text="Fachhochschule für Rechtspflege Schwetzingen" />
+      <label xml:lang="en" text="Schwetzingen Technical Institute &amp; Graduate Court Registrars' College" />
+    </category>
+    <category ID="02g2sh456">
+      <label xml:lang="de" text="Pädagogische Hochschule Schwäbisch Gmünd" />
+      <label xml:lang="en" text="University of Education Schwaebisch Gmuend" />
+    </category>
+    <category ID="041nas322">
+      <label xml:lang="de" text="Rheinische Friedrich-Wilhelms-Universität Bonn" />
+      <label xml:lang="en" text="University of Bonn" />
+    </category>
+    <category ID="00rcxh774">
+      <label xml:lang="de" text="Universität zu Köln" />
+      <label xml:lang="en" text="University of Cologne" />
+    </category>
+    <category ID="00mx91s63">
+      <label xml:lang="de" text="Katholische Universität Eichstätt-Ingolstadt" />
+      <label xml:lang="en" text="Catholic University of Eichstätt-Ingolstadt" />
+    </category>
+    <category ID="00fkqwx76">
+      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften Hamburg" />
+      <label xml:lang="en" text="HAW Hamburg" />
+    </category>
+    <category ID="03av75f26">
+      <label xml:lang="de" text="Max Planck Institut für Multidisziplinäre Naturwissenschaften" />
+      <label xml:lang="en" text="Max Planck Institute for Multidisciplinary Sciences" />
+    </category>
+    <category ID="03afcx965">
+      <label xml:lang="de" text="bbw Hochschule" />
+      <label xml:lang="en" text="bbw University of Applied Sciences" />
+    </category>
+    <category ID="00f2wje32">
+      <label xml:lang="de" text="Kunsthochschule für Medien Köln" />
+      <label xml:lang="en" text="Academy of Media Arts Cologne" />
+    </category>
+    <category ID="01hkc4630">
+      <label xml:lang="de" text="Fachhochschule Erfurt" />
+      <label xml:lang="en" text="University of Applied Sciences Erfurt" />
+    </category>
+    <category ID="00996c044">
+      <label xml:lang="de" text="Katholische Hochschule für Sozialwesen Berlin" />
+      <label xml:lang="en" text="Catholic University of Applied Social Sciences" />
+    </category>
+    <category ID="01w09y597">
+      <label xml:lang="de" text="Staatliche Hochschule für Musik und Darstellende Kunst Mannheim" />
+      <label xml:lang="en" text="Mannheim University of Music and Performing Arts" />
+    </category>
+    <category ID="03pqf0084">
+      <label xml:lang="de" text="Geschichte des Internationalen Hochschulinstituts (IHI) Zittau" />
+      <label xml:lang="en" text="International University Institute" />
+    </category>
+    <category ID="05b7xvc63">
+      <label xml:lang="de" text="Hochschule für Musik Nürnberg" />
+      <label xml:lang="en" text="Nuremberg University of Music" />
+    </category>
+    <category ID="030sdwr92">
+      <label xml:lang="de" text="Hochschule für Gestaltung Offenbach" />
+      <label xml:lang="en" text="University of Art and Design Offenbach" />
+    </category>
+    <category ID="026kenw55">
+      <label xml:lang="de" text="SRH Hochschule für Gesundheit Gera" />
+      <label xml:lang="en" text="SRH Hochschule für Gesundheit Gera" />
+    </category>
+    <category ID="02832sw36">
+      <label xml:lang="de" text="Staatliche Hochschule für Musik Trossingen" />
+      <label xml:lang="en" text="Trossingen University of Music" />
+    </category>
+    <category ID="038fwdn76">
+      <label xml:lang="de" text="Hochschule für Angewandtes Management" />
+      <label xml:lang="en" text="University of Applied Management" />
+    </category>
+    <category ID="016zq4f37">
+      <label xml:lang="de" text="Hochschule für Gestaltung Schwäbisch Gmünd" />
+      <label xml:lang="en" text="University of Design Schwäbisch Gmünd" />
+    </category>
+    <category ID="031eq5e98">
+      <label xml:lang="de" text="Pädagogische Hochschule Weingarten" />
+      <label xml:lang="en" text="University of Education Weingarten" />
+    </category>
+    <category ID="01ej3e061">
+      <label xml:lang="de" text="Philosophisch-Theologische Hochschule SVD St. Augustin" />
+      <label xml:lang="en" text="Philosophisch-Theologische Hochschule SVD St. Augustin" />
+    </category>
+    <category ID="057qv9h29">
+      <label xml:lang="de" text="Musikhochschule Stuttgart" />
+      <label xml:lang="en" text="State University of Music and Performing Arts Stuttgart" />
+    </category>
+    <category ID="040dxjz28">
+      <label xml:lang="de" text="Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege des Landes Mecklenburg-Vorpommern" />
+      <label xml:lang="en" text="Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege des Landes Mecklenburg-Vorpommern" />
+    </category>
+    <category ID="02743t710">
+      <label xml:lang="de" text="Norddeutsche Hochschule für Rechtspflege" />
+      <label xml:lang="en" text="Norddeutsche Hochschule für Rechtspflege" />
+    </category>
+    <category ID="03037cz33">
+      <label xml:lang="de" text="Design Akademie Berlin" />
+      <label xml:lang="en" text="Design Akademie Berlin" />
+    </category>
+    <category ID="02a8wk986">
+      <label xml:lang="de" text="AKAD University" />
+      <label xml:lang="en" text="AKAD University" />
+    </category>
+    <category ID="0167r2g29">
+      <label xml:lang="de" text="Merz Akademie" />
+      <label xml:lang="en" text="Merz Akademie" />
+    </category>
+    <category ID="0560e8961">
+      <label xml:lang="de" text="Hamburg School of Business Administration" />
+      <label xml:lang="en" text="Hamburg School of Business Administration" />
+    </category>
+    <category ID="00xdvw685">
+      <label xml:lang="de" text="Hochschule 21" />
+      <label xml:lang="en" text="college 21" />
+    </category>
+    <category ID="05eyxqf74">
+      <label xml:lang="de" text="Fachhochschule für Wirtschaft und Technik" />
+      <label xml:lang="en" text="Private Hochschule für Wirtschaft und Technik" />
+    </category>
+    <category ID="04m4shs41">
+      <label xml:lang="de" text="Dekra Hochschule für Medien" />
+      <label xml:lang="en" text="Dekra Hochschule für Medien" />
+    </category>
+    <category ID="03t7d6q88">
+      <label xml:lang="de" text="Federal University of Applied Administrative Sciences" />
+      <label xml:lang="en" text="Federal University of Applied Administrative Sciences" />
+    </category>
+    <category ID="04ms51788">
+      <label xml:lang="de" text="Westsächsische Hochschule Zwickau" />
+      <label xml:lang="en" text="Westsächsische Hochschule Zwickau" />
+    </category>
+    <category ID="00jvbme10">
+      <label xml:lang="de" text="Fachhochschule für Finanzen Brandenburg" />
+      <label xml:lang="en" text="Fachhochschule für Finanzen Brandenburg" />
+    </category>
+    <category ID="03eqwj662">
+      <label xml:lang="de" text="Leibniz Fachhochschule" />
+      <label xml:lang="en" text="Leibniz University of Applied Sciences" />
+    </category>
+    <category ID="01tkb3y54">
+      <label xml:lang="de" text="GISMA Business School" />
+      <label xml:lang="en" text="GISMA Business School" />
+    </category>
+    <category ID="01bc76c69">
+      <label xml:lang="de" text="Hochschule Emden / Leer" />
+      <label xml:lang="en" text="University of Applied Sciences Emden Leer" />
+    </category>
+    <category ID="003r76697">
+      <label xml:lang="de" text="Nordakademie" />
+      <label xml:lang="en" text="Nordakademie" />
+    </category>
+    <category ID="01hqp1g48">
+      <label xml:lang="de" text="Hochschule Kehl" />
+      <label xml:lang="en" text="University of Applied Sciences Kehl" />
+    </category>
+    <category ID="001yqrb02">
+      <label xml:lang="de" text="Hochschule Bremerhaven" />
+      <label xml:lang="en" text="University of Applied Sciences Bremerhaven" />
+    </category>
+    <category ID="03m2kj587">
+      <label xml:lang="de" text="Hochschule Hannover" />
+      <label xml:lang="en" text="Hochschule Hannover" />
+    </category>
+    <category ID="01t1kq612">
+      <label xml:lang="de" text="Pädagogische Hochschule Karlsruhe" />
+      <label xml:lang="en" text="Karlsruhe University of Education" />
+    </category>
+    <category ID="056cezx90">
+      <label xml:lang="de" text="Hochschule Esslingen" />
+      <label xml:lang="en" text="Esslingen University of Applied Sciences" />
+    </category>
+    <category ID="01w0fb867">
+      <label xml:lang="de" text="Alanus Hochschule für Kunst und Gesellschaft" />
+      <label xml:lang="en" text="Alanus University of Arts and Social Sciences" />
+    </category>
+    <category ID="05m3vpd98">
+      <label xml:lang="de" text="FOM - Hochschule für Oekonomie und Management" />
+      <label xml:lang="en" text="FOM University of Applied Sciences for Economics and Management" />
+    </category>
+    <category ID="03c0qqf32">
+      <label xml:lang="de" text="Hochschule für Musik und Darstellende Kunst Frankfurt am Main" />
+      <label xml:lang="en" text="Frankfurt University of Music and Performing Arts" />
+    </category>
+    <category ID="00z9cn431">
+      <label xml:lang="de" text="Kühne Logistics University" />
+      <label xml:lang="en" text="Kühne Logistics University" />
+    </category>
+    <category ID="01d30w739">
+      <label xml:lang="de" text="Deutsche Universität für Verwaltungswissenschaften Speyer" />
+      <label xml:lang="en" text="German University of Administrative Sciences" />
+    </category>
+    <category ID="04f8x5b20">
+      <label xml:lang="de" text="Hochschule Merseburg" />
+      <label xml:lang="en" text="Merseburg University of Applied Sciences" />
+    </category>
+    <category ID="02vvvm705">
+      <label xml:lang="de" text="Jade Hochschule" />
+      <label xml:lang="en" text="Jade University of Applied Sciences" />
+    </category>
+    <category ID="03w3a0h43">
+      <label xml:lang="de" text="Evangelische Hochschule Freiburg" />
+      <label xml:lang="en" text="Protestant University of Applied Sciences Freiburg" />
+    </category>
+    <category ID="04nbz6d36">
+      <label xml:lang="de" text="Hochschule Nordhausen" />
+      <label xml:lang="en" text="Nordhausen University of Applied Sciences" />
+    </category>
+    <category ID="01a7snz60">
+      <label xml:lang="de" text="Hochschule für Fernsehen und Film München" />
+      <label xml:lang="en" text="University of Television and Film Munich" />
+    </category>
+    <category ID="00s4rmz74">
+      <label xml:lang="de" text="Hochschule Ravensburg-Weingarten" />
+      <label xml:lang="en" text="University of Applied Sciences Ravensburg-Weingarten" />
+    </category>
+    <category ID="00bwfj843">
+      <label xml:lang="de" text="Private Fachhochschule Wedel" />
+      <label xml:lang="en" text="University of Applied Sciences Wedel" />
+    </category>
+    <category ID="045y6d111">
+      <label xml:lang="de" text="Universität Vechta" />
+      <label xml:lang="en" text="University of Vechta" />
+    </category>
+    <category ID="04e209f39">
+      <label xml:lang="de" text="Loewe-Zentrum für Synthetische Mikrobiologie" />
+      <label xml:lang="en" text="Loewe Center for Synthetic Microbiology" />
+    </category>
+    <category ID="024ga3r86">
+      <label xml:lang="de" text="Hochschule Mittweida" />
+      <label xml:lang="en" text="University of Applied Sciences Mittweida" />
+    </category>
+    <category ID="05jgq9443">
+      <label xml:lang="de" text="Berlin-Brandenburgische Akademie der Wissenschaften" />
+      <label xml:lang="en" text="Berlin-Brandenburg Academy of Sciences and Humanities" />
+    </category>
+    <category ID="01a2z2x66">
+      <label xml:lang="de" text="Institut der deutschen Wirtschaft Köln" />
+      <label xml:lang="en" text="Cologne Institute for Economic Research" />
+    </category>
+    <category ID="05jghsy80">
+      <label xml:lang="de" text="Holbein-Gymnasium Augsburg" />
+      <label xml:lang="en" text="Holbein-Gymnasium Augsburg" />
+    </category>
+    <category ID="039a0eq51">
+      <label xml:lang="de" text="Ostkirchliches Institut Regensburg" />
+      <label xml:lang="en" text="Ostkirchliches Institut Regensburg" />
+    </category>
+    <category ID="04b98k103">
+      <label xml:lang="de" text="Döpfer Schulen Regensburg" />
+      <label xml:lang="en" text="Döpfer Schulen Regensburg" />
+    </category>
+    <category ID="03zvpee43">
+      <label xml:lang="de" text="Hochschule für Gesundheitsorientierte Wissenschaften Rhein-Neckar" />
+      <label xml:lang="en" text="Hochschule für Gesundheitsorientierte Wissenschaften Rhein-Neckar" />
+    </category>
+    <category ID="04e8jbs38">
+      <label xml:lang="de" text="Helmut-Schmidt-Universität" />
+      <label xml:lang="en" text="Helmut Schmidt University" />
+    </category>
+    <category ID="015qjqf64">
+      <label xml:lang="de" text="Stiftung Tierärztliche Hochschule Hannover" />
+      <label xml:lang="en" text="University of Veterinary Medicine Hannover, Foundation" />
+    </category>
+    <category ID="01rfnc002">
+      <label xml:lang="de" text="Ernst-Abbe-Hochschule Jena" />
+      <label xml:lang="en" text="Ernst Abbe University of Applied Sciences Jena" />
+    </category>
+    <category ID="00gzkxz88">
+      <label xml:lang="de" text="Hochschule Weihenstephan-Triesdorf" />
+      <label xml:lang="en" text="Weihenstephan-Triesdorf University of Applied Sciences" />
+    </category>
+    <category ID="05591te55">
+      <label xml:lang="de" text="Ludwig-Maximilians-Universität München" />
+      <label xml:lang="en" text="Ludwig-Maximilians-Universität in Munich" />
+    </category>
+    <category ID="0234wmv40">
+      <label xml:lang="de" text="Universität Bayreuth" />
+      <label xml:lang="en" text="University of Bayreuth" />
+    </category>
+    <category ID="04zrf7b53">
+      <label xml:lang="de" text="Technische Universität Kaiserslautern" />
+      <label xml:lang="en" text="University of Kaiserslautern" />
+    </category>
+    <category ID="02f9det96">
+      <label xml:lang="de" text="Universität Hildesheim" />
+      <label xml:lang="en" text="University of Hildesheim" />
+    </category>
+    <category ID="04v76ef78">
+      <label xml:lang="de" text="Christian-Albrechts-Universität zu Kiel" />
+      <label xml:lang="en" text="Kiel University" />
+    </category>
+    <category ID="02m11x738">
+      <label xml:lang="de" text="Hochschule Furtwangen" />
+      <label xml:lang="en" text="Furtwangen University" />
+    </category>
+    <category ID="04tkkr536">
+      <label xml:lang="de" text="FernUniversität in Hagen" />
+      <label xml:lang="en" text="University of Hagen" />
+    </category>
+    <category ID="05dkqa017">
+      <label xml:lang="de" text="Hochschule Kaiserslautern" />
+      <label xml:lang="en" text="University of Applied Sciences Kaiserslautern" />
+    </category>
+    <category ID="00s1ckt27">
+      <label xml:lang="de" text="Hochschule Wismar" />
+      <label xml:lang="en" text="University of Wismar" />
+    </category>
+    <category ID="04p7ekn23">
+      <label xml:lang="de" text="Westfälische Hochschule" />
+      <label xml:lang="en" text="Westfälische Hochschule" />
+    </category>
+    <category ID="00r1edq15">
+      <label xml:lang="de" text="Ernst-Moritz-Arndt-Universität Greifswald" />
+      <label xml:lang="en" text="University of Greifswald" />
+    </category>
+    <category ID="02tdyw459">
+      <label xml:lang="de" text="Archivschule Marburg" />
+      <label xml:lang="en" text="Archives School Marburg" />
+    </category>
+    <category ID="02nzadc54">
+      <label xml:lang="de" text="Hochschule für öffentliche Verwaltung Rheinland-Pfalz" />
+      <label xml:lang="en" text="Hochschule für öffentliche Verwaltung Rheinland-Pfalz" />
+    </category>
+    <category ID="02r625m11">
+      <label xml:lang="de" text="Frankfurt University of Applied Sciences" />
+      <label xml:lang="en" text="Frankfurt University of Applied Sciences" />
+    </category>
+    <category ID="047wbd030">
+      <label xml:lang="de" text="Hochschule Darmstadt" />
+      <label xml:lang="en" text="Darmstadt University of Applied Sciences" />
+    </category>
+    <category ID="033n9gh91">
+      <label xml:lang="de" text="Carl von Ossietzky Universität Oldenburg" />
+      <label xml:lang="en" text="Carl von Ossietzky University of Oldenburg" />
+    </category>
+    <category ID="04ers2y35">
+      <label xml:lang="de" text="Universität Bremen" />
+      <label xml:lang="en" text="University of Bremen" />
+    </category>
+    <category ID="03s7gtk40">
+      <label xml:lang="de" text="Universität Leipzig" />
+      <label xml:lang="en" text="Leipzig University" />
+    </category>
+    <category ID="0546hnb39">
+      <label xml:lang="de" text="Universität Konstanz" />
+      <label xml:lang="en" text="University of Konstanz" />
+    </category>
+    <category ID="04qmmjx98">
+      <label xml:lang="de" text="Universität Osnabrück" />
+      <label xml:lang="en" text="Osnabrück University" />
+    </category>
+    <category ID="042xxdh20">
+      <label xml:lang="de" text="Hochschule für Wirtschaft und Gesellschaft Ludwigshafen" />
+      <label xml:lang="en" text="Ludwigshafen University of Business and Society" />
+    </category>
+    <category ID="04xfq0f34">
+      <label xml:lang="de" text="Rheinisch-Westfälische Technische Hochschule Aachen" />
+      <label xml:lang="en" text="RWTH Aachen University" />
+    </category>
+    <category ID="04eka8j06">
+      <label xml:lang="de" text="Technische Hochschule Ostwestfalen-Lippe" />
+      <label xml:lang="en" text="Ostwestfalen-Lippe University of Applied Sciences and Arts" />
+    </category>
+    <category ID="04b9vrm74">
+      <label xml:lang="de" text="Ostbayerische Technische Hochschule Regensburg" />
+      <label xml:lang="en" text="Regensburg University of Applied Sciences" />
+    </category>
+    <category ID="04gg60e72">
+      <label xml:lang="de" text="Hochschule Aalen" />
+      <label xml:lang="en" text="Hochschule Aalen" />
+    </category>
+    <category ID="0004r6b85">
+      <label xml:lang="de" text="Hochschule Biberach" />
+      <label xml:lang="en" text="University of Applied Sciences Biberach" />
+    </category>
+    <category ID="04p61dj41">
+      <label xml:lang="de" text="Hochschule Mannheim" />
+      <label xml:lang="en" text="Mannheim University of Applied Sciences" />
+    </category>
+    <category ID="00pv45a02">
+      <label xml:lang="de" text="Fachhochschule Münster" />
+      <label xml:lang="en" text="Münster University of Applied Sciences" />
+    </category>
+    <category ID="02nq4wt82">
+      <label xml:lang="de" text="Hochschule Schmalkalden" />
+      <label xml:lang="en" text="Schmalkalden University of Applied Sciences" />
+    </category>
+    <category ID="00ftx0026">
+      <label xml:lang="de" text="Hochschule Düsseldorf" />
+      <label xml:lang="en" text="Hochschule Düsseldorf University of Applied Sciences" />
+    </category>
+    <category ID="04hazks31">
+      <label xml:lang="de" text="International Max Planck Research School for Advanced Methods in Process and Systems Engineering" />
+      <label xml:lang="en" text="International Max Planck Research School for Advanced Methods in Process and Systems Engineering" />
+    </category>
+    <category ID="05n911h24">
+      <label xml:lang="de" text="Technische Universität Darmstadt" />
+      <label xml:lang="en" text="Technical University of Darmstadt" />
+    </category>
+    <category ID="038t2yw28">
+      <label xml:lang="de" text="Institut zur Qualitätsentwicklung im Bildungswesen" />
+      <label xml:lang="en" text="Institute for Educational Quality Improvement" />
+    </category>
+    <category ID="00f7ytv44">
+      <label xml:lang="de" text="Curculio Institute" />
+      <label xml:lang="en" text="Curculio Institute" />
+    </category>
+    <category ID="044w5t390">
+      <label xml:lang="de" text="European Centre for Community Education" />
+      <label xml:lang="en" text="European Centre for Community Education" />
+    </category>
+    <category ID="03b7zcy46">
+      <label xml:lang="de" text="Fachinstitut für Informatik und Grafikdesign" />
+      <label xml:lang="en" text="Fachinstitut für Informatik und Grafikdesign" />
+    </category>
+    <category ID="03e5gcq07">
+      <label xml:lang="de" text="Institut für Ausbildung Jugendlicher" />
+      <label xml:lang="en" text="Institut für Ausbildung Jugendlicher" />
+    </category>
+    <category ID="00ea83k06">
+      <label xml:lang="de" text="Institut für Kommunikation und Wirtschaftsbildung" />
+      <label xml:lang="en" text="Institut für Kommunikation und Wirtschaftsbildung" />
+    </category>
+    <category ID="01qve8440">
+      <label xml:lang="de" text="Institut für Berufliche Bildung" />
+      <label xml:lang="en" text="Institut für Berufliche Bildung" />
+    </category>
+    <category ID="03225mv93">
+      <label xml:lang="de" text="Museumspädagogische Zentrum" />
+      <label xml:lang="en" text="Museumspädagogische Zentrum" />
+    </category>
+    <category ID="047d27s15">
+      <label xml:lang="de" text="Permakultur Institut" />
+      <label xml:lang="en" text="Permakultur Institut" />
+    </category>
+    <category ID="054kgce12">
+      <label xml:lang="de" text="An-Institut für Transfer und Weiterbildung" />
+      <label xml:lang="en" text="An-Institut für Transfer und Weiterbildung" />
+    </category>
+    <category ID="02dm92c46">
+      <label xml:lang="de" text="Europa-Institut" />
+      <label xml:lang="en" text="Europa-Institut" />
+    </category>
+    <category ID="03rw8a492">
+      <label xml:lang="de" text="Universitätsverband zur Qualifizierung des wissenschaftlichen Nachwuchses in Deutschland" />
+      <label xml:lang="en" text="German University Association of Advanced Graduate Training" />
+    </category>
+    <category ID="039jwf091">
+      <label xml:lang="de" text="Deutsche Akademie der Technikwissenschaften" />
+      <label xml:lang="en" text="Acatech" />
+    </category>
+    <category ID="03ps48j85">
+      <label xml:lang="de" text="Hochschule für Musik Karlsruhe" />
+      <label xml:lang="en" text="University of Music Karlsruhe" />
+    </category>
+    <category ID="03xp99m49">
+      <label xml:lang="de" text="Institute for Integrated Management of Material Fluxes and of Resources" />
+      <label xml:lang="en" text="Institute for Integrated Management of Material Fluxes and of Resources" />
+    </category>
+    <category ID="02fm9ey65">
+      <label xml:lang="de" text="Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften" />
+      <label xml:lang="en" text="Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften" />
+    </category>
+    <category ID="00edvg943">
+      <label xml:lang="de" text="Fachhochschule Bielefeld" />
+      <label xml:lang="en" text="Fachhochschule Bielefeld" />
+    </category>
+    <category ID="03d1zwe41">
+      <label xml:lang="de" text="Center for Behavioral Brain Sciences" />
+      <label xml:lang="en" text="Center for Behavioral Brain Sciences" />
+    </category>
+    <category ID="03a1kwz48">
+      <label xml:lang="de" text="Eberhard Karls Universität Tübingen" />
+      <label xml:lang="en" text="University of Tübingen" />
+    </category>
+    <category ID="05f3gj938">
+      <label xml:lang="de" text="BTK - Hochschule für Kunst &amp; Design" />
+      <label xml:lang="en" text="BTK University of Arts &amp; Design" />
+    </category>
+    <category ID="00ztzxf77">
+      <label xml:lang="de" text="Kunstakademie Münster" />
+      <label xml:lang="en" text="Academy of Fine Arts Münster" />
+    </category>
+    <category ID="03kzgcv48">
+      <label xml:lang="de" text="Freie Theologische Hochschule Gießen" />
+      <label xml:lang="en" text="Giessen School of Theology" />
+    </category>
+    <category ID="033jd5r25">
+      <label xml:lang="de" text="Technische Hochschule Georg Agricola" />
+      <label xml:lang="en" text="Technische Hochschule Georg Agricola" />
+    </category>
+    <category ID="00txhpa83">
+      <label xml:lang="de" text="Rheinische Fachhochschule Köln" />
+      <label xml:lang="en" text="RFH - University of Applied Sciences Cologne" />
+    </category>
+    <category ID="03vz3qc29">
+      <label xml:lang="de" text="Evangelische Hochschule Rheinland-Westfalen-Lippe" />
+      <label xml:lang="en" text="Protestant University of Applied Sciences Rhineland-Westphalia-Lippe" />
+    </category>
+    <category ID="01prjcc04">
+      <label xml:lang="de" text="SRH Hochschule Berlin" />
+      <label xml:lang="en" text="SRH University Berlin" />
+    </category>
+    <category ID="05m1pqv80">
+      <label xml:lang="de" text="Hochschule für Musik Würzburg" />
+      <label xml:lang="en" text="University of Music Würzburg" />
+    </category>
+    <category ID="00vcnds94">
+      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Benediktbeuern" />
+      <label xml:lang="en" text="Philosophisch-Theologische Hochschule Benediktbeuern" />
+    </category>
+    <category ID="036smcz74">
+      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Vallendar" />
+      <label xml:lang="en" text="Philosophisch-Theologische Hochschule Vallendar" />
+    </category>
+    <category ID="02m7p2c22">
+      <label xml:lang="de" text="Hochschule für Musik und Theater München" />
+      <label xml:lang="en" text="University of Music and Performing Arts Munich" />
+    </category>
+    <category ID="03bthq143">
+      <label xml:lang="de" text="Fachhochschule Westküste" />
+      <label xml:lang="en" text="West Coast University of Applied Sciences" />
+    </category>
+    <category ID="03y02pg02">
+      <label xml:lang="de" text="Hochschule für Musik Detmold" />
+      <label xml:lang="en" text="University of Music Detmold" />
+    </category>
+    <category ID="01j2dwr66">
+      <label xml:lang="de" text="Katholische Stiftungsfachhochschule München" />
+      <label xml:lang="en" text="Catholic University of Applied Sciences in Munich" />
+    </category>
+    <category ID="04z03cz64">
+      <label xml:lang="de" text="Hochschule der Bildenden Künste Saar" />
+      <label xml:lang="en" text="Hochschule der Bildenden Künste Saar" />
+    </category>
+    <category ID="04tr4sk76">
+      <label xml:lang="de" text="Fachhochschule für Finanzen Nordrhein Westfalen" />
+      <label xml:lang="en" text="Fachhochschule für Finanzen Nordrhein Westfalen" />
+    </category>
+    <category ID="02qbcmz19">
+      <label xml:lang="de" text="Fachhochschule für öffentliche Verwaltung Nordrhein-Westfalen" />
+      <label xml:lang="en" text="University of Applied Sciences for Public Administration and Management" />
+    </category>
+    <category ID="05d6z1532">
+      <label xml:lang="de" text="Hochschule für Finanzen Rheinland Pfalz" />
+      <label xml:lang="en" text="Hochschule für Finanzen Rheinland Pfalz" />
+    </category>
+    <category ID="01eyhzm47">
+      <label xml:lang="de" text="Fachhochschule für Verwaltung des Saarlandes" />
+      <label xml:lang="en" text="Fachhochschule für Verwaltung des Saarlandes" />
+    </category>
+    <category ID="00vkbtf98">
+      <label xml:lang="de" text="Wilhelm Büchner Hochschule" />
+      <label xml:lang="en" text="Wilhelm Büchner Hochschule" />
+    </category>
+    <category ID="003xt6d81">
+      <label xml:lang="de" text="Fachhochschule für Verwaltung und Dienstleistung" />
+      <label xml:lang="en" text="Fachhochschule für Verwaltung und Dienstleistung" />
+    </category>
+    <category ID="01f5b8367">
+      <label xml:lang="de" text="Fachhochschule des Mittelstands" />
+      <label xml:lang="en" text="Fachhochschule des Mittelstands" />
+    </category>
+    <category ID="0367m1n91">
+      <label xml:lang="de" text="Hochschule Weserbergland" />
+      <label xml:lang="en" text="Hochschule Weserbergland" />
+    </category>
+    <category ID="01k6xby62">
+      <label xml:lang="de" text="SRH Hochschule für Logistik und Wirtschaft" />
+      <label xml:lang="en" text="SRH Hochschule für Logistik und Wirtschaft" />
+    </category>
+    <category ID="03hj8rz96">
+      <label xml:lang="de" text="Hochschule für Gesundheit Bochum" />
+      <label xml:lang="en" text="hsg Bochum - University of Applied Sciences" />
+    </category>
+    <category ID="041w2kh96">
+      <label xml:lang="de" text="University of Applied Sciences Europe" />
+      <label xml:lang="en" text="University of Applied Sciences Europe" />
+    </category>
+    <category ID="055s1wn27">
+      <label xml:lang="de" text="Hochschule für Polizei Baden-Württemberg" />
+      <label xml:lang="en" text="Hochschule für Polizei Baden-Württemberg" />
+    </category>
+    <category ID="05tn39y33">
+      <label xml:lang="de" text="Akademie der Polizei Hamburg" />
+      <label xml:lang="en" text="Akademie der Polizei Hamburg" />
+    </category>
+    <category ID="035jc1316">
+      <label xml:lang="de" text="Hessische Hochschule für Finanzen und Rechtspflege" />
+      <label xml:lang="en" text="Hessische Hochschule für Finanzen und Rechtspflege" />
+    </category>
+    <category ID="00apjgf04">
+      <label xml:lang="de" text="Schiller International University" />
+      <label xml:lang="en" text="Schiller International University" />
+    </category>
+    <category ID="005k9c849">
+      <label xml:lang="de" text="Evangelische Stiftung Volmarstein" />
+      <label xml:lang="en" text="Evangelische Stiftung Volmarstein" />
+    </category>
+    <category ID="042seb440">
+      <label xml:lang="de" text="Berufsförderungszentrum Essen" />
+      <label xml:lang="en" text="Berufsförderungszentrum Essen" />
+    </category>
+    <category ID="00q644y50">
+      <label xml:lang="de" text="Hochschule Reutlingen" />
+      <label xml:lang="en" text="Reutlingen University" />
+    </category>
+    <category ID="032xqbj11">
+      <label xml:lang="de" text="Technische Hochschule Lübeck" />
+      <label xml:lang="en" text="Technical University of Applied Sciences Lübeck" />
+    </category>
+    <category ID="01kdxra28">
+      <label xml:lang="de" text="Akademie der Wissenschaften und der Literatur Mainz" />
+      <label xml:lang="en" text="Academy of Sciences and Literature" />
+    </category>
+    <category ID="00vjd4k74">
+      <label xml:lang="de" text="Handelshochschule Leipzig" />
+      <label xml:lang="en" text="HHL Leipzig Graduate School of Management" />
+    </category>
+    <category ID="00f5q5839">
+      <label xml:lang="de" text="Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen" />
+      <label xml:lang="en" text="University of Applied Sciences and Arts University of Applied Sciences and Arts Hildesheim/Holzminden/Göttingen" />
+    </category>
+    <category ID="052gzq419">
+      <label xml:lang="de" text="Hochschule für Jüdische Studien" />
+      <label xml:lang="en" text="Hochschule für Jüdische Studien" />
+    </category>
+    <category ID="04g5gcg95">
+      <label xml:lang="de" text="Hochschule Heilbronn" />
+      <label xml:lang="en" text="Heilbronn University" />
+    </category>
+    <category ID="0044w3h23">
+      <label xml:lang="de" text="Pädagogische Hochschule Heidelberg" />
+      <label xml:lang="en" text="Heidelberg University of Education" />
+    </category>
+    <category ID="01x84xc38">
+      <label xml:lang="de" text="Philosophisch-Theologische Hochschule Sankt Georgen" />
+      <label xml:lang="en" text="Sankt Georgen Graduate School of Philosophy and Theology" />
+    </category>
+    <category ID="01nbps758">
+      <label xml:lang="de" text="Internationale Berufsakademie" />
+      <label xml:lang="en" text="International University of Cooperative Education" />
+    </category>
+    <category ID="03gf02c22">
+      <label xml:lang="de" text="Folkwang Universität der Künste" />
+      <label xml:lang="en" text="Folkwang University of the Arts" />
+    </category>
+    <category ID="038rep477">
+      <label xml:lang="de" text="Theologische Hochschule Friedensau" />
+      <label xml:lang="en" text="Friedensau Adventist University" />
+    </category>
+    <category ID="01tbgce33">
+      <label xml:lang="de" text="Evangelische Hochschule Nürnberg" />
+      <label xml:lang="en" text="Lutheran University of Applied Sciences Nuremberg" />
+    </category>
+    <category ID="03dv91853">
+      <label xml:lang="de" text="Fachhochschule Dortmund" />
+      <label xml:lang="en" text="Dortmund University of Applied Sciences and Arts" />
+    </category>
+    <category ID="00qakfc35">
+      <label xml:lang="de" text="Hochschule Pforzheim" />
+      <label xml:lang="en" text="Pforzheim University of Applied Sciences" />
+    </category>
+    <category ID="031yv7164">
+      <label xml:lang="de" text="Hochschule für Musik und Theater Rostock" />
+      <label xml:lang="en" text="Rostock University of Music and Theatre" />
+    </category>
+    <category ID="04q5vv384">
+      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften Hof" />
+      <label xml:lang="en" text="Hof University of Applied Sciences" />
+    </category>
+    <category ID="03hbmgt12">
+      <label xml:lang="de" text="Hochschule Rosenheim" />
+      <label xml:lang="en" text="University of Applied Sciences Rosenheim" />
+    </category>
+    <category ID="04msbx814">
+      <label xml:lang="de" text="Hochschule für Musik und Theater Felix Mendelssohn Bartholdy Leipzig" />
+      <label xml:lang="en" text="University of Music and Theatre Leipzig" />
+    </category>
+    <category ID="0260evc53">
+      <label xml:lang="de" text="Maschinenbauschule Ansbach" />
+      <label xml:lang="en" text="Maschinenbauschule Ansbach" />
+    </category>
+    <category ID="02m4p8096">
+      <label xml:lang="de" text="Hochschule Kempten" />
+      <label xml:lang="en" text="Kempten University of Applied Sciences" />
+    </category>
+    <category ID="03w8kgm26">
+      <label xml:lang="de" text="SB Science Management" />
+      <label xml:lang="en" text="SB Science Management" />
+    </category>
+    <category ID="03v4gjf40">
+      <label xml:lang="de" text="Technische Universität Berlin" />
+      <label xml:lang="en" text="Technical University of Berlin" />
+    </category>
+    <category ID="00a208s56">
+      <label xml:lang="de" text="Technische Universität Chemnitz" />
+      <label xml:lang="en" text="Chemnitz University of Technology" />
+    </category>
+    <category ID="033eqas34">
+      <label xml:lang="de" text="Justus Liebig-Universität Gießen" />
+      <label xml:lang="en" text="University of Giessen" />
+    </category>
+    <category ID="05gqaka33">
+      <label xml:lang="de" text="Martin-Luther-Universität Halle-Wittenberg" />
+      <label xml:lang="en" text="Martin Luther University Halle-Wittenberg" />
+    </category>
+    <category ID="0304hq317">
+      <label xml:lang="de" text="Leibniz Universität Hannover" />
+      <label xml:lang="en" text="Leibniz University Hannover" />
+    </category>
+    <category ID="00b1c9541">
+      <label xml:lang="de" text="Universität Hohenheim" />
+      <label xml:lang="en" text="University of Hohenheim" />
+    </category>
+    <category ID="01jdpyv68">
+      <label xml:lang="de" text="Universität des Saarlandes" />
+      <label xml:lang="en" text="Saarland University" />
+    </category>
+    <category ID="02ge27m07">
+      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft des Saarlandes" />
+      <label xml:lang="en" text="htw saar - University of Applied Sciences" />
+    </category>
+    <category ID="01crqqh49">
+      <label xml:lang="de" text="Parmenides Foundation" />
+      <label xml:lang="en" text="Parmenides Foundation" />
+    </category>
+    <category ID="03hj50651">
+      <label xml:lang="de" text="Hochschule Fresenius University of Applied Sciences" />
+      <label xml:lang="en" text="Fresenius University of Applied Sciences" />
+    </category>
+    <category ID="03zh5eq96">
+      <label xml:lang="de" text="Hochschule Offenburg" />
+      <label xml:lang="en" text="Offenburg University of Applied Sciences" />
+    </category>
+    <category ID="02qchbs48">
+      <label xml:lang="de" text="Psychologische Hochschule Berlin" />
+      <label xml:lang="en" text="Psychologische Hochschule Berlin" />
+    </category>
+    <category ID="0583z7951">
+      <label xml:lang="de" text="Eckert Schools International" />
+      <label xml:lang="en" text="Eckert Schools International" />
+    </category>
+    <category ID="05b38ps04">
+      <label xml:lang="de" text="Landesinstitut für Lehrerbildung und Schulentwicklung" />
+      <label xml:lang="en" text="Landesinstitut für Lehrerbildung und Schulentwicklung" />
+    </category>
+    <category ID="03xkxsc82">
+      <label xml:lang="de" text="Institut für Berufs- und Sozialpädagogik" />
+      <label xml:lang="en" text="Institut für Berufs- und Sozialpädagogik" />
+    </category>
+    <category ID="00wg9tw09">
+      <label xml:lang="de" text="Institut für Textoptimierung" />
+      <label xml:lang="en" text="Institut für Textoptimierung" />
+    </category>
+    <category ID="03qwtkn62">
+      <label xml:lang="de" text="Lebensmittelinstitut KIN" />
+      <label xml:lang="en" text="Lebensmittelinstitut KIN" />
+    </category>
+    <category ID="018fbs662">
+      <label xml:lang="de" text="Nestor Bildungsinstitut" />
+      <label xml:lang="en" text="Nestor Bildungsinstitut" />
+    </category>
+    <category ID="02dxkcn59">
+      <label xml:lang="de" text="Hochschuldidaktischen Zentrum Sachsen" />
+      <label xml:lang="en" text="Hochschuldidaktischen Zentrum Sachsen" />
+    </category>
+    <category ID="002n9qz56">
+      <label xml:lang="de" text="European School of Materials" />
+      <label xml:lang="en" text="European School of Materials" />
+    </category>
+    <category ID="00x67g916">
+      <label xml:lang="de" text="Allensbach Hochschule" />
+      <label xml:lang="en" text="Allensbach University" />
+    </category>
+    <category ID="03t7jd518">
+      <label xml:lang="de" text="Duale Hochschule Gera-Eisenach" />
+      <label xml:lang="en" text="Duale Hochschule Gera-Eisenach" />
+    </category>
+    <category ID="03gzxs418">
+      <label xml:lang="de" text="Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg" />
+      <label xml:lang="en" text="University of Applied Sciences - Public Administration and Finance Ludwigsburg" />
+    </category>
+    <category ID="00a0w0523">
+      <label xml:lang="de" text="Zentrum für Osteuropa- und internationale Studien" />
+      <label xml:lang="en" text="Centre for East European and International Studies" />
+    </category>
+    <category ID="022zhm372">
+      <label xml:lang="de" text="Paracelsus Medizinische Privatuniversität" />
+      <label xml:lang="en" text="Paracelsus Medizinische Privatuniversität" />
+    </category>
+    <category ID="04vpsen23">
+      <label xml:lang="de" text="HSD Hochschule Döpfer" />
+      <label xml:lang="en" text="HSD Hochschule Döpfer" />
+    </category>
+    <category ID="01yhahq71">
+      <label xml:lang="de" text="WHU – Otto Beisheim School of Management" />
+      <label xml:lang="en" text="WHU – Otto Beisheim School of Management" />
+    </category>
+    <category ID="01xzwj424">
+      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Berlin" />
+      <label xml:lang="en" text="HTW Berlin - University of Applied Sciences" />
+    </category>
+    <category ID="05xy1nn52">
+      <label xml:lang="de" text="Multiscale Bioimaging" />
+      <label xml:lang="en" text="Multiscale Bioimaging" />
+    </category>
+    <category ID="02k4gk709">
+      <label xml:lang="de" text="Christiani" />
+      <label xml:lang="en" text="Christiani" />
     </category>
     <category ID="00ggpsq73">
-      <label xml:lang="en" text="Otto-von-Guericke University Magdeburg"/>
-      <label xml:lang="de" text="Otto-von-Guericke-Universität Magdeburg"/>
+      <label xml:lang="de" text="Otto-von-Guericke-Universität Magdeburg" />
+      <label xml:lang="en" text="Otto-von-Guericke University Magdeburg" />
     </category>
     <category ID="00yvfbm89">
-      <label xml:lang="en" text="Fachhochschule der Diakonie"/>
-      <label xml:lang="de" text="Fachhochschule der Diakonie"/>
+      <label xml:lang="de" text="Fachhochschule der Diakonie" />
+      <label xml:lang="en" text="Fachhochschule der Diakonie" />
     </category>
     <category ID="01k97gp34">
-      <label xml:lang="en" text="TU Dortmund University"/>
-      <label xml:lang="de" text="Technische Universität Dortmund"/>
+      <label xml:lang="de" text="Technische Universität Dortmund" />
+      <label xml:lang="en" text="TU Dortmund University" />
     </category>
     <category ID="00613ak93">
-      <label xml:lang="en" text="University of Wuppertal"/>
-      <label xml:lang="de" text="Bergische Universität Wuppertal"/>
+      <label xml:lang="de" text="Bergische Universität Wuppertal" />
+      <label xml:lang="en" text="University of Wuppertal" />
     </category>
     <category ID="01syejz95">
-      <label xml:lang="en" text="Helmholtz Graduate School for Hadron and Ion Research"/>
-      <label xml:lang="de" text="Helmholtz Graduate School for Hadron and Ion Research"/>
+      <label xml:lang="de" text="Helmholtz Graduate School for Hadron and Ion Research" />
+      <label xml:lang="en" text="Helmholtz Graduate School for Hadron and Ion Research" />
     </category>
     <category ID="04xrcta15">
-      <label xml:lang="en" text="Munich Center for Quantum Science and Technology"/>
-      <label xml:lang="de" text="Munich Center for Quantum Science and Technology"/>
+      <label xml:lang="de" text="Munich Center for Quantum Science and Technology" />
+      <label xml:lang="en" text="Munich Center for Quantum Science and Technology" />
     </category>
     <category ID="04qb8nc58">
-      <label xml:lang="en" text="Clausthal University of Technology"/>
-      <label xml:lang="de" text="Technische Universität Clausthal"/>
+      <label xml:lang="de" text="Technische Universität Clausthal" />
+      <label xml:lang="en" text="Clausthal University of Technology" />
     </category>
     <category ID="04mz5ra38">
-      <label xml:lang="en" text="University of Duisburg-Essen"/>
-      <label xml:lang="de" text="Universität Duisburg-Essen"/>
+      <label xml:lang="de" text="Universität Duisburg-Essen" />
+      <label xml:lang="en" text="University of Duisburg-Essen" />
     </category>
     <category ID="058kzsd48">
-      <label xml:lang="en" text="Paderborn University"/>
-      <label xml:lang="de" text="Universität Paderborn"/>
+      <label xml:lang="de" text="Universität Paderborn" />
+      <label xml:lang="en" text="Paderborn University" />
     </category>
     <category ID="02w2y2t16">
-      <label xml:lang="en" text="Leuphana University of Lüneburg"/>
-      <label xml:lang="de" text="Leuphana Universität Lüneburg"/>
+      <label xml:lang="de" text="Leuphana Universität Lüneburg" />
+      <label xml:lang="en" text="Leuphana University of Lüneburg" />
     </category>
     <category ID="0080y7t67">
-      <label xml:lang="en" text="Max Planck Institute for the Study of Religious and Ethnic Diversity"/>
-      <label xml:lang="de" text="Max-Planck-Institut zur Erforschung Multireligiöser und Multiethnischer Gesellschaften"/>
+      <label xml:lang="de" text="Max-Planck-Institut zur Erforschung Multireligiöser und Multiethnischer Gesellschaften" />
+      <label xml:lang="en" text="Max Planck Institute for the Study of Religious and Ethnic Diversity" />
     </category>
     <category ID="02yrs2n53">
-      <label xml:lang="en" text="Constructor University"/>
-      <label xml:lang="de" text="Constructor University"/>
+      <label xml:lang="de" text="Constructor University" />
+      <label xml:lang="en" text="Constructor University" />
     </category>
     <category ID="051qw9f78">
-      <label xml:lang="en" text="Hochschule Konstanz University of Applied Sciences"/>
-      <label xml:lang="de" text="Hochschule Konstanz Technik, Wirtschaft und Gestaltung"/>
+      <label xml:lang="de" text="Hochschule Konstanz Technik, Wirtschaft und Gestaltung" />
+      <label xml:lang="en" text="Hochschule Konstanz University of Applied Sciences" />
     </category>
   </categories>
 </mycoreclass>
