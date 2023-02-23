@@ -89,7 +89,7 @@
         </item>
     </menu>
     <menu id="user">
-        <label xml:lang="de">Nutzermenü</label>
+        <label xml:lang="de">Nutzungsmenü</label>
         <label xml:lang="en">User menu</label>
         <group id="thisuser">
             <item href="/servlets/MCRUserServlet?action=changeMyPassword" type="extern" replaceMenu="false" constrainPopUp="false">
@@ -97,7 +97,7 @@
                 <label xml:lang="en">Change Password</label>
             </item>
             <item href="/servlets/MCRUserServlet?action=show" type="extern" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Benutzerdaten anzeigen</label>
+                <label xml:lang="de">Benutzungsdaten anzeigen</label>
                 <label xml:lang="en">Show User Data</label>
             </item>
             <item href="/authorization/change-current-user.xed?action=saveCurrentUser" type="extern" replaceMenu="false" constrainPopUp="false">
@@ -117,11 +117,11 @@
         </group>
         <group id="useradmin">
             <item href="/servlets/MCRUserServlet" type="extern" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Nutzerverwaltung</label>
+                <label xml:lang="de">Nutzer(innen)verwaltung</label>
                 <label xml:lang="en">Admin Users</label>
             </item>
             <item href="/authorization/new-user.xed?action=save" type="intern" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Nutzer anlegen</label>
+                <label xml:lang="de">Nutzer(in) anlegen</label>
                 <label xml:lang="en">Create User</label>
             </item>
             <item href="/authorization/roles-editor.xml" type="extern" replaceMenu="false" constrainPopUp="false">

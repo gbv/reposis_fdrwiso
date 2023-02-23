@@ -54,7 +54,7 @@
 	<dd class="ml-4">An einigen Stellen fehlen die Alternativtexte. Bei einem nächsten Update werden diese ergänzt werden.</dd>
 	<dt>HTML-Strukturelemente (1.3.1 a-f)</dt>
 	<dd class="ml-4">Einige HTML-Strukturelemente sind nur teilweise barrierefrei, da die entsprechenden Bootstrap-Klassen fehlen. Eine Überarbeitung ist in Arbeit.</dd>
-	<dt>Eingabefelder zu Nutzerdaten vermitteln den Zweck (1.3.5a)</dt>
+	<dt>Eingabefelder zu Nutzungsdaten vermitteln den Zweck (1.3.5a)</dt>
 	<dd class="ml-4">Einige der eingebundenen Formulare nutzen keine Autovervollständigung. Das Fehlen der „autocomplete“-Attribute erschwert das Ausfüllen der Formulare. Bei einem Update soll die Funktionalität künftig ergänzt werden.</dd>
 	<dt>Kontraste von Texten ausreichend (1.4.3)</dt>
 	<dd class="ml-4">Da das strukturelle Layout der Webseite vor dem Erscheinen der Richtlinie (EU) 2016/2102 erstellt wurde, ist das Kontrastverhältnis von 4,5:1 nicht grundsätzlich sichergestellt. An einer Lösung wird gearbeitet.</dd>
