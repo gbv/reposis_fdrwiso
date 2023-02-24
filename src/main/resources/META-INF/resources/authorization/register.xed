@@ -4,16 +4,18 @@
   <section xml:lang="de" i18n="project.registration.title">
     <h1>Registrierung</h1>
     <p>
-      Vor der Publikation Ihres Beitrags auf Emperion ist eine einmalige Registrierung erforderlich. 
-      Zu diesem Zweck vervollständigen Sie bitte das folgende Formular unter Eingabe einer Nutzungskennung 
-      (Kleinbuchstaben ohne Sonderzeichen und/oder Ziffern), sowie eines Passworts (mindestens 8 und maximal 
-      16 Zeichen lang, keine Leerzeichen). Unmittelbar nach der Registrierung wird eine E-Mail mit einem 
-      Bestätigungslink an die angegebene E-Mail-Adresse versendet. Öffnen Sie bitte Ihr E-Mail-Postfach und 
-      klicken Sie den Link in der E-Mail an, um die Registrierung abzuschließen.
+      Zur Veröffentlichung eines Datensatzes oder eines Datenpapiers auf Emporion ist einmalig eine Registrierung erforderlich. Alternativ
+      können Sie Emporion auch via Shibboleth für Ihr Publikationsvorhaben nutzen – unter Verwendung Ihrer Login-Daten bei der Universität
+      oder Forschungseinrichtung, mit der Sie affiliiert sind.
     </p>
     <p>
-      Mit Ihren Zugangsdaten können Sie sich nun jederzeit auf Emperion 
-      <a href="../servlets/MCRLoginServlet?url=../content/index.xml">anmelden,</a> um beliebig viele Beiträge im Open Access zu publizieren.
+      Zur separaten Registrierung bei Emporion vervollständigen Sie bitte das folgende Formular unter Eingabe einer Nutzungskennung (nur
+      Kleinbuchstaben, keine Sonderzeichen und/oder Ziffern) sowie eines Passworts (von mindestens 8 und maximal 16 Zeichen, keine Leerzeichen).
+      Zum Abschluss des Registrierungsvorgangs erhalten Sie einen Bestätigungslink an die angegebene E-Mail-Adresse. 
+    </p>
+    <p>
+      Mit Ihren so erstellten Zugangsdaten bzw. via Shibboleth können Sie sich nun jederzeit bei Emporion
+      <a href="../servlets/MCRLoginServlet?url=../content/index.xml">anmelden</a>.
     </p>
   </section>
 
