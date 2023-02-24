@@ -12,9 +12,13 @@
     <xed:include ref="projects"                           after="jel.repeat" />
     <xed:include ref="institutes.repeat"                  after="institutes"/>
     <xed:remove ref="institutes" />
+    <xed:remove ref="shelfmark" />
     <xed:include ref="software_used"                      after="type.of.resource" />
   </xed:modify>
 
+  <xed:modify ref="hosts.journal">
+    <xed:remove ref="shelfmark.journal.relItemsearch" />
+  </xed:modify>
 
   <!-- ========== validation ========== -->
 
