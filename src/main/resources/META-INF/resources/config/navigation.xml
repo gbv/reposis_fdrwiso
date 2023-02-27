@@ -2,11 +2,11 @@
 <navigation hrefStartingPage="/content/index.xml" dir="/content" template="template_mir">
     <menu id="main" dir="/content/main">
         <label xml:lang="de">Hauptmenü</label>
-        <label xml:lang="en">Main menu</label>
+        <label xml:lang="en">Main Menu</label>
     </menu>
     <menu id="brand" dir="/content/brand">
         <label xml:lang="de">MIR-Menü</label>
-        <label xml:lang="en">MIR menu</label>
+        <label xml:lang="en">MIR Menu</label>
         <item href="/content/rights/terms_of_use.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Benutzungshinweise</label>
             <label xml:lang="en">Instructions / How To</label>
@@ -36,20 +36,20 @@
         <label xml:lang="de">Suchen &amp; Blättern</label>
         <label xml:lang="en">Search &amp; Browse</label>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">einfache Suche</label>
-            <label xml:lang="en">simple</label>
+            <label xml:lang="de">Einfache Suche</label>
+            <label xml:lang="en">Simple Search</label>
         </item>
         <item href="/content/search/simple_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">einfache Suche</label>
-            <label xml:lang="en">simple</label>
+            <label xml:lang="de">Einfache Suche</label>
+            <label xml:lang="en">Simple search</label>
         </item>
         <item href="/content/search/complex.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">komplexe Suche</label>
-            <label xml:lang="en">complex</label>
+            <label xml:lang="de">Komplexe Suche</label>
+            <label xml:lang="en">Complex Search</label>
         </item>
         <item href="/content/search/complex_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">komplexe Suche</label>
-            <label xml:lang="en">complex</label>
+            <label xml:lang="de">Komplexe Suche</label>
+            <label xml:lang="en">Complex Search</label>
         </item>
         <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Person</label>
@@ -68,8 +68,8 @@
             <label xml:lang="en">JEL Classification</label>
         </item>
         <item href="/vue/geo-search/" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">geographischer Raum</label>
-            <label xml:lang="en">Geographical rooms</label>
+            <label xml:lang="de">Geographischer Raum</label>
+            <label xml:lang="en">Geographical Rooms</label>
         </item>
     </menu>
     <menu id="publish" dir="/content/publish">
@@ -84,25 +84,25 @@
             <label xml:lang="en">Publish</label>
         </item>
         <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">komplexe Metadatenerfassung</label>
-            <label xml:lang="en">Submit as expert</label>
+            <label xml:lang="de">Komplexe Metadatenerfassung</label>
+            <label xml:lang="en">Submit as Expert</label>
         </item>
     </menu>
     <menu id="user">
         <label xml:lang="de">Nutzungsmenü</label>
-        <label xml:lang="en">User menu</label>
+        <label xml:lang="en">User Menu</label>
         <group id="thisuser">
             <item href="/servlets/MCRUserServlet?action=changeMyPassword" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Passwort ändern</label>
                 <label xml:lang="en">Change Password</label>
             </item>
             <item href="/servlets/MCRUserServlet?action=show" type="extern" replaceMenu="false" constrainPopUp="false">
-                <label xml:lang="de">Benutzungsdaten anzeigen</label>
+                <label xml:lang="de">Profildaten anzeigen</label>
                 <label xml:lang="en">Show User Data</label>
             </item>
             <item href="/authorization/change-current-user.xed?action=saveCurrentUser" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Kontaktdaten ändern</label>
-                <label xml:lang="en">Change user contact</label>
+                <label xml:lang="en">Change User Contact</label>
             </item>
         </group>
         <group id="contentadmin">
@@ -126,7 +126,7 @@
             </item>
             <item href="/authorization/roles-editor.xml" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Rollen administrieren</label>
-                <label xml:lang="en">Manage roles</label>
+                <label xml:lang="en">Manage Roles</label>
             </item>
         </group>
         <group id="miscadmin">
