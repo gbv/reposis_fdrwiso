@@ -1,80 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MyCoReWebPage>
-    <section title="Publizieren" xml:lang="de"/>
-    <section title="New publication" xml:lang="en"/>
-    <section xml:lang="all">
-        <script src='../../js/mir/select-doctype.js'></script>
-        <h1>Publizieren</h1>
+	<section title="Publizieren" xml:lang="de"/>
+	<section title="New publication" xml:lang="en"/>
+	<section xml:lang="all">
+		<script src='../../js/mir/select-doctype.js'></script>
+		<h1>Publizieren</h1>
 
-        <!-- introduction -->
-        <div class="row">
-            <div class="col-sm-12 col-md-12">
-                <p>
-                  Zur Veröffentlichung Ihrer Forschungsdaten oder Ihres Datenpapiers auf Emporion ist zunächst die Erfassung
-                  bibliographischer Metadaten erforderlich. Dazu wählen Sie unten bitte den Typus Ihrer Publikation aus.
-                  Im nächsten Schritt gelangen Sie zur entsprechenden Erfassungsmaske. Für jede Veröffentlichung übersenden 
-                  Sie bitte ergänzend einen ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen 
-                  <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrag</a> 
-                  an: <span class="madress">emporion [at] gswg.eu</span>
-                </p>
-            </div>
-        </div>
+		<!-- introduction -->
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<p>
+					Zur Veröffentlichung Ihrer Forschungsdaten oder Ihres Datenpapiers auf Emporion ist zunächst die Erfassung
+					bibliographischer Metadaten erforderlich. Dazu wählen Sie unten bitte den Typus Ihrer Publikation aus.
+					Im nächsten Schritt gelangen Sie zur entsprechenden Erfassungsmaske. Für jede Veröffentlichung übersenden
+					Sie bitte ergänzend einen ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen
+					<a href="../rights/Publikationsvertrag.pdf">Publikationsvertrag</a>
+					an:
+					<span class="madress">emporion [at] gswg.eu</span>
+				</p>
+			</div>
+		</div>
 
-        <form id="submit_publication"
-              class="form-horizontal"
-              role="form"
-              method="get"
-              action="../../editor/editor-dynamic.xed">
+		<form id="submit_publication"
+					class="form-horizontal"
+					role="form"
+					method="get"
+					action="../../editor/editor-dynamic.xed">
 
-            <!-- genre -->
-            <div class="row form-group">
-                <div class="col-sm-7 col-md-5 col-lg-4">
-                <select id="genre" class="form-control" name="genre" size="1"></select>
-                </div>
-            </div>
-            
-            <!-- host -->
-            <div class="row form-group">
-                <div class="col-sm-7 col-md-5 col-lg-4">
-                <select id="host" class="form-control" name="host" size="1"></select>
-                </div>
-            </div>
+			<!-- genre -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="genre" class="form-control" name="genre" size="1"></select>
+				</div>
+			</div>
 
-            <!-- Import via Identifier -->
-            <div id="more_options_toggle" class="row mt-4">
-              <h2>
-                <span id="more_options_trigger">
-                  <span id="more_options_label" class="pl-0">Bibliographische Metadaten aus anderen Datenquellen importieren.</span>
-                  <span id="more_options_label_hide" class="pt-0 d-none">Bibliographische Metadaten aus anderen Datenquellen importieren.</span>
-                  <span id="more_options_button" class="fas fa-chevron-up"></span>
-                </span>
-              </h2>
-            </div>
+			<!-- host -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="host" class="form-control" name="host" size="1"></select>
+				</div>
+			</div>
 
-            <!-- more options -->
-            <div id="more_options_box">
-              <div class="row form-group">
-                <div class="col-sm-3 col-lg-2 control-label mb-1">
-                  <select name="type" class="form-control">
-                    <option value="doi">DOI</option>
-                    <option value="scopus">Scopus-ID</option>
-                    <option value="isbn">ISBN</option>
-                    <option value="issn">ISSN</option>
-                  </select>
-                </div>
-                <div class="col-md-5 col-lg-4 mb-1">
-                  <input class="form-control" type="text" name="modsId" />
-                </div>
-              </div>
-            </div>
+			<div class="form-group">
+				<h2>Bibliographische Metadaten importieren</h2>
+				<div class="row form-group">
+					<label class="col-sm-3 col-lg-2 control-label mb-1">
+						<select name="type" class="form-control">
+							<option value="doi">DOI</option>
+							<option value="scopus">Scopus-ID</option>
+							<option value="isbn">ISBN</option>
+							<option value="issn">ISSN</option>
+						</select>
+					</label>
+					<div class="col-sm-7 col-md-5 col-lg-4">
+						<input class="form-control" type="text" name="modsId"/>
+					</div>
+				</div>
+			</div>
 
-            <!-- submit -->
-            <div class="row form-group">
-                <div class="col-sm-5 col-md-4">
-                    <button type="submit" class="btn btn-primary">Weiter</button>
-                </div>
-            </div>
-          </form>
-    </section>
+			<!-- submit -->
+			<div class="row form-group">
+				<div class="col-sm-5 col-md-4">
+					<button type="submit" class="btn btn-primary">Weiter</button>
+				</div>
+			</div>
+		</form>
+	</section>
 </MyCoReWebPage>
