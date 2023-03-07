@@ -6,7 +6,7 @@
 // no (xl) media query necessary (desktop first)
 
   p {
-    a:not(btn) {
+    a:not(.btn) {
       text-decoration: underline;
     }
   }
