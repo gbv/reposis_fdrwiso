@@ -22,8 +22,9 @@
   <section xml:lang="en" i18n="project.registration.title">
     <h1>Registration</h1>
     <p>
-      Before publishing your contribution on Emperion, a one-time registration is required. For this purpose, 
-      please complete the following form by entering a user ID (maximum 16 characters, please only use lower 
+      Before publishing your contribution on Emporion, a one-time registration is required. This can be done either over Shibboleth -
+      using the login information of your affiliated university or research institute - or by filling out the form below.
+      To register directly over Emporion, please complete the following form by entering a user ID (maximum 16 characters, please only use lower
       case letters without special characters and/or numbers), as well as a password (minimum 8 and maximum 
       16 characters long, please no spaces). In order to complete the registration, you must call up the link 
       once, which will be sent to you immediately after you have submitted the form.

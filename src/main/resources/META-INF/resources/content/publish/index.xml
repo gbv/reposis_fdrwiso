@@ -3,7 +3,7 @@
 <MyCoReWebPage>
 	<section title="Publizieren" xml:lang="de"/>
 	<section title="New publication" xml:lang="en"/>
-	<section xml:lang="all">
+	<section xml:lang="de">
 		<script src='../../js/mir/select-doctype.js'></script>
 		<h1>Publizieren</h1>
 
@@ -63,6 +63,67 @@
 			<div class="row form-group">
 				<div class="col-sm-5 col-md-4">
 					<button type="submit" class="btn btn-primary">Weiter</button>
+				</div>
+			</div>
+		</form>
+	</section>
+	<section xml:lang="en">
+		<script src='../../js/mir/select-doctype.js'></script>
+		<h1>Publish</h1>
+
+		<!-- introduction -->
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<p>
+					In order to publish research data or data papers on Emporion certain bibliographic data must first be provided.
+					Please select the publication type below (in the case of a data paper, specify the type). Please submit with
+					each publication a filled out and electronically signed copy of the
+					<a href="../rights/Publikationsvertrag.pdf">publication contract</a> to <span class="madress">emporion [at] gswg.eu</span>
+				</p>
+			</div>
+		</div>
+
+		<form id="submit_publication"
+					class="form-horizontal"
+					role="form"
+					method="get"
+					action="../../editor/editor-dynamic.xed">
+
+			<!-- genre -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="genre" class="form-control" name="genre" size="1"></select>
+				</div>
+			</div>
+
+			<!-- host -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="host" class="form-control" name="host" size="1"></select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<h2>Import bibliographic metadata</h2>
+				<div class="row form-group">
+					<label class="col-sm-3 col-lg-2 control-label mb-1">
+						<select name="type" class="form-control">
+							<option value="doi">DOI</option>
+							<option value="scopus">Scopus-ID</option>
+							<option value="isbn">ISBN</option>
+							<option value="issn">ISSN</option>
+						</select>
+					</label>
+					<div class="col-sm-7 col-md-5 col-lg-4">
+						<input class="form-control" type="text" name="modsId"/>
+					</div>
+				</div>
+			</div>
+
+			<!-- submit -->
+			<div class="row form-group">
+				<div class="col-sm-5 col-md-4">
+					<button type="submit" class="btn btn-primary">Continue</button>
 				</div>
 			</div>
 		</form>
