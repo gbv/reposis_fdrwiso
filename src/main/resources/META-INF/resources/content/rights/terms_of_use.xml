@@ -30,24 +30,31 @@
 </div>
 </div>
 </section><section xml:lang="en" title="Terms of use"><div>
-<h1>Instructions / How To</h1>
+<h1>About / How To</h1>
 
 <h2>Registration</h2>
 
-<p>An initial registration is required in order to use Emporion. This can be done via this <a href="../authorization/register.xed?action=register">form</a> or directly over Shibboleth using the login information of your affiliated university or research institute. In order to ensure the accurate classification of your contributions and avoid misidentification, we ask you to provide your <a href="https://orcid.org/">ORCID iD</a> when registering. You will receive an activation link via email once you have filled out the form. Upon activation, you are able to <a href="https://emporion.gswg.info/servlets/MCRLoginServlet?action=login&amp;lang=en">login</a> to Emporion at any time.</p>
+<p>An initial registration is required in order to use Emporion. This can be done via this <a href="../authorization/register.xed?action=register&amp;lang=en">form</a> or directly over Shibboleth using the login information of your affiliated university or research institute. In order to ensure the accurate classification of your contributions and avoid misidentification, we ask you to provide your <a href="https://orcid.org/">ORCID iD</a> when registering. You will receive an activation link via email once you have filled out the form. Upon activation, you are able to <a href="https://emporion.gswg.info/servlets/MCRLoginServlet?action=login&amp;lang=en">login</a> to Emporion at any time.</p>
 
 <h2>Document Upload</h2>
 
-<p>Once registered you are able to publish as many datasets and data papers as you like on Emporion in accordance with the binding <a href="disclaimer.xml">publication guidelines</a>. Please begin the publication process by <a href="/servlets/MCRLoginServlet?action=login">logging in</a> to the server. After entering and saving the bibliographic metadata of your paper, please upload the corresponding file(s) to Emporion using the menu fields “Actions” and “Add a data object”. Please note that contributions intended for publication will only be released after formal review. Furthermore, you are responsible for ensuring that neither copy- nor third-party rights are violated – for example in the context of joint publications. In signing Emporion’s <a href="Publikationsvertrag.pdf">publication contract</a>, you grant Emporion a simple right of use for the distribution and public accessibility of your uploaded data sets or data papers on the Internet, as well as the supplementary right to make changes to the respective file format, in particular for long-term storage purposes. Due to the limited, purpose-bound transfer of these rights, you are free to otherwise use the content you have created as you wish.</p>
+<p>Once registered you are able to <a href="../publish/index.xml">publish</a> as many datasets and data papers as you like on Emporion in accordance with the binding <a href="disclaimer.xml">publication guidelines</a>. Please begin the publication process by <a href="/servlets/MCRLoginServlet?action=login">logging in</a> to the server. After entering and saving the bibliographic metadata of your paper, please upload the corresponding file(s) to Emporion using the menu fields “Actions” and “Add a data object”. Please note that contributions intended for publication will only be released after formal review. Furthermore, you are responsible for ensuring that neither copy- nor third-party rights are violated – for example in the context of joint publications. In signing Emporion’s <a href="Publikationsvertrag.pdf">publication contract</a>, you grant Emporion a simple right of use for the distribution and public accessibility of your uploaded data sets or data papers on the Internet, as well as the supplementary right to make changes to the respective file format, in particular for long-term storage purposes. Due to the limited, purpose-bound transfer of these rights, you are free to otherwise use the content you have created as you wish.</p>
 Please send the completed publication contract with your electronic signature in PDF file format by e-mail to: <a href="mailto:emporion@gswg.info">emporion@gswg.info</a>.
 
 <h2>Content indexing</h2>
 
 <p>All datasets and data papers published on Emporion are made full-text searchable using search engine technology. To facilitate thematic browsing of all Emporion content, you are asked to systematically index your work with descriptive metadata. To this end, please select the appropriate JEL code during the submission process. In addition, you may describe the content of your contribution with freely selectable as well as with standardized keywords. Please enter each keyword separately and confirm its conformity with the terminology of the <a href="https://gnd.network/Webs/gnd/DE/UeberGND/Partner/dnb/dnb_node.html">Common Standards File of the German National Library</a> via the “Search” button.</p>
 
+<h2>Indexation</h2>
+
+<p>Emporion content is indexed by the following search engines:</p>
+
+<p><a href="https://search.datacite.org/">DataCite Search</a> | <a href="https://www.base-search.net/">BASE</a> | <a href="https://core.ac.uk/">CORE</a> | <a href="https://explore.openaire.eu/">OpenAIRE Explore</a> | <a href="https://datasetsearch.research.google.com/">Google Data Set Search</a></p>
+
 <h2>Contact details and deletion policy</h2>
 
 <p>We are happy to assist you if you have any further questions or encounter any technical difficulties during the registration process. You can find our contact details <a href="contact.xml">here</a>.</p>
 
 <p>We reserve the right to refuse one's registration for Emporion as well as the publication of individual contributions in justified exceptional cases. We ask you to refrain from either deleting or modifying already published data and documents on Emporion. Instead, any modifications of already contributed content is possible by uploading an updated version. If – for example due to criminal or copyright reasons – the public accessibility of an already published dataset or data paper is not allowed, access to it will be blocked.</p>
-</div></section><meta><log lastEditor="cmathieu" date="2023-02-20" time="12:57" /></meta></MyCoReWebPage>
+</div>
+</section><meta><log lastEditor="cmathieu" date="2023-03-06" time="14:38" /></meta></MyCoReWebPage>

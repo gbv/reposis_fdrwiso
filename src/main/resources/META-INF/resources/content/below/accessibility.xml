@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Emporion - Barrierefreiheit"><div>
+<MyCoReWebPage><section xml:lang="de" title="Emporion - Barrierefreiheit">
 <div class="row">
 <div class="col-md-12">
 <h1>Erklärung zur Barrierefreiheit <small class="text-muted">(Stand der Erklärung: 01.09.2022)</small></h1>
@@ -12,17 +12,13 @@
 
 <p>Diese Erklärung zur Barrierefreiheit gilt für <a href="https://emporion.gswg.info">https://emporion.gswg.info</a>.</p>
 </div>
-</div>
 
-<div class="row">
 <div class="col-md-12">
 <h2>Wann wurde die Erklärung zur digitalen Barrierefreiheit erstellt?</h2>
 
 <p>Diese Erklärung wurde am 01. September 2022 erstellt.</p>
 </div>
-</div>
 
-<div class="row">
 <div class="col-md-12">
 <h2>Wie barrierefrei ist dieses Angebot?</h2>
 
@@ -35,19 +31,19 @@
 <h2>Welche Bereiche sind nicht barrierefrei?</h2>
 
 <dl>
-	<dt>Eingeschränkte Barrierefreiheit eingebundener Dokumente im PDF-Format.</dt>
+	<dt>Eingeschränkte Barrierefreiheit eingebundener Dokumente im PDF-Format</dt>
 	<dd class="ml-4">Die eingebundenen Dokumente im PDF-Format sind möglicherweise nicht barrierefrei.<br />
 	Aufgrund der hohen Zahl eingebundener Dokumente können diese nicht vollständig in ein barrierefreies Format umgewandelt werden, zumal in Teilen die Ausgangsdateien fehlen und eine nachträgliche Bearbeitung nach § 12a Abs. 6 BGG als unverhältnismäßig arbeitsaufwendig zu werten ist. Wir sind bestrebt, künftig ausschließlich barrierefreie Dokumente auf Emporion zu veröffentlichen. Sollten Sie eine bestimmte PDF-Datei benötigen, die noch nicht barrierefrei zur Verfügung steht, so kontaktieren Sie uns bitte unter den weiter unten genannten Kontaktdaten.</dd>
-	<dt>Audiodateien ohne Volltextalternative.</dt>
+	<dt>Audiodateien ohne Volltextalternative</dt>
 	<dd class="ml-4">Transkriptionen oder andere Volltextalternativen von Audiodateien sind nicht verfügbar.<br />
 	Aufgrund der hohen Zahl sowie des Umfangs der auf Emporion veröffentlichten Audiodateien ist deren rückwirkende Transkription gemäß § 12a Abs. 6 BGG als unverhältnismäßig arbeitsaufwendig zu werten.</dd>
 	<dt>Videos ohne Untertitel oder Volltextalternative</dt>
 	<dd class="ml-4">Videos mit Ton verfügen weder über Untertitel noch über Transkriptionen.<br />
 	Aufgrund der hohen Zahl sowie des Umfangs der auf Emporion veröffentlichten Videodateien ist deren rückwirkende Transkription gemäß § 12a Abs. 6 BGG als unverhältnismäßig arbeitsaufwendig zu werten.</dd>
-	<dt>Abweichende Sprache einzelner Wörter oder Abschnitte nicht ausgezeichnet.</dt>
+	<dt>Abweichende Sprache einzelner Wörter oder Abschnitte nicht ausgezeichnet</dt>
 	<dd class="ml-4">Anderssprachige Wörter und Abschnitte sind nicht mit lang-Attributen ausgezeichnet.<br />
 	Aufgrund der hohen Zahl sowie des Umfangs der auf Emporion veröffentlichten Dokumente ist deren rückwirkende Auszeichnung mit lang-Attributen gemäß § 12a Abs. 6 BGG als unverhältnismäßig arbeitsaufwendig zu werten.</dd>
-	<dt>Inhalte nicht in Leichter oder Gebärdensprache verfügbar.</dt>
+	<dt>Inhalte nicht in Leichter oder Gebärdensprache verfügbar</dt>
 	<dd class="ml-4">Sämtliche Inhalte von Emporion stehen nicht in Leichter oder Gebärdensprache zur Verfügung.<br />
 	Aufgrund seines ausschließlich wissenschaftlichen Zielpublikums ist die Übersetzung der Inhalte von Emporion in Leichte Sprache verzichtbar. Mit Blick auf Umfang und Komplexität der ausschließlich wissenschaftlichen Inhalte von Emporion ist deren rückwirkende Übersetzung in Gebärdensprache gemäß § 12a Abs. 6 BGG als unverhältnismäßig arbeitsaufwendig zu werten.</dd>
 	<dt>Alternativtexte (1.1.1 a-c)</dt>
@@ -76,20 +72,21 @@
 
 <p>Sind Ihnen Mängel beim barrierefreien Zugang zu Inhalten von <a href="https://emporion.gswg.info/">https://emporion.gswg.info/</a> aufgefallen? Dann teilen Sie uns diese bitte mit – vielen Dank. Unsere Kontaktdaten lauten:</p>
 
-<p class="border-left pl-5"><span>Laetitia Lenel</span><br />
-<span>Humboldt-Universität zu Berlin</span><br />
-<span>Philosophische Fakultät I</span> – <span>Institut für Geschichtswissenschaften</span><br />
-<span>Lehrstuhl für Sozial- und Wirtschaftsgeschichte</span><br />
-<span>Friedrichstrasse 191-193</span><br />
-<span>10117 Berlin</span><br />
+<p>Laetitia Lenel<br />
+Humboldt-Universität zu Berlin<br />
+Philosophische Fakultät I<br />
+Institut für Geschichtswissenschaften<br />
+Lehrstuhl für Sozial- und Wirtschaftsgeschichte<br />
+Friedrichstraße 191-193<br />
+10117 Berlin<br />
 <br />
 <span class="madress">laetitia.lenel [at] hu-berlin.de</span><br />
 <span>+49 (0)30 2093-70615</span><br />
 <span><a href="https://emporion.gswg.info/">https://emporion.gswg.info/</a></span></p>
 </div>
-</div>
+</div><p>
 
-<div class="row">
+</p><div class="row">
 <div class="col-md-12">
 <h2>Kontakt zur Schlichtungsstelle</h2>
 
@@ -101,7 +98,7 @@
 
 <p>Sie erreichen die Schlichtungsstelle unter folgender Adresse:</p>
 
-<p class="border-left pl-5">Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen<br />
+<p>Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen<br />
 Mauerstraße 53<br />
 D-10117 Berlin<br />
 Telefon: +49 30 18 527-2805<br />
@@ -109,6 +106,116 @@ Telefon: +49 30 18 527-2805<br />
 E-Mail: <span class="madress">info [at] schlichtungsstelle-bgg.de</span><br />
 Internet: <a href="https://www.schlichtungsstelle-bgg.de/">www.schlichtungsstelle-bgg.de</a></p>
 </div>
+</div><p>
+</p></section><section xml:lang="en" title="Emporion - Accessibility"><div class="row">
+<div class="col-md-12">
+<h1>Accessibility Statement <span style="font-size:22px;"><small class="text-muted">(</small>Status of declaration: 01.09.2022<small class="text-muted">)</small></span></h1>
 </div>
+</div><p>
+
+</p><div class="row">
+<div class="col-md-12">
+<p>The operator facilities of Emporion are determined to make this an accessible research data repository for all. The following digital accessiblity statement is required by the currently valid versions of the Accessible Information Technology Ordinance (Barrierefreie-Informationstechnik-Verordnung, BITV 2.0) and the German Act on Equal Opportunities for Persons with Disabilities (Behindertengleichstellungsgesetz, BGG). These two standards likewise stipulate the requirements for the technical implementation of digital accessiblity. <br />
+This accessiblity statement applies to <a href="https://emporion.gswg.info">https://emporion.gswg.info</a>.</p>
+
+<h2>When was the digital accessibility statement created? </h2>
 </div>
-</section><meta><log lastEditor="cmathieu" date="2023-01-16" time="10:54" /></meta></MyCoReWebPage>
+</div><p>
+
+</p><div class="row">
+<div class="col-md-12">
+<div>This statement was created on 01. September 2022.</div>
+
+<h2>How accessible is this offer?</h2>
+
+<div>This offer is largely accessible. The majority of requirements stipulated by BITV 2.0 have <span style="white-space:pre"> </span>been met. </div>
+
+<h2>Which aspects are not fully accessible? </h2>
+</div>
+</div><p>
+
+</p><div class="row">
+<div class="col-md-12">
+<dl>
+	<dt>Limited accessibility to embedded PDF documents</dt>
+	<dd class="ml-4">Embedded PDF documents may not be fully accessible. <br />
+	As a result of the great amount of embedded documents it has so far not been possible to convert all of these into an accessible format. This is especially the case for those documents for which the original files are partly missing, which thus makes subsequent processing and conversion excessively laborious according to the standards set out in § 12a Abs. 6 BGG. We strive in the future to only publish fully accessible documents on Emporion. Should you require a PDF-file which is not yet fully accessible, please do not hesitate to contact us at the address listed towards the bottom of this page. </dd>
+	<dt>Audio files without full-text alternatives</dt>
+	<dd class="ml-4">Transcriptions or other full-text alternatives of audio data are unavailable.<br />
+	As a result of the large amount and considerable duration of audio files published on Emporion the transcription of such files is regarded as excessively laborious according to the standards set out in § 12a Abs. 6 BGG. </dd>
+	<dt>Videos without subtitles or full-text alternatives</dt>
+	<dd class="ml-4">Videos with sound contain neither subtitles nor any other form of transcription. <br />
+	As a result of the large amount and considerable duration of video files published on Emporion the retroactive transcription or subtitling of these files is regarded as excessively laborious according to the standards set out in § 12a Abs. 6 BGG.</dd>
+	<dt>Differing language of individual words or sections not marked</dt>
+	<dd class="ml-4">Individual words or sections of text written in a language different from the rest of the text are not marked with lang-attributes. <br />
+	As a result of the large amount and extent of documents published on Emporion the retroactive distinction of words or sections of text with lang-attributes is regarded as excessively laborious according to the standards set out in § 12a Abs. 6 BGG.</dd>
+	<dt>Content neither available in easy- nor sign-language</dt>
+	<dd class="ml-4">Emporion’s content is neither available in easy- nor sign-language. <br />
+	As a result of the exclusively academic target audience the translation of Emporion content into easy-language is not necessary. <br />
+	Resulting from the extent and complexity of Emporion’s exclusively academic content the retroactive translation into sign-language is regarded as excessively laborious according to the standards set out in § 12a Abs. 6 BGG.</dd>
+	<dt>Alternative texts (1.1.1 a-c)</dt>
+	<dd class="ml-4">Certain alternative texts are lacking. These are to be added upon the next update. </dd>
+	<dt>HTML-structural elements (1.3.1 a-f)</dt>
+	<dd class="ml-4">Certain HTML-structural elements are only partly accessible, owing to a lack of corresponding bootstrap-classes. A revision is ongoing.</dd>
+	<dt>Input field for user data should convey the purpose (1.3.5a)</dt>
+	<dd class="ml-4">Certain embedded forms do not use auto-completion. The lack of the autocomplete attribute complicates the filling-out of forms. A future update shall remedy this problem and improve functionality.</dd>
+	<dt>Ensuring sufficient contrast ratio (1.4.3)</dt>
+	<dd class="ml-4">As the structural layout of the website was completed prior to appearance of EU policy 2016/2102, the contrast ratio of 4.5 to 1 is not able to be guaranteed in principle. A solution is in the works.</dd>
+	<dt>Clarifying the current position of focus (2.4.7a)</dt>
+	<dd class="ml-4">The focus is not always recognizable when using the keyboard. The proper adjustment of the focus-management shall be undertaken with the next major overhaul of the website.</dd>
+	<dt>Error detection (3.3.1a)</dt>
+	<dd class="ml-4">Information provided in forms is not automatically reviewed prior to sending. The functionality of the website will be better assured in the future with the next major overhaul of the website. </dd>
+	<dt>Programmatic availability of status messages (4.1.3a)</dt>
+	<dd class="ml-4">No indication is provided either visually or via the screen reader to inform one that a document has been placed in the watch list. This function shall be added in a future update. </dd>
+</dl>
+
+<p>The aforementioned technical defects are to be gradually remedied. </p>
+</div>
+</div><p>
+
+</p><div class="row">
+<div class="col-md-12">
+<h2>Who is to be contacted in case of comments or questions pertaining to digital accessibility? </h2>
+
+<p>Have you noticed anything inhibiting barrier-free access to Emporion content? <br />
+Please do not hesitate to share this with us – we will be very grateful. </p>
+
+<p>Laetitia Lenel<br />
+Humboldt-Universität zu Berlin<br />
+Faculty of Philosophy I<br />
+Department of History<br />
+Chair of Social and Economic History<br />
+Friedrichstrasse 191-193<br />
+10117 Berlin</p>
+
+<p><span class="madress">laetitia.lenel [at] hu-berlin.de</span><br />
++49 (0)30 2093-70615<br />
+<a href="https://emporion.gswg.info/">https://emporion.gswg.info/</a></p>
+</div>
+</div><p>
+
+</p><div class="row">
+<div class="col-md-12">
+<h2>Contacting the arbitration service</h2>
+
+<p>If you believe Emporion's accessiblity policy to be inadequate, and thus disadvantageous to you, you may – in accordance with § 16 of the German Act on Equal Opportunities for Persons with Disabilities (BGG) – reach out to the arbitration service.</p>
+
+<p>The arbitration process is free of charge, and does not require legal counsel. </p>
+
+<p>You can find any and all information pertaining to the arbitration process on the website of the arbitration service. There you will find information concerning the unfolding of the arbitration process and submission of a request. The request can be submitted in easy-language (<em>Leichte Sprache</em>) or in German sign-language.</p>
+
+<p>Please contact the arbitration board via the following address:</p>
+
+<div>Arbitration Service pursuant to Section 16 of the German Act on Equal Opportunities for <span style="white-space:pre"> </span>Persons with Disabilities</div>
+
+<div>Mauerstrasse 53</div>
+
+<div>D-10117 Berlin</div>
+
+<div>Telefon: +49 30 18 527-2805</div>
+
+<p>E-Mail: <span class="madress">info [at] schlichtungsstelle-bgg.de</span><br />
+Internet: <a href="https://www.schlichtungsstelle-bgg.de/">www.schlichtungsstelle-bgg.de</a></p>
+</div>
+</div><p>
+</p></section><meta><log lastEditor="llenel" date="2023-02-26" time="22:13" /></meta></MyCoReWebPage>
