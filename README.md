@@ -1,6 +1,8 @@
 
 # reposis_fdrwiso
 
+MyCoRe / MIR application layer for https://emporion.gswg.info
+
 ## Installation Instructions
 
 * run `mvn clean install`
