@@ -120,7 +120,7 @@
         <div class="row">
           <div class="col">
             <div class="logo-section">
-              <a class="openaire logo" href="https://explore.openaire.eu/search/content-providers?f0=q&amp;fv0=Emporion" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
+              <a class="openaire logo" href="https://explore.openaire.eu/search/dataprovider?pid=r3d100014123" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
                 <img class="openaire_logo img-fluid mr-5" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire.webp" />
               </a>
               <object type="image/svg+xml" data="{$WebApplicationBaseURL}/images/logos/re3data-emporion-logo.svg">
