@@ -59,6 +59,10 @@
             <label xml:lang="de">institutioneller Kontext</label>
             <label xml:lang="en">Institutional Context</label>
         </item>
+        <item href="/content/browse/projects.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Projektkontext</label>
+            <label xml:lang="en">Project Context</label>
+        </item>
         <item href="/content/browse/genres.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Dokumenttyp</label>
             <label xml:lang="en">Genre</label>
