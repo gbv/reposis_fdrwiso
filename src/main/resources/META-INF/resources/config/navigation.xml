@@ -35,7 +35,7 @@
     <menu id="search">
         <label xml:lang="de">Suchen &amp; Blättern</label>
         <label xml:lang="en">Search &amp; Browse</label>
-        <item href="/servlets/solr/find?sort=created+desc" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/servlets/solr/find?sort=mods.dateIssued+desc" type="intern" replaceMenu="false" constrainPopUp="false">
           <label xml:lang="de">Neueste Dokumente</label>
           <label xml:lang="en">Recent documents</label>
         </item>
