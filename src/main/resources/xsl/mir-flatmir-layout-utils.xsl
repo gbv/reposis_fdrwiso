@@ -149,14 +149,14 @@
         <div class="row">
           <div class="col">
             <div class="logo-section">
+              <a class="sbb logo" href="https://staatsbibliothek-berlin.de/" target="_blank" alt="Logo Staatsbibliothek" title="Logo Staatsbibliothek">
+                <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-sbb-full-cut.svg" />
+              </a>
               <a class="gswg logo" href="https://www.gswg.eu" target="_blank" alt="Logo GSWG" title="Logo GSWG">
                 <img class="gswg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-gswg-full.jpg" />
               </a>
               <a class="spp logo" href="https://www.experience-expectation.de" target="_blank" alt="Logo SPP" title="Logo SPP">
                 <img class="spp_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-spp-full.png" />
-              </a>
-              <a class="sbb logo" href="https://staatsbibliothek-berlin.de/" target="_blank" alt="Logo Staatsbibliothek" title="Logo Staatsbibliothek">
-                <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-sbb-full-cut.svg" />
               </a>
               <a class="dfg logo" href="https://www.dfg.de" target="_blank" alt="Logo DFG" title="Logo DFG">
                 <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-dfg-full-cut.gif" />
