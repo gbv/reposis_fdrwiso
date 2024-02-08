@@ -120,8 +120,11 @@
         <div class="row">
           <div class="col">
             <div class="logo-section">
+              <a class="dfg logo" href="https://www.dfg.de" target="_blank" alt="Logo DFG" title="Logo DFG">
+                <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/dfg_logo_schriftzug_blau_foerderung_en_cut.png" />
+              </a>
               <a class="openaire logo" href="https://explore.openaire.eu/search/dataprovider?pid=r3d100014123" target="_blank" alt="Logo OpenAIRE" title="Logo OpenAIRE">
-                <img class="openaire_logo img-fluid mr-5" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire.webp" />
+                <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-openaire.webp" />
               </a>
               <object type="image/svg+xml" data="{$WebApplicationBaseURL}/images/logos/re3data-emporion-logo.svg">
                 <img alt="re3data logo" src="{$WebApplicationBaseURL}/images/logos/web_footer-re3data.png" />
@@ -158,12 +161,9 @@
               <a class="spp logo" href="https://www.experience-expectation.de" target="_blank" alt="Logo SPP" title="Logo SPP">
                 <img class="spp_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-spp-full.png" />
               </a>
-              <a class="dfg logo" href="https://www.dfg.de" target="_blank" alt="Logo DFG" title="Logo DFG">
-                <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-dfg-full-cut.gif" />
-              </a>
-              <a class="VZG logo" href="https://www.gbv.de" target="_blank" alt="Logo VZG" title="Logo VZG">
+              <!--a class="VZG logo" href="https://www.gbv.de" target="_blank" alt="Logo VZG" title="Logo VZG">
                 <img class="vzg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logos/web_footer-vzg-full.png" />
-              </a>
+              </a-->
             </div>
           </div>
         </div>
