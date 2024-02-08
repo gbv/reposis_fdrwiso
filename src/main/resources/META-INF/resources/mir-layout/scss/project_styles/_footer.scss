@@ -26,9 +26,14 @@
       justify-content: end;
       align-items: center;
       margin-bottom: 1rem;
+      flex-wrap: wrap;
       img {
         max-height: 100px;
-        margin-right: 3rem;
+      }
+      .openaire.logo,
+      object {
+        margin-top: 2rem;
+        margin-left: 3rem;
       }
     }
   }
