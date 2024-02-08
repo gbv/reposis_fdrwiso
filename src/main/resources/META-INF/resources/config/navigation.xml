@@ -39,10 +39,6 @@
           <label xml:lang="de">Neueste Dokumente</label>
           <label xml:lang="en">Recent documents</label>
         </item>
-        <item href="/servlets/solr/select?q=%2BobjectType%3A&quot;mods&quot;&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20" type="intern" replaceMenu="false" constrainPopUp="false">
-          <label xml:lang="de">Neueste Dokumente</label>
-          <label xml:lang="en">Recent documents</label>
-        </item>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">einfache Suche</label>
             <label xml:lang="en">Simple</label>
