@@ -15,7 +15,11 @@
         <mods:mods>
             <xsl:apply-templates select="StudyUnit/Citation/Title" />
             <xsl:apply-templates select="StudyUnit/Citation/Creator" />
-            <xsl:apply-templates select="StudyUnit/Citation/InternationalIdentifier" />
+            <mods:name type="corporate">
+                <mods:displayForm>GESIS Data Archive</mods:displayForm>
+                <mods:role><mods:roleTerm authority="marcrelator" type="code">isb</mods:roleTerm></mods:role>
+            </mods:name>
+            <!-- xsl:apply-templates select="StudyUnit/Citation/InternationalIdentifier" / --> <!-- DOIs seems to be wrong -->
             <xsl:apply-templates select="StudyUnit/UserID" />
             <mods:typeOfResource>data</mods:typeOfResource>
             <mods:originInfo eventType="publication">
@@ -80,6 +84,9 @@
         <mods:identifier type="dbk_study_number">
             <xsl:value-of select="text()" />
         </mods:identifier>
+        <mods:location>
+            <mods:url><xsl:value-of select="concat('https://search.gesis.org/research_data/', text())"/></mods:url>
+        </mods:location>
     </xsl:template>
     
     <xsl:template match="ReferenceDate[StartDate][EndDate]">
