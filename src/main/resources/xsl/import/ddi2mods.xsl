@@ -16,12 +16,13 @@
             <xsl:apply-templates select="StudyUnit/Citation/Title" />
             <xsl:apply-templates select="StudyUnit/Citation/Creator" />
             <xsl:apply-templates select="StudyUnit/Citation/InternationalIdentifier" />
+            <xsl:apply-templates select="StudyUnit/UserID" />
+            <mods:typeOfResource>data</mods:typeOfResource>
             <mods:originInfo eventType="publication">
                 <xsl:apply-templates select="StudyUnit/Citation/Publisher" />
             </mods:originInfo>
-            <xsl:apply-templates select="language" />
-            <xsl:apply-templates select="subjects/subject" />
             <xsl:apply-templates select="StudyUnit/Abstract/Content" />
+            <xsl:apply-templates select="StudyUnit/Coverage/TemporalCoverage/ReferenceDate" />
         </mods:mods>
     </xsl:template>
     
@@ -59,31 +60,7 @@
             <xsl:value-of select="text()" />
         </mods:publisher>
     </xsl:template>
-    
-    <xsl:template match="publicationYear">
-        <mods:dateIssued encoding="w3cdtf">
-            <xsl:value-of select="text()" />
-        </mods:dateIssued>
-    </xsl:template>
-    
-    <xsl:template match="language">
-        <xsl:for-each select="document(concat('notnull:language:',.))/language/@xmlCode">
-            <mods:language>
-                <mods:languageTerm authority="rfc5646" type="code">
-                    <xsl:value-of select="." />
-                </mods:languageTerm>
-            </mods:language>
-        </xsl:for-each>
-    </xsl:template>
-    
-    <xsl:template match="subject">
-        <mods:subject>
-            <mods:topic>
-                <xsl:value-of select="text()" />
-            </mods:topic>
-        </mods:subject>
-    </xsl:template>
-    
+        
     <xsl:template match="Content">
         <mods:abstract>
             <xsl:value-of select="text()" />
@@ -98,6 +75,22 @@
             </xsl:choose>
         </mods:identifier>
     </xsl:template>
+    
+    <xsl:template match="UserID">
+        <mods:identifier type="dbk_study_number">
+            <xsl:value-of select="text()" />
+        </mods:identifier>
+    </xsl:template>
+    
+    <xsl:template match="ReferenceDate[StartDate][EndDate]">
+        <mods:extension type="temporal_period_of_reference">
+            <mir:subject xmlns:mir="http://www.mycore.de/mir" type="period_of_reference">
+                <mods:temporal encoding="w3cdtf" point="start"><xsl:value-of select="StartDate"/></mods:temporal>
+                <mods:temporal encoding="w3cdtf" point="end"><xsl:value-of select="EndDate"/></mods:temporal>
+            </mir:subject>
+        </mods:extension>
+    </xsl:template>
+    
     <xsl:template match="@*|*" />
     
 </xsl:stylesheet>
