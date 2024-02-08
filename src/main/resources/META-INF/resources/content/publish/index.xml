@@ -51,6 +51,7 @@
 							<option value="scopus">Scopus-ID</option>
 							<option value="isbn">ISBN</option>
 							<option value="issn">ISSN</option>
+              <option value="histatID">histat-ID</option>
 						</select>
 					</label>
 					<div class="col-sm-7 col-md-5 col-lg-4">
