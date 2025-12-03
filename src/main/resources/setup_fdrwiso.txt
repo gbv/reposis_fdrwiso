@@ -1,4 +1,5 @@
 reload solr configuration main in core main
+update classification from uri resource:classifications/identifier.xml
 update classification from uri resource:classifications/jel.xml
 update classification from uri resource:classifications/marcrelator.xml
 update classification from uri resource:classifications/mcr-roles.xml
