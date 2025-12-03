@@ -13,7 +13,6 @@ jobs:
     permissions:
       contents: read
       packages: write
-
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 17
@@ -26,7 +25,7 @@ jobs:
           server-password: MAVEN_PASSWORD
       - name: Change Versions
         run: mvn versions:set -DnewVersion=${{ github.ref_name }}-SNAPSHOT
-      - name: Publish to OSSRH with Apache Maven
+      - name: Publish to sonatype-central with Apache Maven
         run: mvn --batch-mode deploy
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
