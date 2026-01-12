@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - 'main'
+      - 'publish_snap'
 jobs:
   build:
     runs-on: ubuntu-latest
