@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="projects">
-  <label xml:lang="de" text="Projekte" description="Liste der Projekte" />
   <label xml:lang="en" text="Projects" description="List of projects" />
   <label xml:lang="x-uri" text="https://emporion.gswg.info/api/v2/classifications/projects" />
   <categories>
+    <category ID="4e42da03-f456-42d9-b2d9-2c20792edab1">
+      <label xml:lang="de" text="NFDI4Memory" />
+      <label xml:lang="en" text="NFDI4Memory" />
+    </category>
     <category ID="test">
       <label xml:lang="de" text="SPP 1859: Experience and Expectation. Historical Foundations of Economic Behaviour" />
       <label xml:lang="en" text="SPP 1859: Experience and Expectation. Historical Foundations of Economic Behaviour" />

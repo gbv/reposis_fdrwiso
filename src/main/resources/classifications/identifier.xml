@@ -36,14 +36,6 @@
       <label xml:lang="de" text="internal ID" />
       <label xml:lang="en" text="interne ID" />
     </category>
-    <category ID="histatID">
-      <label xml:lang="de" text="histat-ID" />
-      <label xml:lang="en" text="histat ID" />
-    </category>
-    <category ID="dbk_study_number">
-      <label xml:lang="de" text="Studiennummer" />
-      <label xml:lang="en" text="Study Number" />
-    </category>
     <category ID="project">
       <label xml:lang="de" text="Project ID" />
       <label xml:lang="en" text="Projekt ID" />
