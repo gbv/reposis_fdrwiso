@@ -4,6 +4,26 @@
   <label xml:lang="en" text="Research institute" description="List of research institution (ROR)" />
   <label xml:lang="x-uri" text="https://emporion.gswg.info/api/v2/classifications/mir_institutes" />
   <categories>
+    <category ID="00sngv739">
+      <label xml:lang="de" text="Herder-Institut für historische Ostmitteleuropaforschung – Institut der Leibniz-Gemeinschaft" />
+      <label xml:lang="en" text="Herder Institute for Historical Research on East Central Europe – Institute of the Leibniz Association" />
+    </category>
+    <category ID="5034f3a6-249d-4c3e-bdd0-b22059010ad6">
+      <label xml:lang="de" text="Concordia University" />
+      <url xlink:type="locator" xlink:href="https://ror.org/0420zvk78" />
+    </category>
+    <category ID="8b85209f-173d-4e3d-a1a1-5123b963adab">
+      <label xml:lang="de" text="Harvard University" />
+      <label xml:lang="en" text="Harvard University" />
+    </category>
+    <category ID="01vqjmx11">
+      <label xml:lang="de" text="Center for Economic and Policy Research" />
+      <label xml:lang="en" text="Center for Economic and Policy Research" />
+    </category>
+    <category ID="005xmsp39">
+      <label xml:lang="de" text="ZZF, Zentrum für Zeithistorische Forschung" />
+      <label xml:lang="en" text="Centre for Contemporary History" />
+    </category>
     <category ID="05wxywg93">
       <label xml:lang="de" text="Leibniz-Institut für Finanzmarktforschung SAFE" />
       <label xml:lang="en" text="Leibniz Institute for Financial Research SAFE" />
@@ -25,7 +45,7 @@
       <label xml:lang="en" text="ifo Institute for Economic Research" />
     </category>
     <category ID="032yym934">
-      <label xml:lang="de" text="Kiel Institut für Weltwirtschaft – Leibniz Zentrum zur Erforschung globaler ökonomischer Herausforderungen" />
+      <label xml:lang="de" text="Kiel Institut für Weltwirtschaft" />
       <label xml:lang="en" text="Kiel Institute for the World Economy" />
     </category>
     <category ID="0050vmv35">
@@ -481,7 +501,7 @@
       <label xml:lang="en" text="University of Koblenz and Landau" />
     </category>
     <category ID="00pd74e08">
-      <label xml:lang="de" text="Westfälische Wilhelms-Universität Münster" />
+      <label xml:lang="de" text="Universität Münster" />
       <label xml:lang="en" text="University of Münster" />
     </category>
     <category ID="01c1w6d29">

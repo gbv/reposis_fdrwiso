@@ -1,12 +1,10 @@
+# Emporion
 
-# reposis_fdrwiso
-
-MyCoRe / MIR application layer for https://emporion.gswg.info
-
-## Installation Instructions
+## Installation instructions
 
 * run `mvn clean install`
 * copy jar to ~/.mycore/(dev-)mir/lib/
+* configure mycore.properties if necessary
 
 ## Development
 

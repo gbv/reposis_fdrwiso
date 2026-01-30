@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <description>
   <eprints xmlns="http://www.openarchives.org/OAI/1.1/eprints"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/eprints http://www.openarchives.org/OAI/1.1/eprints.xsd">
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/eprints http://www.openarchives.org/OAI/1.1/eprints.xsd">
     <content>
       <text>
-        Emporion  a research data hub for social and economic history.
+        Emporion is a research data hub for social and economic history.
       </text>
       <URL>https://emporion.gswg.info/</URL>
     </content>
