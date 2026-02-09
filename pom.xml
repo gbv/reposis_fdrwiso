@@ -8,9 +8,9 @@
     <artifactId>reposis_mir_parent</artifactId>
     <version>2023.06-SNAPSHOT</version>
   </parent>
-  <artifactId>reposis_emporion</artifactId>
+  <artifactId>reposis_fdrwiso</artifactId>
   <properties>
-    <MCR.AppName>emporion</MCR.AppName>
+    <MCR.AppName>fdrwiso</MCR.AppName>
   </properties>
   <build>
     <plugins>
