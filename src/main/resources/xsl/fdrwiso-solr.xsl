@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet
-  version="1.0"
+<xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:mods="http://www.loc.gov/mods/v3"
   xmlns:mir="http://www.mycore.de/mir"
-  exclude-result-prefixes="mods mir">
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  exclude-result-prefixes="mir mods">
 
   <xsl:import href="xslImport:solr-document:fdrwiso-solr.xsl" />
 
@@ -14,7 +13,9 @@
   </xsl:template>
 
   <xsl:template match="mods:mods" mode="fdrwiso">
-    <xsl:apply-templates select="mods:extension[@type='temporal_period_of_reference']/mir:subject[@type='period_of_reference']" mode="fdrwiso" />
+    <xsl:apply-templates
+      select="mods:extension[@type='temporal_period_of_reference']/mir:subject[@type='period_of_reference']"
+      mode="fdrwiso" />
   </xsl:template>
 
   <xsl:template match="mir:subject[@type='period_of_reference']" mode="fdrwiso">
